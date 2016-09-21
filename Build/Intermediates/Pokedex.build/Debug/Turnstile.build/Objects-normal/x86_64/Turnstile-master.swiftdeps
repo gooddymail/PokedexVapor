@@ -1,0 +1,17 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "cee5ee093ff7a8b1c788a1d327012134"
+build_time: [527766972, 778505000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/TurnstileError.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Core/Subject.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Core/Turnstile.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/APIKey.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/Credentials.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/CredentialsError.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/Token.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/UsernamePassword.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/Account.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/MemoryRealm.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/Realm.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/SessionManager/MemorySessionManager.swift": [527764779, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/Turnstile/SessionManager/SessionManager.swift": [527764779, 0]

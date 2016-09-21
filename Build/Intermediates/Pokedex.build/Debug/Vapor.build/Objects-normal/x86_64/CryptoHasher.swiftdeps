@@ -1,0 +1,345 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CryptoHasher"
+- "=="
+provides-nominal:
+- "C5Vapor12CryptoHasher"
+- "OC5Vapor12CryptoHasher5Error"
+provides-member:
+- ["C5Vapor12CryptoHasher", ""]
+- ["OC5Vapor12CryptoHasher5Error", ""]
+- ["OC4HMAC4HMAC6Method", ""]
+- ["OC4HMAC4HMAC6Method", "hashMethod"]
+provides-dynamic-lookup:
+depends-top-level:
+- "HMAC"
+- "=="
+- "AssignmentPrecedence"
+- "CryptoHasher"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Hash"
+- "Bytes"
+- "HashProtocol"
+- "Swift"
+depends-member:
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "HMAC"]
+- !private ["Ps9AnyObject", "Hash"]
+- ["Ps9AnyObject", "Method"]
+- ["Ps9AnyObject", "defaultKey"]
+- ["Ps9AnyObject", "make"]
+- !private ["Ps9AnyObject", "method"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["P5Vapor9Countable", "hashValue"]
+- ["C5Vapor12CryptoHasher", "Bytes"]
+- ["C5Vapor12CryptoHasher", "Error"]
+- ["C5Vapor12CryptoHasher", "HMAC"]
+- !private ["C5Vapor12CryptoHasher", "Hash"]
+- ["C5Vapor12CryptoHasher", "Swift"]
+- ["C5Vapor12CryptoHasher", "defaultKey"]
+- ["C5Vapor12CryptoHasher", "deinit"]
+- ["C5Vapor12CryptoHasher", "init"]
+- ["C5Vapor12CryptoHasher", "make"]
+- ["C5Vapor12CryptoHasher", "method"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps9Equatable", "CryptoHasher"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "hashMethod"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "hashWithoutKeyUnsupported"]
+- ["Ps9Equatable", "md4"]
+- ["Ps9Equatable", "md5"]
+- ["Ps9Equatable", "ripemd160"]
+- ["Ps9Equatable", "sha1"]
+- ["Ps9Equatable", "sha224"]
+- ["Ps9Equatable", "sha256"]
+- ["Ps9Equatable", "sha384"]
+- ["Ps9Equatable", "sha512"]
+- ["Ps9Equatable", ""]
+- ["OC5Vapor12CryptoHasher5Error", "=="]
+- ["OC5Vapor12CryptoHasher5Error", "_code"]
+- ["OC5Vapor12CryptoHasher5Error", "_domain"]
+- ["OC5Vapor12CryptoHasher5Error", "_getEmbeddedNSError"]
+- ["OC5Vapor12CryptoHasher5Error", "_toAnyHashable"]
+- ["OC5Vapor12CryptoHasher5Error", "_userInfo"]
+- ["OC5Vapor12CryptoHasher5Error", "deinit"]
+- ["OC5Vapor12CryptoHasher5Error", "hashValue"]
+- ["OC5Vapor12CryptoHasher5Error", "hashWithoutKeyUnsupported"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "hashWithoutKeyUnsupported"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["P4Core11Extractable", "some"]
+- ["C4HMAC4HMAC", "Method"]
+- !private ["C4HMAC4HMAC", "make"]
+- ["C4Hash4Hash", "Method"]
+- !private ["C4Hash4Hash", "make"]
+- !private ["P5Vapor12HashProtocol", "Error"]
+- !private ["P5Vapor12HashProtocol", "HMAC"]
+- !private ["P5Vapor12HashProtocol", "Hash"]
+- ["P5Vapor12HashProtocol", "defaultKey"]
+- ["P5Vapor12HashProtocol", "make"]
+- !private ["P5Vapor12HashProtocol", "method"]
+- ["P5Vapor12HashProtocol", ""]
+- !private ["Ps8Hashable", "CryptoHasher"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "hashMethod"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "hashWithoutKeyUnsupported"]
+- ["Ps8Hashable", "md4"]
+- ["Ps8Hashable", "md5"]
+- ["Ps8Hashable", "ripemd160"]
+- ["Ps8Hashable", "sha1"]
+- ["Ps8Hashable", "sha224"]
+- ["Ps8Hashable", "sha256"]
+- ["Ps8Hashable", "sha384"]
+- ["Ps8Hashable", "sha512"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["OC4HMAC4HMAC6Method", "CryptoHasher"]
+- ["OC4HMAC4HMAC6Method", "Hash"]
+- ["OC4HMAC4HMAC6Method", "deinit"]
+- ["OC4HMAC4HMAC6Method", "hashMethod"]
+- ["OC4HMAC4HMAC6Method", "md4"]
+- ["OC4HMAC4HMAC6Method", "md5"]
+- ["OC4HMAC4HMAC6Method", "ripemd160"]
+- ["OC4HMAC4HMAC6Method", "sha1"]
+- ["OC4HMAC4HMAC6Method", "sha224"]
+- ["OC4HMAC4HMAC6Method", "sha256"]
+- ["OC4HMAC4HMAC6Method", "sha384"]
+- ["OC4HMAC4HMAC6Method", "sha512"]
+- ["OC4Hash4Hash6Method", "deinit"]
+- !private ["OC4Hash4Hash6Method", "md4"]
+- !private ["OC4Hash4Hash6Method", "md5"]
+- !private ["OC4Hash4Hash6Method", "ripemd160"]
+- !private ["OC4Hash4Hash6Method", "sha1"]
+- !private ["OC4Hash4Hash6Method", "sha224"]
+- !private ["OC4Hash4Hash6Method", "sha256"]
+- !private ["OC4Hash4Hash6Method", "sha384"]
+- !private ["OC4Hash4Hash6Method", "sha512"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["P4Node15NodeConvertible", "hashValue"]
+- !private ["P4Node17NodeInitializable", "hashValue"]
+- !private ["P4Node17NodeRepresentable", "hashValue"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["P13PathIndexable9PathIndex", "hashValue"]
+- !private ["P5Vapor24PolymorphicInitializable", "hashValue"]
+- !private ["P5Vapor23RequestContentSubscript", "hashValue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["P15TypeSafeRouting19StringInitializable", "hashValue"]
+- !private ["P5Vapor11Validatable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "CryptoHasher"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "hashMethod"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "hashWithoutKeyUnsupported"]
+- ["Ps9_Hashable", "md4"]
+- ["Ps9_Hashable", "md5"]
+- ["Ps9_Hashable", "ripemd160"]
+- ["Ps9_Hashable", "sha1"]
+- ["Ps9_Hashable", "sha224"]
+- ["Ps9_Hashable", "sha256"]
+- ["Ps9_Hashable", "sha384"]
+- ["Ps9_Hashable", "sha512"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "P5Vapor9Countable"
+- "C5Vapor12CryptoHasher"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "OC5Vapor12CryptoHasher5Error"
+- "Ps5Error"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "P4Core11Extractable"
+- "C4HMAC4HMAC"
+- "C4Hash4Hash"
+- "P5Vapor12HashProtocol"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "OC4HMAC4HMAC6Method"
+- "OC4Hash4Hash6Method"
+- !private "Ps10MirrorPath"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- "Sq"
+- !private "P13PathIndexable9PathIndex"
+- !private "P5Vapor24PolymorphicInitializable"
+- !private "P5Vapor23RequestContentSubscript"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "P15TypeSafeRouting19StringInitializable"
+- !private "P5Vapor11Validatable"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Cipher.framework/Modules/Cipher.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/CLibreSSL.framework/Modules/module.modulemap"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Essentials.framework/Modules/Essentials.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Settings.framework/Modules/Settings.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/JSON.framework/Modules/JSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Jay.framework/Modules/Jay.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/HTTP.framework/Modules/HTTP.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/SocksCore.framework/Modules/SocksCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/TLS.framework/Modules/TLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/URI.framework/Modules/URI.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/HTTPRouting.framework/Modules/HTTPRouting.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Routing.framework/Modules/Routing.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Socks.framework/Modules/Socks.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Cache.framework/Modules/Cache.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Sessions.framework/Modules/Sessions.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Cookies.framework/Modules/Cookies.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/HMAC.framework/Modules/HMAC.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/TypeSafeRouting.framework/Modules/TypeSafeRouting.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/WebSockets.framework/Modules/WebSockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Hash.framework/Modules/Hash.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Leaf.framework/Modules/Leaf.swiftmodule/x86_64.swiftmodule"
+interface-hash: "8cf2d43fe4e35e079f184db4d1304a36"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "a9ddcc225f8cb1cf45751fa96b18bb7a"
+build_time: [527756353, 91675000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/PathIndexable-1.0.0/Sources/PathIndexable/PathIndexable+Subscripting.swift": [527756164, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/PathIndexable-1.0.0/Sources/PathIndexable/PathIndexable.swift": [527756164, 0]

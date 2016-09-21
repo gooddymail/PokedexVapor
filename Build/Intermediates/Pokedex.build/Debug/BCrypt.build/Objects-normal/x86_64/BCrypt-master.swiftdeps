@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "ce8e922b3641b3a4c0f8cbd8fa31660d"
+build_time: [527766983, 351723000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Crypto-1.0.0/Sources/BCrypt/BCrypt.swift": [527764673, 0]

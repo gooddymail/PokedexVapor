@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "f120bb96f7fa358cf223cab9b792ce7e"
+build_time: [527770060, 421441000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Request+WebSockets.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/WebSocketFormatErrors.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Client/WebSocket+Client.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Communication/WebSocket+ControlFrames.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Communication/WebSocket+Send.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Connection/Headers+WebSockets.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Connection/WebSockets+Hash.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Model/Fragmentation.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Model/Frame.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Model/WebSocket+Error.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Model/WebSocket.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Serialization/FrameDeserializer.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Serialization/FrameSerializer.swift": [527764733, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Engine-1.0.0/Sources/WebSockets/Serialization/WebSockets+Flags.swift": [527764733, 0]

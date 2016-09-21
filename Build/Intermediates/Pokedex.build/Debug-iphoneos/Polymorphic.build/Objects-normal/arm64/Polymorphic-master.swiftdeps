@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "fa8ff7a2dcffd2b6787e8c31468a2817"
+build_time: [527756352, 510439000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Polymorphic-1.0.0/Sources/Polymorphic.swift": [527756169, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Polymorphic-1.0.0/Sources/String+Polymorphic.swift": [527756169, 0]

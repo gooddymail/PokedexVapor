@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "cbe8553f58570ab2d0a419359fc329f6"
+build_time: [527756351, 968477000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Address+C.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Address.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Bytes.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Conversions.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Error.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/FDSet.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/InternetSocket.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Pipe.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Select.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Socket.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/SocketOptions.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/TCPSocket.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/Types.swift": [527756194, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Socks-1.0.1/Sources/SocksCore/UDPSocket.swift": [527756194, 0]

@@ -1,0 +1,615 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "drop"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "drop"
+- "Droplet"
+- "Dictionary"
+- "StringLiteralType"
+- "Array"
+- "PostController"
+- "??"
+- "Abort"
+- "VaporMySQL"
+- "Node"
+depends-member:
+- ["O5Vapor5Abort", "badRequest"]
+- ["O5Vapor5Abort", "deinit"]
+- ["Ps9AnyObject", "Value"]
+- ["Ps9AnyObject", "data"]
+- ["Ps9AnyObject", "get"]
+- ["Ps9AnyObject", "headers"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "localization"]
+- ["Ps9AnyObject", "post"]
+- ["Ps9AnyObject", "resource"]
+- ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", "string"]
+- ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", "view"]
+- ["Sa", "Element"]
+- ["Sa", "deinit"]
+- ["Ps23BidirectionalCollection", "Element"]
+- ["Ps22BidirectionalIndexable", "Element"]
+- ["P4HTTP17BodyRepresentable", "init"]
+- ["P4HTTP17BodyRepresentable", "string"]
+- ["P4Core16BytesConvertible", "init"]
+- ["P4Core16BytesConvertible", "string"]
+- ["P4Core18BytesInitializable", "init"]
+- ["P4Core18BytesInitializable", "string"]
+- ["P4Core18BytesRepresentable", "init"]
+- ["P4Core18BytesRepresentable", "string"]
+- ["Ps7CVarArg", "Element"]
+- ["Ps7CVarArg", "Index"]
+- ["Ps7CVarArg", "IndexDistance"]
+- ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "SubSequence"]
+- ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "string"]
+- ["Ps7CVarArg", "subscript"]
+- ["Ps10Collection", "Element"]
+- ["Ps10Collection", "Index"]
+- ["Ps10Collection", "IndexDistance"]
+- ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "Key"]
+- ["Ps10Collection", "SubSequence"]
+- ["Ps10Collection", "Value"]
+- ["Ps10Collection", "_Element"]
+- ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "string"]
+- ["C5Vapor7Content", "deinit"]
+- ["C5Vapor7Content", "subscript"]
+- ["P4Node7Context", "Element"]
+- ["P4Node7Context", "Index"]
+- ["P4Node7Context", "IndexDistance"]
+- ["P4Node7Context", "Iterator"]
+- ["P4Node7Context", "Key"]
+- ["P4Node7Context", "SubSequence"]
+- ["P4Node7Context", "Value"]
+- ["P4Node7Context", "_Element"]
+- ["P4Node7Context", "string"]
+- ["P4Node7Context", "subscript"]
+- ["P5Vapor9Countable", "Element"]
+- ["P5Vapor9Countable", "Index"]
+- ["P5Vapor9Countable", "IndexDistance"]
+- ["P5Vapor9Countable", "Iterator"]
+- ["P5Vapor9Countable", "Key"]
+- ["P5Vapor9Countable", "SubSequence"]
+- ["P5Vapor9Countable", "Value"]
+- ["P5Vapor9Countable", "_Element"]
+- ["P5Vapor9Countable", "init"]
+- ["P5Vapor9Countable", "string"]
+- ["P5Vapor9Countable", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps28CustomDebugStringConvertible", "string"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "string"]
+- ["Ps17CustomReflectable", "Element"]
+- ["Ps17CustomReflectable", "Index"]
+- ["Ps17CustomReflectable", "IndexDistance"]
+- ["Ps17CustomReflectable", "Iterator"]
+- ["Ps17CustomReflectable", "Key"]
+- ["Ps17CustomReflectable", "SubSequence"]
+- ["Ps17CustomReflectable", "Value"]
+- ["Ps17CustomReflectable", "_Element"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- ["Ps17CustomReflectable", "string"]
+- ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "IndexDistance"]
+- ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "SubSequence"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "data"]
+- ["Ps23CustomStringConvertible", "headers"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "string"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "Index"]
+- ["Vs10Dictionary", "IndexDistance"]
+- ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "SubSequence"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "_Element"]
+- ["Vs10Dictionary", "deinit"]
+- ["Vs10Dictionary", "subscript"]
+- ["Vs15DictionaryIndex", "deinit"]
+- ["C5Vapor7Droplet", "Value"]
+- ["C5Vapor7Droplet", "deinit"]
+- ["C5Vapor7Droplet", "get"]
+- ["C5Vapor7Droplet", "init"]
+- ["C5Vapor7Droplet", "localization"]
+- ["C5Vapor7Droplet", "post"]
+- ["C5Vapor7Droplet", "resource"]
+- ["C5Vapor7Droplet", "run"]
+- ["C5Vapor7Droplet", "view"]
+- ["Ps9Equatable", "Key"]
+- ["Ps9Equatable", "Value"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "string"]
+- ["Ps5Error", "badRequest"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps25ExpressibleByArrayLiteral", "Key"]
+- ["Ps25ExpressibleByArrayLiteral", "Value"]
+- ["Ps25ExpressibleByArrayLiteral", "string"]
+- ["Ps27ExpressibleByBooleanLiteral", "Key"]
+- ["Ps27ExpressibleByBooleanLiteral", "Value"]
+- ["Ps27ExpressibleByBooleanLiteral", "string"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- ["Ps30ExpressibleByDictionaryLiteral", "string"]
+- ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Key"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
+- ["Ps25ExpressibleByFloatLiteral", "Key"]
+- ["Ps25ExpressibleByFloatLiteral", "Value"]
+- ["Ps25ExpressibleByFloatLiteral", "string"]
+- ["Ps27ExpressibleByIntegerLiteral", "Key"]
+- ["Ps27ExpressibleByIntegerLiteral", "Value"]
+- ["Ps27ExpressibleByIntegerLiteral", "string"]
+- ["Ps23ExpressibleByNilLiteral", "Key"]
+- ["Ps23ExpressibleByNilLiteral", "Value"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Ps23ExpressibleByNilLiteral", "string"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "string"]
+- ["Ps26ExpressibleByStringLiteral", "Key"]
+- ["Ps26ExpressibleByStringLiteral", "Value"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "string"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "Key"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "Value"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
+- ["P4Core11Extractable", "some"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "string"]
+- ["V4HTTP9HeaderKey", "deinit"]
+- ["V4HTTP9HeaderKey", "init"]
+- ["Ps9Indexable", "Element"]
+- ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "IndexDistance"]
+- ["Ps9Indexable", "Iterator"]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "Value"]
+- ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "subscript"]
+- ["Ps13IndexableBase", "Element"]
+- ["Ps13IndexableBase", "Index"]
+- ["Ps13IndexableBase", "IndexDistance"]
+- ["Ps13IndexableBase", "Iterator"]
+- ["Ps13IndexableBase", "Key"]
+- ["Ps13IndexableBase", "SubSequence"]
+- ["Ps13IndexableBase", "Value"]
+- ["Ps13IndexableBase", "_Element"]
+- ["Ps13IndexableBase", "subscript"]
+- ["Vs16IndexingIterator", "Element"]
+- ["Ps16IteratorProtocol", "Element"]
+- ["P4HTTP13KeyAccessible", "Index"]
+- ["P4HTTP13KeyAccessible", "IndexDistance"]
+- ["P4HTTP13KeyAccessible", "Iterator"]
+- ["P4HTTP13KeyAccessible", "Key"]
+- ["P4HTTP13KeyAccessible", "SubSequence"]
+- ["P4HTTP13KeyAccessible", "Value"]
+- ["P4HTTP13KeyAccessible", "_Element"]
+- ["P4HTTP13KeyAccessible", "subscript"]
+- ["P4Node13KeyAccessible", "Index"]
+- ["P4Node13KeyAccessible", "IndexDistance"]
+- ["P4Node13KeyAccessible", "Iterator"]
+- ["P4Node13KeyAccessible", "Key"]
+- ["P4Node13KeyAccessible", "SubSequence"]
+- ["P4Node13KeyAccessible", "Value"]
+- ["P4Node13KeyAccessible", "_Element"]
+- ["P4Node13KeyAccessible", "subscript"]
+- ["P8Settings13KeyAccessible", "Index"]
+- ["P8Settings13KeyAccessible", "IndexDistance"]
+- ["P8Settings13KeyAccessible", "Iterator"]
+- ["P8Settings13KeyAccessible", "Key"]
+- ["P8Settings13KeyAccessible", "SubSequence"]
+- ["P8Settings13KeyAccessible", "Value"]
+- ["P8Settings13KeyAccessible", "_Element"]
+- ["P8Settings13KeyAccessible", "subscript"]
+- ["C5Vapor12Localization", "deinit"]
+- ["C5Vapor12Localization", "subscript"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps25LosslessStringConvertible", "string"]
+- ["C4HTTP7Message", "data"]
+- ["C4HTTP7Message", "headers"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps10MirrorPath", "string"]
+- ["Ps17MutableCollection", "Element"]
+- ["Ps16MutableIndexable", "Element"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "string"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "string"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSMutableCopying", "string"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "string"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "string"]
+- ["PSo14NSSecureCoding", "init"]
+- ["PSo14NSSecureCoding", "string"]
+- ["CSo8NSString", "init"]
+- ["CSo8NSString", "string"]
+- ["Os5Never", "deinit"]
+- ["O4Node4Node", "Key"]
+- ["O4Node4Node", "Value"]
+- ["O4Node4Node", "deinit"]
+- ["O4Node4Node", "string"]
+- ["P4Node10NodeBacked", "Key"]
+- ["P4Node10NodeBacked", "Value"]
+- ["P4Node10NodeBacked", "string"]
+- ["P4Node15NodeConvertible", "Key"]
+- ["P4Node15NodeConvertible", "Value"]
+- ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "string"]
+- ["P4Node17NodeInitializable", "Key"]
+- ["P4Node17NodeInitializable", "Value"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "string"]
+- ["P4Node17NodeRepresentable", "Key"]
+- ["P4Node17NodeRepresentable", "Value"]
+- ["P4Node17NodeRepresentable", "deinit"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "string"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["P7Routing19ParametersContainer", "data"]
+- ["P7Routing19ParametersContainer", "headers"]
+- ["P13PathIndexable9PathIndex", "deinit"]
+- ["P13PathIndexable9PathIndex", "init"]
+- ["P13PathIndexable9PathIndex", "string"]
+- ["P13PathIndexable13PathIndexable", "Key"]
+- ["P13PathIndexable13PathIndexable", "Value"]
+- ["P13PathIndexable13PathIndexable", "string"]
+- ["P11Polymorphic11Polymorphic", "Key"]
+- ["P11Polymorphic11Polymorphic", "Value"]
+- ["P11Polymorphic11Polymorphic", "deinit"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- ["P11Polymorphic11Polymorphic", "string"]
+- ["P5Vapor24PolymorphicInitializable", "init"]
+- ["P5Vapor24PolymorphicInitializable", "string"]
+- ["C3App4Post", "deinit"]
+- ["C3App14PostController", "deinit"]
+- ["C3App14PostController", "init"]
+- ["Ps22RandomAccessCollection", "Element"]
+- ["Ps21RandomAccessIndexable", "Element"]
+- ["Ps26RangeReplaceableCollection", "Element"]
+- ["Ps25RangeReplaceableIndexable", "Element"]
+- ["C4HTTP7Request", "data"]
+- ["C4HTTP7Request", "deinit"]
+- ["C4HTTP7Request", "headers"]
+- ["P5Vapor23RequestContentSubscript", "init"]
+- ["P5Vapor23RequestContentSubscript", "string"]
+- ["P5Vapor21ResourceRepresentable", "init"]
+- ["P4HTTP9Responder", "Value"]
+- ["P4HTTP9Responder", "get"]
+- ["P4HTTP9Responder", "init"]
+- ["P4HTTP9Responder", "localization"]
+- ["P4HTTP9Responder", "post"]
+- ["P4HTTP9Responder", "resource"]
+- ["P4HTTP9Responder", "run"]
+- ["P4HTTP9Responder", "view"]
+- ["P4HTTP21ResponseRepresentable", "init"]
+- ["P4HTTP21ResponseRepresentable", "string"]
+- ["P7Routing12RouteBuilder", "Value"]
+- ["P7Routing12RouteBuilder", "get"]
+- ["P7Routing12RouteBuilder", "init"]
+- ["P7Routing12RouteBuilder", "localization"]
+- ["P7Routing12RouteBuilder", "post"]
+- ["P7Routing12RouteBuilder", "resource"]
+- ["P7Routing12RouteBuilder", "run"]
+- ["P7Routing12RouteBuilder", "view"]
+- ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "Index"]
+- ["Ps8Sequence", "IndexDistance"]
+- ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "Key"]
+- ["Ps8Sequence", "SubSequence"]
+- ["Ps8Sequence", "Value"]
+- ["Ps8Sequence", "_Element"]
+- ["Ps8Sequence", "subscript"]
+- ["Vs5Slice", "Index"]
+- ["Vs5Slice", "Iterator"]
+- ["Vs5Slice", "SubSequence"]
+- ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["SS", "string"]
+- ["P15TypeSafeRouting19StringInitializable", "init"]
+- ["P15TypeSafeRouting19StringInitializable", "string"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps16TextOutputStream", "string"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps20TextOutputStreamable", "string"]
+- ["P9Transport15TransferMessage", "data"]
+- ["P9Transport15TransferMessage", "headers"]
+- ["P5Vapor11Validatable", "Element"]
+- ["P5Vapor11Validatable", "Index"]
+- ["P5Vapor11Validatable", "IndexDistance"]
+- ["P5Vapor11Validatable", "Iterator"]
+- ["P5Vapor11Validatable", "Key"]
+- ["P5Vapor11Validatable", "SubSequence"]
+- ["P5Vapor11Validatable", "Value"]
+- ["P5Vapor11Validatable", "_Element"]
+- ["P5Vapor11Validatable", "init"]
+- ["P5Vapor11Validatable", "string"]
+- ["P5Vapor11Validatable", "subscript"]
+- ["C5Vapor4View", "deinit"]
+- ["P5Vapor12ViewRenderer", "deinit"]
+- ["P5Vapor12ViewRenderer", "make"]
+- ["Ps14_ArrayProtocol", "Element"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "string"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "string"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "string"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "string"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "string"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "string"]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- ["Ps21_ObjectiveCBridgeable", "Index"]
+- ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- ["Ps21_ObjectiveCBridgeable", "_Element"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "string"]
+- ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "O5Vapor5Abort"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "P4HTTP17BodyRepresentable"
+- "P4Core16BytesConvertible"
+- "P4Core18BytesInitializable"
+- "P4Core18BytesRepresentable"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "C5Vapor7Content"
+- "P4Node7Context"
+- "P5Vapor9Countable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Vs15DictionaryIndex"
+- "C5Vapor7Droplet"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P4Core11Extractable"
+- "Ps8Hashable"
+- "V4HTTP9HeaderKey"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Vs16IndexingIterator"
+- "Ps16IteratorProtocol"
+- "P4HTTP13KeyAccessible"
+- "P4Node13KeyAccessible"
+- "P8Settings13KeyAccessible"
+- "C5Vapor12Localization"
+- "Ps25LosslessStringConvertible"
+- "C4HTTP7Message"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "Sq"
+- "P7Routing19ParametersContainer"
+- "P13PathIndexable9PathIndex"
+- "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+- "P5Vapor24PolymorphicInitializable"
+- "C3App4Post"
+- "C3App14PostController"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "C4HTTP7Request"
+- "P5Vapor23RequestContentSubscript"
+- "P5Vapor21ResourceRepresentable"
+- "P4HTTP9Responder"
+- "P4HTTP21ResponseRepresentable"
+- "P7Routing12RouteBuilder"
+- "Ps8Sequence"
+- "Vs5Slice"
+- "SS"
+- "P15TypeSafeRouting19StringInitializable"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P9Transport15TransferMessage"
+- "P5Vapor11Validatable"
+- "C5Vapor4View"
+- "P5Vapor12ViewRenderer"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Vapor.framework/Modules/Vapor.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Cache.framework/Modules/Cache.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Cipher.framework/Modules/Cipher.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/CLibreSSL.framework/Modules/module.modulemap"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/libc.framework/Modules/libc.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Essentials.framework/Modules/Essentials.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/HMAC.framework/Modules/HMAC.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/HTTP.framework/Modules/HTTP.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Transport.framework/Modules/Transport.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/SocksCore.framework/Modules/SocksCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/TLS.framework/Modules/TLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/URI.framework/Modules/URI.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/HTTPRouting.framework/Modules/HTTPRouting.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Routing.framework/Modules/Routing.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Hash.framework/Modules/Hash.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/JSON.framework/Modules/JSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Jay.framework/Modules/Jay.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Leaf.framework/Modules/Leaf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Sessions.framework/Modules/Sessions.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Cookies.framework/Modules/Cookies.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Settings.framework/Modules/Settings.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Socks.framework/Modules/Socks.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/TypeSafeRouting.framework/Modules/TypeSafeRouting.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/WebSockets.framework/Modules/WebSockets.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/VaporMySQL.framework/Modules/VaporMySQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/FluentMySQL.framework/Modules/FluentMySQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/MySQL.framework/Modules/MySQL.swiftmodule/x86_64.swiftmodule"
+interface-hash: "92ee562de2d1b900841eef5efc466903"

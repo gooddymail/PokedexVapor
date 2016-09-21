@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "d03886684c8a2d25ddce686a55501996"
+build_time: [527766974, 83984000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Crypto-1.0.0/Sources/Essentials/ByteStream.swift": [527764673, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Crypto-1.0.0/Sources/Essentials/Helpers.swift": [527764673, 0]

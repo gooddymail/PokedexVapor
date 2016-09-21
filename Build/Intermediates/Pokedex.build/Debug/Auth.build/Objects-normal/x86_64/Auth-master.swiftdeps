@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "5ecaa0d7ef74c74df6a9c97ad9f528b4"
+build_time: [527770066, 221653000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/AuthError.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/AuthMiddleware.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/CacheSessionManager.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/ProtectMiddleware.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Request+Subject.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Authenticator/Authenticator.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Authenticator/Realm.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Authenticator/User+Authenticator.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Credentials/Identifier.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Header/Authorization.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Header/Basic.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Header/Bearer.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/Header/Request+Authorization.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Auth/Authentication/User/User.swift": [527764663, 0]

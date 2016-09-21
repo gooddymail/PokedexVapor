@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "b6e7903655127ee945c2023e1b7633be"
+build_time: [527770061, 556415000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookie+BytesConvertible.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookie+Parse.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookie+Serialize.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookie.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookies+BytesConvertible.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookies+Literal.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookies+Parse.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookies+Serialize.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Cookies.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Request+Cookies.swift": [527764663, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Vapor-1.0.2/Sources/Cookies/Response+Cookies.swift": [527764663, 0]

@@ -1,0 +1,3 @@
+framework module VaporMySQL {
+    header "VaporMySQL-Swift.h"
+}

@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "70382e64fe44bb03b6d5b3bcf8f7c1be"
+build_time: [527766982, 715948000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Crypto-1.0.0/Sources/Hash/Hash.swift": [527764673, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Crypto-1.0.0/Sources/Hash/Method.swift": [527764673, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Crypto-1.0.0/Sources/Hash/Random.swift": [527764673, 0]

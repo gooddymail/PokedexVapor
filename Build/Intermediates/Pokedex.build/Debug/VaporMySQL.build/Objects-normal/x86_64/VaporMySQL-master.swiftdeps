@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "a7baf15344e46fe93b92efc1a91bcd1d"
+build_time: [527770074, 526925000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/VaporMySQL-1.0.0/Sources/VaporMySQL/Provider.swift": [527764793, 0]

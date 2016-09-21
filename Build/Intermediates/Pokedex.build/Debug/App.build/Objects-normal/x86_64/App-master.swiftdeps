@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "04c17763f935adcb2e1aaf57a09f470b"
+build_time: [527770948, 358357000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Sources/App/main.swift": [527770940, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Sources/App/Controllers/PostController.swift": [527756062, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Sources/App/Models/Pokedex.swift": [527770777, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Sources/App/Models/Post.swift": [527756062, 0]

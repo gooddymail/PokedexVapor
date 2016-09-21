@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "f7ca7cb3eb00ec6af5921669252f068a"
+build_time: [527756353, 425402000]
+inputs:
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/BCrypt.swift": [527756223, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/Random.swift": [527756223, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/URandom.swift": [527756223, 0]
