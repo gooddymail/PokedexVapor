@@ -1,6 +1,8 @@
 Packages
 .build
 xcuserdata
+.DS_Store
+.vapor-toolbox-temporary
 *.xcodeproj
 Config/secrets
 
