@@ -6,12 +6,12 @@ provides-member:
 - ["C5Vapor7Droplet", "workingDirectory"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "??"
+- !private "=="
+- "Droplet"
+- !private "UnicodeScalarType"
 - "String"
 - !private "StringLiteralType"
-- "Droplet"
-- !private "=="
-- !private "UnicodeScalarType"
+- !private "??"
 depends-member:
 - !private ["Ps9AnyObject", "components"]
 - !private ["Ps9AnyObject", "finished"]

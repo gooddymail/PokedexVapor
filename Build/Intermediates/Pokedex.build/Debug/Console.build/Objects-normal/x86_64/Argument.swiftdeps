@@ -10,12 +10,12 @@ provides-member:
 - ["Ps8Sequence", "options"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Value"
+- !private "CastingPrecedence"
+- "Sequence"
 - "String"
 - "Argument"
 - "Option"
-- "Sequence"
-- !private "CastingPrecedence"
-- "Value"
 depends-member:
 - ["P7Console8Argument", "String"]
 - !private ["P7Console8Argument", "deinit"]

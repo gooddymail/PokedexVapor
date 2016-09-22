@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Swift"
-- "String"
 - "CommandError"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
+- "String"
 depends-member:
 - ["O5Vapor12CommandError", "String"]
 - ["O5Vapor12CommandError", "_code"]

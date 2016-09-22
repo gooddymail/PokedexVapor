@@ -8,9 +8,9 @@ provides-member:
 - ["P5Cache13CacheProtocol", "set"]
 provides-dynamic-lookup:
 depends-top-level:
+- "String"
 - "CacheProtocol"
 - "Node"
-- "String"
 - "NodeRepresentable"
 depends-member:
 - ["P5Cache13CacheProtocol", "Node"]

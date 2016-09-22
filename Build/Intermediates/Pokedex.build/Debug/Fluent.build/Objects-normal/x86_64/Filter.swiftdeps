@@ -20,21 +20,21 @@ provides-member:
 - ["P6Fluent18QueryRepresentable", "filter"]
 provides-dynamic-lookup:
 depends-top-level:
+- "NodeRepresentable"
 - "Query"
-- "AssignmentPrecedence"
+- "QueryRepresentable"
 - "=="
-- !private "??"
+- !private "UnicodeScalarType"
+- "AssignmentPrecedence"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
-- "CustomStringConvertible"
-- "QueryRepresentable"
-- "NodeRepresentable"
+- "Filter"
 - "Entity"
-- !private "UnicodeScalarType"
+- "CustomStringConvertible"
 - "String"
 - !private "StringLiteralType"
 - "Node"
-- "Filter"
+- !private "??"
 depends-member:
 - !private ["Ps9AnyObject", "T"]
 - !private ["Ps9AnyObject", "filter"]

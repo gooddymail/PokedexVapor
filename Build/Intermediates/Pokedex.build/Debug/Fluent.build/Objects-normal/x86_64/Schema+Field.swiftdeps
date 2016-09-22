@@ -10,12 +10,12 @@ provides-member:
 - ["O6Fluent6Schema", "Field"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
 - "AssignmentPrecedence"
-- "Bool"
-- "BooleanLiteralType"
-- "Schema"
 - "String"
+- "BooleanLiteralType"
+- "Bool"
+- "Schema"
+- "Int"
 depends-member:
 - ["Sb", "deinit"]
 - ["OVO6Fluent6Schema5Field8DataType", "Int"]

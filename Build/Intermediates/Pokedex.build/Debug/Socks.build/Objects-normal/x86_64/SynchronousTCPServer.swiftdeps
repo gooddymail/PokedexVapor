@@ -7,18 +7,18 @@ provides-member:
 - ["C5Socks20SynchronousTCPServer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "TCPInternetSocket"
+- "TernaryPrecedence"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
 - "SynchronousTCPServer"
+- "UInt16"
+- "Never"
+- "AssignmentPrecedence"
+- "InternetAddress"
+- !private "TCPInternetSocket"
+- "Bool"
 - "BooleanLiteralType"
 - "TCPClient"
-- "Bool"
-- "UInt16"
-- !private "IntegerLiteralType"
-- "TernaryPrecedence"
-- !private "FloatLiteralType"
-- "Never"
-- "InternetAddress"
-- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "TCPClient"]
 - !private ["Ps9AnyObject", "TCPInternetSocket"]

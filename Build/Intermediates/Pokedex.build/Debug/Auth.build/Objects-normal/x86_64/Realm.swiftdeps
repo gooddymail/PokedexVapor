@@ -7,11 +7,11 @@ provides-member:
 - ["C4Auth18AuthenticatorRealm", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AuthenticatorRealm"
 - "Realm"
 - "Credentials"
-- "AuthenticatorRealm"
-- "Account"
 - "Authenticator"
+- "Account"
 depends-member:
 - !private ["Ps9AnyObject", "A"]
 - ["Ps9AnyObject", "authenticate"]

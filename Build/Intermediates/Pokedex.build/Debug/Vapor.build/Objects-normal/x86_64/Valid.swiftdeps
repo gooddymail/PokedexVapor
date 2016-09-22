@@ -8,10 +8,10 @@ provides-member:
 - ["V5Vapor5Valid", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- "Valid"
-- "ValidationSuite"
 - "Validator"
+- "AssignmentPrecedence"
+- "ValidationSuite"
+- "Valid"
 depends-member:
 - ["V5Vapor5Valid", "V"]
 - ["V5Vapor5Valid", "ValidationSuite"]

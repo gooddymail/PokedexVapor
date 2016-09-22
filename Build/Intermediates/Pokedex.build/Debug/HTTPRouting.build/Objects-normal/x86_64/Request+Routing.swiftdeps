@@ -6,12 +6,12 @@ provides-member:
 - ["C4HTTP7Request", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Routing"
 - "StringLiteralType"
 - "HTTP"
-- "Node"
-- !private "parametersKey"
+- "Routing"
 - !private "Dictionary"
+- !private "parametersKey"
+- "Node"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
 depends-member:

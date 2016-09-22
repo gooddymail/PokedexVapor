@@ -8,8 +8,8 @@ provides-member:
 - ["O4HTTP4Body", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Array"
 - "Body"
+- !private "Array"
 - "BodyRepresentable"
 - "JSON"
 depends-member:

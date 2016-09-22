@@ -8,13 +8,13 @@ provides-member:
 - ["P6Fluent6Driver", "raw"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
+- "Schema"
 - "NodeRepresentable"
 - "Query"
-- "Schema"
-- "Node"
 - "Driver"
+- "String"
 - "Entity"
+- "Node"
 depends-member:
 - !private ["Sa", "Iterator"]
 - !private ["Sa", "_Element"]

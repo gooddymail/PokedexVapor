@@ -9,8 +9,8 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Response"
 - "Request"
-- "Responder"
 - "Middleware"
+- "Responder"
 depends-member:
 - ["P4HTTP10Middleware", "Request"]
 - ["P4HTTP10Middleware", "Responder"]

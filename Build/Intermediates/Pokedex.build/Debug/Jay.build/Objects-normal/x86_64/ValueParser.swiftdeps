@@ -7,19 +7,19 @@ provides-member:
 - ["V3Jay11ValueParser", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ValueParser"
-- !private "StartChars"
-- "Reader"
-- !private "NumberParser"
 - !private "ObjectParser"
-- "Jay"
+- !private "StartChars"
+- !private "ArrayParser"
 - !private "StringParser"
-- !private "NullParser"
+- "Jay"
+- "ValueParser"
 - "JsonParser"
 - !private "BooleanParser"
 - "JSON"
+- "Reader"
+- !private "NumberParser"
+- !private "NullParser"
 - !private "JayError"
-- !private "ArrayParser"
 depends-member:
 - ["V3Jay11ArrayParser", "deinit"]
 - !private ["V3Jay11ArrayParser", "init"]

@@ -8,20 +8,20 @@ provides-member:
 - ["C3URI9URIParser", "parse"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!"
-- "Byte"
-- !private "<"
+- "URIParser"
+- !private "+"
+- !private "Array"
+- !private "BooleanLiteralType"
+- !private "..."
 - "ArraySlice"
 - !private "..<"
-- !private "BooleanLiteralType"
-- !private "+"
-- !private "-"
-- !private "Array"
-- !private "..."
 - !private "IntegerLiteralType"
-- "URIParser"
 - !private "FloatLiteralType"
+- !private "-"
+- !private "<"
+- "Byte"
 - !private "=="
+- !private "!"
 depends-member:
 - ["Ps9AnyObject", "parse"]
 - !private ["Sa", "Index"]

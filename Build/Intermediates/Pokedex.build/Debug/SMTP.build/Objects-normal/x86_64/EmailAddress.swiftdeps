@@ -8,13 +8,13 @@ provides-member:
 - ["V4SMTP12EmailAddress", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - !private "&&"
+- "String"
 - "Bool"
 - "Equatable"
+- "EmailAddress"
 - "AssignmentPrecedence"
 - "=="
-- "EmailAddress"
 depends-member:
 - ["Sb", "deinit"]
 - ["V4SMTP12EmailAddress", "String"]

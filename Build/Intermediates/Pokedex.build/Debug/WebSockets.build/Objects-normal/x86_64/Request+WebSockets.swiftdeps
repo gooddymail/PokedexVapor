@@ -6,17 +6,17 @@ provides-member:
 - ["C4HTTP7Request", "upgradeToWebSocket"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Dictionary"
+- !private "StringLiteralType"
+- "Response"
+- !private "HeaderKey"
 - !private "!="
+- "Request"
 - "String"
-- !private "=="
-- "AssignmentPrecedence"
+- !private "Dictionary"
 - "Void"
 - "WebSocket"
-- "Response"
-- !private "StringLiteralType"
-- "Request"
-- !private "HeaderKey"
+- "AssignmentPrecedence"
+- !private "=="
 depends-member:
 - !private ["Ps9AnyObject", "FormatError"]
 - !private ["Ps9AnyObject", "Response"]

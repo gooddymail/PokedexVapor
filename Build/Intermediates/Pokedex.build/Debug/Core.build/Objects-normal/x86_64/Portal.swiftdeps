@@ -13,20 +13,20 @@ provides-member:
 - ["C4Core6Portal", "timeout"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Error"
-- "Result"
-- "Core"
-- "PortalError"
-- !private "background"
 - !private "*"
-- "Portal"
-- "Lock"
 - "Double"
+- "Lock"
+- "Core"
+- "Error"
+- "DispatchSemaphore"
+- !private "background"
+- "Portal"
+- "Void"
 - !private "AssignmentPrecedence"
 - "=="
-- "Void"
-- "DispatchSemaphore"
+- "PortalError"
 - !private "FloatLiteralType"
+- "Result"
 - !private "IntegerLiteralType"
 depends-member:
 - ["Ps9AnyObject", "Core"]

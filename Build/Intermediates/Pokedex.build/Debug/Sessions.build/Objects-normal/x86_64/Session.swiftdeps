@@ -7,14 +7,14 @@ provides-member:
 - ["C8Sessions7Session", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Dictionary"
-- "Node"
 - !private "print"
-- "Session"
+- "String"
 - !private "StringLiteralType"
 - "SessionsProtocol"
-- "String"
+- "Session"
+- "Node"
 - "AssignmentPrecedence"
+- !private "Dictionary"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Key"]
 - !private ["Ps9AnyObject", "Node"]

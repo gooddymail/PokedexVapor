@@ -9,17 +9,17 @@ provides-member:
 - ["P6Fluent6Entity", "siblings"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Pivot"
-- "Siblings"
-- "AssignmentPrecedence"
-- "QueryRepresentable"
-- !private "UnicodeScalarType"
 - "String"
-- "Query"
-- !private "??"
-- !private "RelationError"
-- !private "StringLiteralType"
+- "AssignmentPrecedence"
 - "Entity"
+- "Siblings"
+- !private "RelationError"
+- "QueryRepresentable"
+- !private "StringLiteralType"
+- "Query"
+- !private "Pivot"
+- !private "??"
+- !private "UnicodeScalarType"
 depends-member:
 - !private ["Ps9AnyObject", "Pivot"]
 - !private ["Ps9AnyObject", "RelationError"]

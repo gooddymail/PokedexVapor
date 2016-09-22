@@ -13,15 +13,15 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "~="
-- !private "??"
-- "AssignmentPrecedence"
-- "Hashable"
-- "=="
 - "Bool"
-- "Status"
-- "String"
-- !private "StringLiteralType"
 - "Int"
+- "AssignmentPrecedence"
+- "=="
+- "Hashable"
+- "Status"
+- !private "??"
+- !private "StringLiteralType"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["P4HTTP17BodyRepresentable", "init"]

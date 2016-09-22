@@ -9,16 +9,16 @@ provides-member:
 - ["O6Fluent6Schema", "Creator"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
+- "String"
+- !private "Array"
 - "AssignmentPrecedence"
 - "Entity"
+- "StringLiteralType"
+- "Int"
+- "Bool"
 - "+="
-- !private "Array"
 - "Schema"
 - "BooleanLiteralType"
-- "Bool"
-- "String"
-- "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Field"]
 - !private ["Ps9AnyObject", "entity"]

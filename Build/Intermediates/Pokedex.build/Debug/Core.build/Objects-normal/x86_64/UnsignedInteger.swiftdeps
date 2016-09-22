@@ -9,19 +9,19 @@ provides-member:
 - ["Ps15UnsignedInteger", "shiftRight"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "&"
+- !private "<<="
+- !private "/="
 - "Bool"
+- !private "MemoryLayout"
+- !private "..."
+- !private "=="
+- "Byte"
+- "UnsignedInteger"
 - !private "|="
 - !private "UIntMax"
-- !private "/="
-- !private "..."
-- "UnsignedInteger"
-- !private "&"
-- "Byte"
-- !private "MemoryLayout"
-- !private "=="
-- "Int"
-- !private "<<="
 - !private "FloatLiteralType"
+- "Int"
 - !private "IntegerLiteralType"
 depends-member:
 - !private ["Sa", "Index"]

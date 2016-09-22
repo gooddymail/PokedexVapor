@@ -7,19 +7,19 @@ provides-member:
 - ["C10WebSockets15FrameSerializer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "&"
-- "Bytes"
-- !private "UInt8"
 - "FrameSerializer"
-- !private "|="
-- !private "Array"
 - !private "UInt16"
-- "WebSocket"
+- !private "UInt8"
+- "Bytes"
 - !private "+"
-- !private "<"
+- !private "Array"
+- "WebSocket"
 - !private "IntegerLiteralType"
+- !private "|="
 - !private "FloatLiteralType"
+- !private "&"
 - !private "Byte"
+- !private "<"
 - "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "Byte"]

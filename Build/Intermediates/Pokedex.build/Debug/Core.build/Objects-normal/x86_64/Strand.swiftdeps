@@ -10,25 +10,25 @@ provides-member:
 - ["C4Core6Strand", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "IntegerLiteralType"
-- !private "pthread_exit"
-- !private "Box"
-- !private "pthread_cancel"
-- "Strand"
-- "Error"
-- !private "Unmanaged"
 - "Void"
-- "AssignmentPrecedence"
 - !private "runner"
-- !private "=="
 - "StrandError"
+- !private "Box"
 - !private "pthread_detach"
+- "Error"
 - !private "UnsafeMutableRawPointer"
-- "pthread_t"
 - !private "pthread_join"
-- !private "FloatLiteralType"
+- !private "pthread_cancel"
+- "pthread_t"
 - !private "pthread_create"
+- "AssignmentPrecedence"
+- !private "=="
+- !private "pthread_exit"
 - "Int"
+- "Strand"
+- !private "FloatLiteralType"
+- !private "Unmanaged"
+- !private "IntegerLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Box"]
 - !private ["Ps9AnyObject", "Int"]

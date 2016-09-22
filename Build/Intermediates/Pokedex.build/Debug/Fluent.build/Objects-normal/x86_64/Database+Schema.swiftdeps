@@ -8,10 +8,10 @@ provides-member:
 - ["C6Fluent8Database", "delete"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "AssignmentPrecedence"
-- "Schema"
 - "Database"
+- "String"
+- "Schema"
 depends-member:
 - !private ["Ps9AnyObject", "Schema"]
 - !private ["Ps9AnyObject", "driver"]

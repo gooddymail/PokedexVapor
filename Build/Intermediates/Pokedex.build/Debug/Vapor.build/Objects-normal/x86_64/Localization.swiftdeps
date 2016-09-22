@@ -7,19 +7,19 @@ provides-member:
 - ["C5Vapor12Localization", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- !private "ExtendedGraphemeClusterType"
 - "Node"
-- "String"
-- !private "??"
 - !private "FileManager"
-- "PathIndex"
-- !private "Dictionary"
-- !private "JSON"
-- !private "DataFile"
-- !private "StringLiteralType"
-- !private "UnicodeScalarType"
 - "Localization"
+- !private "ExtendedGraphemeClusterType"
+- !private "Dictionary"
+- !private "StringLiteralType"
+- "String"
+- !private "DataFile"
+- !private "JSON"
+- "PathIndex"
+- "AssignmentPrecedence"
+- !private "UnicodeScalarType"
+- !private "??"
 depends-member:
 - !private ["Ps9AnyObject", "DataFile"]
 - !private ["Ps9AnyObject", "FileManager"]

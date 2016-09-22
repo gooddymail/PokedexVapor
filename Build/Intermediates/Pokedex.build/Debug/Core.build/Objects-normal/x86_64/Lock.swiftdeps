@@ -7,16 +7,16 @@ provides-member:
 - ["C4Core4Lock", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "pthread_mutex_init"
+- !private "pthread_mutex_destroy"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+- "Lock"
 - "UnsafeMutablePointer"
 - !private "pthread_mutex_lock"
-- "pthread_mutex_t"
-- !private "pthread_mutex_init"
 - !private "pthread_mutex_unlock"
-- "Lock"
-- !private "pthread_mutex_destroy"
+- "pthread_mutex_t"
 - "Void"
-- "FloatLiteralType"
-- "IntegerLiteralType"
 depends-member:
 - ["Ps9AnyObject", "UnsafeMutablePointer"]
 - !private ["Ps9AnyObject", "lock"]

@@ -7,9 +7,9 @@ provides-member:
 - ["P5Vapor3Log", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "LogLevel"
 - "Int"
+- "String"
 - "Log"
 depends-member:
 - ["P5Vapor3Log", "Int"]

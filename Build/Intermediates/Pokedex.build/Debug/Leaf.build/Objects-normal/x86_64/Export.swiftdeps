@@ -7,11 +7,11 @@ provides-member:
 - ["C4Leaf6Export", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
-- "BasicTag"
 - "Argument"
 - "StringLiteralType"
 - "Export"
+- "Node"
+- "BasicTag"
 depends-member:
 - ["Ps9AnyObject", "compileBody"]
 - ["Ps9AnyObject", "init"]

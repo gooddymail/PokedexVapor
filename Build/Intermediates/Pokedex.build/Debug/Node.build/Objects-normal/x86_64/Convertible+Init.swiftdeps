@@ -13,13 +13,13 @@ provides-member:
 - ["P4Node17NodeInitializable", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "NodeRepresentable"
-- !private "??"
-- "Context"
-- !private "Node"
-- !private "EmptyNode"
 - "NodeInitializable"
+- !private "Node"
+- "NodeRepresentable"
+- "Context"
+- "String"
+- !private "EmptyNode"
+- !private "??"
 - "AssignmentPrecedence"
 depends-member:
 - !private ["Sa", "Iterator"]

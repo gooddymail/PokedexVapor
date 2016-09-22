@@ -7,18 +7,18 @@ provides-member:
 - ["C4HTTP11ChunkStream", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bool"
-- "Int"
-- "AssignmentPrecedence"
-- "Double"
-- !private "ExtendedGraphemeClusterType"
-- "ChunkStream"
-- "Bytes"
-- !private "BooleanLiteralType"
-- !private "StringLiteralType"
-- "String"
 - !private "+="
+- "Double"
+- "String"
+- "Bool"
+- "Bytes"
+- "AssignmentPrecedence"
+- !private "StringLiteralType"
 - "Stream"
+- "ChunkStream"
+- !private "BooleanLiteralType"
+- "Int"
+- !private "ExtendedGraphemeClusterType"
 depends-member:
 - !private ["Ps9AnyObject", "bytes"]
 - !private ["Ps9AnyObject", "closed"]

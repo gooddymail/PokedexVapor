@@ -7,8 +7,8 @@ provides-member:
 - ["P7Routing15RouteCollection", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "RouteCollection"
 - "RouteBuilder"
+- "RouteCollection"
 depends-member:
 - ["P7Routing15RouteCollection", "RouteBuilder"]
 - ["P7Routing15RouteCollection", "Wrapped"]

@@ -8,13 +8,13 @@ provides-member:
 - ["C4Leaf7Context", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
-- "PathIndex"
 - "Context"
 - "LeafContext"
-- !private "!="
-- "List"
 - "AssignmentPrecedence"
+- !private "!="
+- "PathIndex"
+- "Node"
+- "List"
 depends-member:
 - ["Ps9AnyObject", "List"]
 - !private ["Ps9AnyObject", "child"]

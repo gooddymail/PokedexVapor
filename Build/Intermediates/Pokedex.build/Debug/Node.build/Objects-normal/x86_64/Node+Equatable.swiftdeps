@@ -7,11 +7,11 @@ provides-member:
 - ["O4Node4Node", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
 - "Equatable"
+- "Node"
 - !private "BooleanLiteralType"
 - "Bool"
-- "Node"
+- "=="
 depends-member:
 - !private ["Sa", "deinit"]
 - ["P4Node7Context", "array"]

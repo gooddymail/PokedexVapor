@@ -17,25 +17,25 @@ provides-member:
 - ["P7Console15ConsoleProtocol", "confirmOverride"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "Pipe"
 - "ConsoleStyle"
-- !private "FileHandle"
-- "ConsoleClear"
-- "Bytes"
+- "Double"
 - "CastingPrecedence"
-- "String"
-- !private "*"
-- !private "ConsoleError"
 - !private "useconds_t"
+- !private "*"
+- !private "close"
 - !private "usleep"
-- "Int32"
+- "String"
+- "BytesInitializable"
+- "Bytes"
+- !private "FileHandle"
+- "BooleanLiteralType"
 - "Bool"
 - "Int"
 - "ConsoleProtocol"
-- "Double"
-- !private "Pipe"
-- !private "close"
-- "BytesInitializable"
-- "BooleanLiteralType"
+- "Int32"
+- !private "ConsoleError"
+- "ConsoleClear"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Vs11AnyIterator", "Element"]

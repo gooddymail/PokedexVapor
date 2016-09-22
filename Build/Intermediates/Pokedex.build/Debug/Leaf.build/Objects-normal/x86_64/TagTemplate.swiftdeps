@@ -9,20 +9,20 @@ provides-member:
 - ["C4Leaf11TagTemplate", "makeArguments"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- "Leaf"
-- "Equatable"
-- !private "&&"
-- "String"
-- "Context"
-- "Bool"
-- !private "StringLiteralType"
-- "=="
-- "AssignmentPrecedence"
-- "CustomStringConvertible"
-- "Parameter"
-- !private "TOKEN"
 - "TagTemplate"
+- !private "&&"
+- "CustomStringConvertible"
+- "Context"
+- "AssignmentPrecedence"
+- "=="
+- "String"
+- "Parameter"
+- "Leaf"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- "Equatable"
+- !private "TOKEN"
+- "Bool"
 - "Argument"
 depends-member:
 - !private ["Ps9AnyObject", "TOKEN"]

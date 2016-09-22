@@ -10,14 +10,14 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
-- "Log"
-- "ConsoleProtocol"
 - "String"
-- "ConsoleStyle"
-- "Int"
-- "StringLiteralType"
 - "LogLevel"
+- "Log"
+- "Int"
+- "ConsoleProtocol"
+- "StringLiteralType"
 - "ConsoleLogger"
+- "ConsoleStyle"
 depends-member:
 - !private ["Ps9AnyObject", "LogLevel"]
 - !private ["Ps9AnyObject", "console"]

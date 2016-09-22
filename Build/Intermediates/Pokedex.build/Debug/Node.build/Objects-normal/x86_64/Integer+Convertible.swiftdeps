@@ -17,18 +17,18 @@ provides-member:
 - ["Ps13SignedInteger", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "EmptyNode"
-- "Int64"
-- "Int32"
-- !private "NodeError"
-- "Int"
-- "NodeConvertible"
 - "Int16"
-- "Node"
-- "Context"
-- !private "StringLiteralType"
 - "Int8"
 - "SignedInteger"
+- "Int"
+- "Int64"
+- "NodeConvertible"
+- !private "StringLiteralType"
+- !private "NodeError"
+- "Int32"
+- "Context"
+- "Node"
+- !private "EmptyNode"
 depends-member:
 - ["Ps17BitwiseOperations", "Context"]
 - !private ["Ps17BitwiseOperations", "EmptyNode"]

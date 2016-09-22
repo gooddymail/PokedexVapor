@@ -10,11 +10,11 @@ provides-member:
 - ["C3URI9URIParser", "parseFragment"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Byte"
 - !private "IntegerLiteralType"
+- "Byte"
 - !private "FloatLiteralType"
-- "URIParser"
 - !private "=="
+- "URIParser"
 depends-member:
 - !private ["Ps9AnyObject", "checkLeadingBuffer"]
 - !private ["Ps9AnyObject", "collect"]

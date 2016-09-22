@@ -7,12 +7,12 @@ provides-member:
 - ["C5Cache11MemoryCache", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "MemoryCache"
 - "String"
-- !private "Dictionary"
+- "MemoryCache"
 - "AssignmentPrecedence"
-- "CacheProtocol"
+- !private "Dictionary"
 - "Node"
+- "CacheProtocol"
 depends-member:
 - !private ["Ps9AnyObject", "_storage"]
 - ["Ps9AnyObject", "delete"]

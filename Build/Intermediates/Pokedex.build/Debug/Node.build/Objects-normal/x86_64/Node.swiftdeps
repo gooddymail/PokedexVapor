@@ -7,10 +7,10 @@ provides-member:
 - ["O4Node4Node", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bool"
 - "UInt8"
 - "String"
 - "Node"
+- "Bool"
 depends-member:
 - ["O4Node4Node", "Bool"]
 - ["O4Node4Node", "Node"]

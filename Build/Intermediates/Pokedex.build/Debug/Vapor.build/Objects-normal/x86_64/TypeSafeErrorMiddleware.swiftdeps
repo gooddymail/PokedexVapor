@@ -7,13 +7,13 @@ provides-member:
 - ["C5Vapor23TypeSafeErrorMiddleware", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Response"
-- !private "Abort"
+- "Responder"
+- "TypeSafeErrorMiddleware"
+- "Middleware"
 - "Request"
 - !private "TypeSafeRoutingError"
-- "Middleware"
-- "TypeSafeErrorMiddleware"
-- "Responder"
+- "Response"
+- !private "Abort"
 depends-member:
 - ["O5Vapor5Abort", "deinit"]
 - !private ["O5Vapor5Abort", "notFound"]

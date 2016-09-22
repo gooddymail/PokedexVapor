@@ -8,8 +8,8 @@ provides-member:
 - ["P6Fluent18QueryRepresentable", "group"]
 provides-dynamic-lookup:
 depends-top-level:
-- "QueryRepresentable"
 - "Query"
+- "QueryRepresentable"
 - "Filter"
 depends-member:
 - !private ["Ps9AnyObject", "database"]

@@ -53,14 +53,14 @@ provides-member:
 - ["Vs5UInt8", "isHexDigit"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "..."
 - "Byte"
 - "Bytes"
 - !private "||"
-- "Bool"
 - !private "=="
+- "Bool"
 - "~="
 - "FloatLiteralType"
-- !private "..."
 - "IntegerLiteralType"
 depends-member:
 - ["Sa", "deinit"]

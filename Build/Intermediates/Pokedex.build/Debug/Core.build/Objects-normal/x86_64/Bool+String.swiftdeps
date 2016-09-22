@@ -6,13 +6,13 @@ provides-member:
 - ["Sb", "init"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "UnicodeScalarType"
 - "Bool"
-- !private "BooleanLiteralType"
-- !private "StringLiteralType"
 - "AssignmentPrecedence"
 - !private "~="
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
 - "String"
-- !private "UnicodeScalarType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "lowercased"]

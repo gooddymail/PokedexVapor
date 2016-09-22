@@ -11,12 +11,12 @@ provides-member:
 - ["Vs5UInt8", "ansi"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "UInt8"
 - !private "+"
 - "ConsoleColor"
-- !private "StringLiteralType"
 - !private "UnicodeScalarType"
+- "String"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "ansi"]
 - !private ["Ps9AnyObject", "init"]

@@ -12,18 +12,18 @@ provides-member:
 - ["P4HTTP7Program", "make"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "URI"
-- "AssignmentPrecedence"
-- "Int"
-- "Dictionary"
+- "SecurityLayer"
 - !private "??"
-- "Program"
-- !private "Array"
+- "AssignmentPrecedence"
 - "String"
 - "Middleware"
-- !private "StringLiteralType"
-- "SecurityLayer"
+- !private "Array"
 - !private "_defaultMiddlewareStorage"
+- "Program"
+- !private "URI"
+- !private "StringLiteralType"
+- "Dictionary"
+- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "securityLayer"]

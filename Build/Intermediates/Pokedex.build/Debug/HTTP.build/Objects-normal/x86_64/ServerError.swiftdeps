@@ -9,12 +9,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "ServerErrorHandler"
-- "String"
 - !private "IntegerLiteralType"
-- !private "FloatLiteralType"
 - "ServerError"
-- "Swift"
 - "Int"
+- !private "FloatLiteralType"
+- "Swift"
+- "String"
 depends-member:
 - ["Ps5Error", "_code"]
 - ["Ps5Error", "_domain"]

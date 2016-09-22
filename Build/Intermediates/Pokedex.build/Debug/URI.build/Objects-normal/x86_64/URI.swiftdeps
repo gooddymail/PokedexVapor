@@ -10,14 +10,14 @@ provides-member:
 - ["V3URI3URI", "UserInfo"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "StringLiteralType"
-- !private "??"
 - !private "UnicodeScalarType"
-- "URI"
-- !private "+="
+- "StringLiteralType"
 - "CustomStringConvertible"
 - "Int"
+- "String"
+- "URI"
+- !private "??"
+- !private "+="
 - "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "init"]

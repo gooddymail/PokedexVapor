@@ -7,8 +7,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "String"
-- !private "!"
 - !private "+"
+- !private "!"
 depends-member:
 - !private ["Ps9AnyObject", "hasSuffix"]
 - !private ["Sb", "_getBuiltinLogicValue"]

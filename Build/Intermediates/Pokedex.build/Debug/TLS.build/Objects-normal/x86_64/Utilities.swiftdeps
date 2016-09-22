@@ -9,11 +9,11 @@ provides-member:
 - ["Si", "int32"]
 provides-dynamic-lookup:
 depends-top-level:
-- "FloatLiteralType"
 - "IntegerLiteralType"
-- "Int32"
+- "FloatLiteralType"
 - "Int"
 - "Result"
+- "Int32"
 depends-member:
 - !private ["Ps17BitwiseOperations", "Int32"]
 - !private ["Ps17BitwiseOperations", "init"]

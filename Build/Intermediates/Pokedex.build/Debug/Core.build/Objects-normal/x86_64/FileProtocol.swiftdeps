@@ -12,14 +12,14 @@ provides-member:
 - ["OC4Core8DataFile5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- !private "NSData"
-- "Swift"
-- "Bytes"
-- "DataFile"
-- "FileProtocol"
-- !private "FloatLiteralType"
 - !private "IntegerLiteralType"
+- "FileProtocol"
+- "DataFile"
+- !private "FloatLiteralType"
+- "Bytes"
+- "String"
+- "Swift"
+- !private "NSData"
 depends-member:
 - !private ["Ps9AnyObject", "Bytes"]
 - !private ["Ps9AnyObject", "Error"]

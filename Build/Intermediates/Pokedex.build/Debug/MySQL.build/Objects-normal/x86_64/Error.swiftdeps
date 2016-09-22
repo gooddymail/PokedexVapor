@@ -7,11 +7,11 @@ provides-member:
 - ["O5MySQL5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Swift"
+- "Error"
+- !private "FloatLiteralType"
 - "String"
 - !private "IntegerLiteralType"
-- !private "FloatLiteralType"
-- "Error"
+- "Swift"
 depends-member:
 - ["O5MySQL5Error", "String"]
 - ["O5MySQL5Error", "_code"]

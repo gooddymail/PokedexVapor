@@ -7,9 +7,9 @@ provides-member:
 - ["C4SMTP10SMTPClient", "makeGmailClient"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "IntegerLiteralType"
 - "SMTPClient"
 - !private "StringLiteralType"
+- !private "IntegerLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "SMTPClient"]
 - !private ["Ps9AnyObject", "init"]

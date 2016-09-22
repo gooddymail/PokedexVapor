@@ -10,18 +10,18 @@ provides-member:
 - ["P6Fluent11Preparation", "name"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "StringLiteralType"
+- !private "PreparationError"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "??"
+- !private "Migration"
 - "Preparation"
 - "CastingPrecedence"
 - "AssignmentPrecedence"
 - "Database"
-- "Bool"
-- !private "PreparationError"
 - !private "Entity"
 - "String"
-- !private "Migration"
-- !private "??"
-- !private "BooleanLiteralType"
-- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Migration"]
 - !private ["Ps9AnyObject", "PreparationError"]

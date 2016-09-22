@@ -7,16 +7,16 @@ provides-member:
 - ["C4Leaf4Else", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- "TagTemplate"
+- "Bool"
+- "Tag"
+- "Argument"
+- "Else"
 - "Stem"
+- !private "BooleanLiteralType"
+- "Context"
+- "TagTemplate"
 - "Node"
 - "StringLiteralType"
-- "Else"
-- "Tag"
-- "Context"
-- "Bool"
-- "Argument"
 depends-member:
 - ["Ps9AnyObject", "compileBody"]
 - ["Ps9AnyObject", "init"]

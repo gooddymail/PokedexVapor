@@ -10,13 +10,13 @@ provides-member:
 - ["P7Routing12RouteBuilder", "grouped"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Array"
-- !private "+"
+- !private "UnicodeScalarType"
 - "Routing"
+- !private "Array"
 - "HTTP"
 - "String"
+- !private "+"
 - !private "StringLiteralType"
-- !private "UnicodeScalarType"
 depends-member:
 - !private ["Ps9AnyObject", "Handler"]
 - !private ["Ps9AnyObject", "init"]

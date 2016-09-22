@@ -7,11 +7,11 @@ provides-member:
 - ["V6Fluent5Limit", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Limit"
 - "AssignmentPrecedence"
 - "IntegerLiteralType"
-- "FloatLiteralType"
 - "Int"
-- "Limit"
+- "FloatLiteralType"
 depends-member:
 - ["Si", "deinit"]
 - ["V6Fluent5Limit", "Int"]

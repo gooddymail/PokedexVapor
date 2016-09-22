@@ -7,15 +7,15 @@ provides-member:
 - ["C4SMTP10SMTPClient", "transmit"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
-- "String"
-- !private "crlf"
-- "BooleanLiteralType"
-- !private "=="
-- "SMTPClient"
-- !private "SMTPClientError"
 - "Bool"
+- "String"
+- "BooleanLiteralType"
+- "SMTPClient"
+- !private "=="
+- !private "crlf"
 - "Int"
+- "Bytes"
+- !private "SMTPClientError"
 depends-member:
 - !private ["Ps9AnyObject", "SMTPClientError"]
 - !private ["Ps9AnyObject", "acceptReply"]

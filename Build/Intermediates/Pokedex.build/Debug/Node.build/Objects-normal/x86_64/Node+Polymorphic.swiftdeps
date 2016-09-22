@@ -6,21 +6,21 @@ provides-member:
 - ["O4Node4Node", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Dictionary"
 - !private "StringLiteralType"
-- "UInt"
-- "Bool"
 - "Node"
+- "UInt"
+- "Double"
 - !private "BooleanLiteralType"
 - "Float"
-- "Double"
-- "TernaryPrecedence"
-- "Int"
-- !private "IntegerLiteralType"
-- "String"
-- !private "FloatLiteralType"
-- !private "AssignmentPrecedence"
 - "Polymorphic"
+- "String"
+- "Int"
+- "TernaryPrecedence"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- "Bool"
+- !private "AssignmentPrecedence"
+- !private "Dictionary"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Sa", "Iterator"]

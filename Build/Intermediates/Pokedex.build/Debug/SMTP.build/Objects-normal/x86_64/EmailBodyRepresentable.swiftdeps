@@ -11,9 +11,9 @@ provides-member:
 - ["V4SMTP9EmailBody", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "EmailBody"
 - "String"
 - "EmailBodyRepresentable"
-- "EmailBody"
 depends-member:
 - ["OV4SMTP9EmailBody8BodyType", "deinit"]
 - !private ["OV4SMTP9EmailBody8BodyType", "plain"]

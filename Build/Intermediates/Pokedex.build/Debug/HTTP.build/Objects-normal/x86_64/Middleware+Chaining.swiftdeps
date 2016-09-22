@@ -8,10 +8,10 @@ provides-member:
 - ["Ps10Collection", "chain"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Responder"
 - !private "Request"
 - "Collection"
 - "Middleware"
+- "Responder"
 depends-member:
 - !private ["Ps9AnyObject", "Handler"]
 - !private ["Sa", "Iterator"]

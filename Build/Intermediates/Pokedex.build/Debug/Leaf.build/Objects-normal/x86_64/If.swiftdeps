@@ -9,18 +9,18 @@ provides-member:
 - ["OC4Leaf2If5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- "Bool"
-- "Stem"
-- "Tag"
-- "Argument"
+- "TagTemplate"
 - "Context"
+- "LeafError"
+- "Argument"
+- !private "BooleanLiteralType"
 - "StringLiteralType"
+- "Bool"
+- "Tag"
+- "Node"
+- "Stem"
 - !private "=="
 - "If"
-- "Node"
-- "LeafError"
-- "TagTemplate"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - ["Ps9AnyObject", "compileBody"]

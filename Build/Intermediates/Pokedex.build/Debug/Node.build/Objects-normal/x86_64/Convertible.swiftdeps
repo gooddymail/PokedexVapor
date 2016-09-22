@@ -15,12 +15,12 @@ provides-member:
 - ["P4Node17NodeInitializable", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "NodeRepresentable"
-- "NodeInitializable"
-- "NodeConvertible"
 - "Node"
 - !private "EmptyNode"
 - "Context"
+- "NodeInitializable"
+- "NodeConvertible"
+- "NodeRepresentable"
 depends-member:
 - !private ["O4Node4Node", "deinit"]
 - ["P4Node17NodeInitializable", "Context"]

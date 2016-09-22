@@ -10,18 +10,18 @@ provides-member:
 - ["OC6Fluent12MemoryDriver5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
 - "Driver"
-- "=="
-- "AssignmentPrecedence"
-- !private "Dictionary"
-- "String"
-- "Entity"
-- "MemoryDriver"
-- "Query"
-- "StringLiteralType"
 - "Swift"
 - "Schema"
+- "Query"
+- "MemoryDriver"
+- "String"
+- "Node"
+- "AssignmentPrecedence"
+- "=="
+- !private "Dictionary"
+- "Entity"
+- "StringLiteralType"
 depends-member:
 - ["O6Fluent6Action", "create"]
 - ["O6Fluent6Action", "delete"]

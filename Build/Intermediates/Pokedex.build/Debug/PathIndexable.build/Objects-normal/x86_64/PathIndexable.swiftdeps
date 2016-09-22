@@ -14,17 +14,17 @@ provides-member:
 - ["SS", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "PathIndexable"
-- !private "Array"
-- "String"
 - "AssignmentPrecedence"
 - !private ">"
-- !private "Dictionary"
-- "PathIndex"
+- "String"
 - !private "FloatLiteralType"
-- "Int"
-- !private "<"
 - !private "IntegerLiteralType"
+- !private "Dictionary"
+- "Int"
+- !private "Array"
+- "PathIndexable"
+- "PathIndex"
+- !private "<"
 depends-member:
 - !private ["Sa", "Element"]
 - !private ["Sa", "Index"]

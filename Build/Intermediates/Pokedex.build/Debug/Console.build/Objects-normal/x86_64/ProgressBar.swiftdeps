@@ -7,23 +7,23 @@ provides-member:
 - ["C7Console11ProgressBar", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ConsoleStyle"
-- "ProgressBar"
-- !private "..<"
 - "Bar"
+- "ProgressBar"
 - !private "||"
-- !private "UnicodeScalarType"
-- !private "StringLiteralType"
-- "String"
-- "Double"
 - "AssignmentPrecedence"
 - !private "<="
-- "Int"
-- "ConsoleProtocol"
 - !private "IntegerLiteralType"
-- !private "+="
-- !private "*"
 - !private "FloatLiteralType"
+- "Int"
+- !private "..<"
+- !private "UnicodeScalarType"
+- "ConsoleProtocol"
+- !private "*"
+- !private "+="
+- "String"
+- !private "StringLiteralType"
+- "ConsoleStyle"
+- "Double"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps16AbsoluteValuable", "isInfinite"]

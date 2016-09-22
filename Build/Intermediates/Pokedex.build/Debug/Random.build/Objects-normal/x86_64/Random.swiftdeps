@@ -28,22 +28,22 @@ provides-member:
 - ["P6Random6Random", "bytes"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int64"
-- "Random"
-- "UInt32"
-- "Int8"
-- "UInt8"
-- "Int32"
-- !private "IntegerLiteralType"
-- "Bytes"
-- !private "FloatLiteralType"
 - "UInt"
-- "UInt64"
+- !private "IntegerLiteralType"
+- "UInt16"
+- !private "FloatLiteralType"
+- "UInt8"
+- !private "MemoryLayout"
+- "UInt32"
+- "Bytes"
+- "Int32"
+- "Int8"
+- "Random"
+- "Int16"
+- "Int64"
 - !private "UnsafeMutableRawPointer"
 - "Int"
-- "Int16"
-- !private "MemoryLayout"
-- "UInt16"
+- "UInt64"
 depends-member:
 - !private ["Sa", "Index"]
 - !private ["Sa", "SubSequence"]

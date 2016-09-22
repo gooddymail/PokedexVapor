@@ -7,20 +7,20 @@ provides-member:
 - ["C5Vapor14FileMiddleware", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "HeaderKey"
+- "String"
+- "AssignmentPrecedence"
+- "FileMiddleware"
 - "Response"
+- !private "HeaderKey"
+- "Middleware"
 - "Request"
-- !private "mediaTypes"
 - !private "UnicodeScalarType"
+- !private "mediaTypes"
+- !private "Abort"
+- !private "Dictionary"
 - !private "StringLiteralType"
 - !private "FileManager"
-- "FileMiddleware"
-- "AssignmentPrecedence"
 - "Responder"
-- "String"
-- !private "Dictionary"
-- !private "Abort"
-- "Middleware"
 - !private "+"
 depends-member:
 - ["O5Vapor5Abort", "deinit"]

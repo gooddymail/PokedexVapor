@@ -6,14 +6,14 @@ provides-member:
 - ["Sa", "chunked"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
 - !private "<="
-- !private "stride"
-- "Array"
-- !private "..<"
+- "Int"
 - !private "FloatLiteralType"
 - !private "TernaryPrecedence"
 - !private "IntegerLiteralType"
+- "Array"
+- !private "stride"
+- !private "..<"
 depends-member:
 - !private ["Sa", "Array"]
 - ["Sa", "Element"]

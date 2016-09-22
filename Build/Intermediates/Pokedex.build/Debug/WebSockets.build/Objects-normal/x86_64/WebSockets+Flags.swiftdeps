@@ -14,8 +14,8 @@ provides-member:
 - ["Vs5UInt8", "eightBytePayloadLength"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Byte"
 - "IntegerLiteralType"
+- "Byte"
 - "FloatLiteralType"
 depends-member:
 - ["Vs5UInt8", "Byte"]

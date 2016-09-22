@@ -7,15 +7,15 @@ provides-member:
 - ["C9Turnstile20MemorySessionManager", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "SessionAccount"
-- "MemorySessionManager"
-- "String"
 - !private "!="
+- "MemorySessionManager"
 - !private "InvalidSessionError"
+- "String"
+- "AssignmentPrecedence"
 - "Account"
 - "Random"
 - "SessionManager"
-- "AssignmentPrecedence"
+- !private "SessionAccount"
 - "URandom"
 depends-member:
 - ["P9Turnstile7Account", "deinit"]

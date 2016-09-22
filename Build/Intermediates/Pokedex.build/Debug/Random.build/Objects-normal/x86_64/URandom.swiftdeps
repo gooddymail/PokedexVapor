@@ -8,17 +8,17 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "UnicodeScalarType"
-- "URandom"
-- "Int"
-- !private "Byte"
 - !private "+"
-- "Bytes"
-- "fopen"
-- "StringLiteralType"
-- !private "fclose"
-- "Random"
+- "URandom"
+- !private "Byte"
 - !private "fgets"
 - !private "Int8"
+- !private "fclose"
+- "StringLiteralType"
+- "fopen"
+- "Int"
+- "Random"
+- "Bytes"
 depends-member:
 - !private ["Ps9AnyObject", "Byte"]
 - !private ["Ps9AnyObject", "Int8"]

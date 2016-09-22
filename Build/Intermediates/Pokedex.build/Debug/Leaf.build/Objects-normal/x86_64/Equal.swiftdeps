@@ -10,21 +10,21 @@ provides-member:
 - ["OC4Leaf5Equal5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "fuzzyEquals"
 - "Equal"
-- "BasicTag"
-- "Node"
-- "Bool"
-- "=="
-- "TagTemplate"
-- "LeafError"
-- !private "??"
-- !private "!"
-- !private "zip"
 - !private "BooleanLiteralType"
-- "Argument"
+- "Node"
 - "Stem"
+- !private "fuzzyEquals"
+- !private "!"
+- !private "??"
+- "TagTemplate"
 - "StringLiteralType"
+- "Argument"
+- !private "zip"
+- "LeafError"
+- "=="
+- "BasicTag"
+- "Bool"
 - "Context"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]

@@ -7,14 +7,14 @@ provides-member:
 - ["Ps8Sequence", "sort"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Sort"
-- "AssignmentPrecedence"
 - !private "<"
-- "Sequence"
-- "BooleanLiteralType"
-- "Node"
 - !private "Array"
 - !private ">"
+- "Sort"
+- "AssignmentPrecedence"
+- "Sequence"
+- "Node"
+- "BooleanLiteralType"
 depends-member:
 - !private ["Sa", "Iterator"]
 - !private ["Sa", "_Element"]

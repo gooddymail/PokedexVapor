@@ -10,8 +10,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Router"
-- "RouteBuilder"
 - "String"
+- "RouteBuilder"
 depends-member:
 - ["Ps9AnyObject", "Value"]
 - ["Ps9AnyObject", "add"]

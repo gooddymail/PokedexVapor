@@ -8,13 +8,13 @@ provides-member:
 - ["P4Leaf8BasicTag", "run"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
 - "BasicTag"
 - "Argument"
 - "Context"
-- "TagTemplate"
-- "Stem"
 - "Tag"
+- "Stem"
+- "Node"
+- "TagTemplate"
 depends-member:
 - ["Sa", "deinit"]
 - ["P4Leaf8BasicTag", "Argument"]

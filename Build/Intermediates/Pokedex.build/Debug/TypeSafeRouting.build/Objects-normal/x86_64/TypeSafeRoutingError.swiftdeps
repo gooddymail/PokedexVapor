@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Error"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
 - "TypeSafeRoutingError"
 - "StringInitializable"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
 depends-member:
 - ["Ps5Error", "_code"]
 - ["Ps5Error", "_domain"]

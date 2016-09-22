@@ -9,11 +9,11 @@ provides-member:
 - ["P5Vapor12ViewRenderer", "make"]
 provides-dynamic-lookup:
 depends-top-level:
-- "NodeRepresentable"
+- "View"
 - "String"
+- "NodeRepresentable"
 - "Node"
 - "ViewRenderer"
-- "View"
 depends-member:
 - !private ["P4Node7Context", "null"]
 - !private ["Ps9Equatable", "null"]

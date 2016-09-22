@@ -7,13 +7,13 @@ provides-member:
 - ["C5MySQL5Binds", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "Int"
+- "NodeRepresentable"
+- "UnsafeMutablePointer"
+- "Binds"
 - "Bind"
 - "Fields"
-- "Int"
-- "UnsafeMutablePointer"
-- "AssignmentPrecedence"
-- "NodeRepresentable"
-- "Binds"
 depends-member:
 - !private ["Ps9AnyObject", "Bind"]
 - ["Ps9AnyObject", "CBind"]

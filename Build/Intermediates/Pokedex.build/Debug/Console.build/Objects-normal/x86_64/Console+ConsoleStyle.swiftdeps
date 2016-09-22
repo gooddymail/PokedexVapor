@@ -10,11 +10,11 @@ provides-member:
 - ["P7Console15ConsoleProtocol", "error"]
 provides-dynamic-lookup:
 depends-top-level:
+- "ConsoleProtocol"
+- "String"
 - "BooleanLiteralType"
 - "StringLiteralType"
-- "String"
 - "Bool"
-- "ConsoleProtocol"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Sb", "deinit"]

@@ -7,17 +7,17 @@ provides-member:
 - ["C5Vapor5Serve", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- !private "UnicodeScalarType"
-- "String"
-- "Option"
-- "Command"
 - "Array"
-- "Argument"
-- "ConsoleProtocol"
+- "AssignmentPrecedence"
+- "String"
 - "Serve"
-- "Prepare"
 - !private "ServerError"
+- "Option"
+- "Prepare"
+- "Argument"
+- !private "UnicodeScalarType"
+- "Command"
+- "ConsoleProtocol"
 - "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "Option"]

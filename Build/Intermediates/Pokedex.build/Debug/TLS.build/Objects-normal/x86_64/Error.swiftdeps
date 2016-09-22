@@ -7,11 +7,11 @@ provides-member:
 - ["O3TLS8TLSError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "TLSError"
 - "String"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
 - "Error"
+- "TLSError"
 depends-member:
 - ["Ps5Error", "_code"]
 - ["Ps5Error", "_domain"]

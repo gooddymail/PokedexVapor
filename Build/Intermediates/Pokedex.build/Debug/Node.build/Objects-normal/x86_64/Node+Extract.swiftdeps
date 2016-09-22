@@ -37,19 +37,19 @@ provides-member:
 - ["P4Node10NodeBacked", "extract"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "NodeBacked"
-- !private "StringLiteralType"
-- !private "!="
-- !private "NodeError"
-- !private "??"
-- "Node"
 - "NodeInitializable"
-- "Dictionary"
-- "PathIndex"
+- !private "StringLiteralType"
 - !private "Array"
-- "AssignmentPrecedence"
+- "Node"
+- "NodeBacked"
+- !private "!="
+- "String"
+- !private "NodeError"
 - "Set"
+- !private "??"
+- "PathIndex"
+- "AssignmentPrecedence"
+- "Dictionary"
 depends-member:
 - !private ["Sa", "Element"]
 - !private ["Sa", "Iterator"]

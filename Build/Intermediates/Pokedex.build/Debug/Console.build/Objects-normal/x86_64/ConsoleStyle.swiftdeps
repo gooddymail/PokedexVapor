@@ -7,8 +7,8 @@ provides-member:
 - ["O7Console12ConsoleStyle", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ConsoleStyle"
 - "ConsoleColor"
+- "ConsoleStyle"
 depends-member:
 - ["O7Console12ConsoleStyle", "ConsoleColor"]
 - ["O7Console12ConsoleStyle", "custom"]

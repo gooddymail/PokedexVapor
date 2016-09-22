@@ -7,14 +7,14 @@ provides-member:
 - ["C5Vapor14DateMiddleware", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "Middleware"
 - "Response"
+- "Request"
+- "Responder"
 - !private "Date"
 - "DateMiddleware"
 - !private "StringLiteralType"
-- "AssignmentPrecedence"
-- "Middleware"
-- "Responder"
-- "Request"
 depends-member:
 - !private ["Ps9AnyObject", "Date"]
 - !private ["Ps9AnyObject", "headers"]

@@ -7,16 +7,16 @@ provides-member:
 - ["C8Sessions18SessionsMiddleware", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "SessionsMiddleware"
-- "AssignmentPrecedence"
-- !private "Session"
-- "SessionsProtocol"
 - "Middleware"
-- "Request"
 - "Responder"
 - "Response"
-- !private "cookieName"
+- "SessionsMiddleware"
+- "AssignmentPrecedence"
 - "StringLiteralType"
+- !private "Session"
+- "Request"
+- !private "cookieName"
+- "SessionsProtocol"
 depends-member:
 - !private ["Ps9AnyObject", "Session"]
 - !private ["Ps9AnyObject", "cookieName"]

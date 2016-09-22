@@ -8,13 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Array"
-- "AssignmentPrecedence"
-- "Command"
-- "ConsoleProtocol"
-- !private "VERSION"
-- "String"
 - "StringLiteralType"
 - "VersionCommand"
+- "AssignmentPrecedence"
+- "ConsoleProtocol"
+- "Command"
+- !private "VERSION"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "VERSION"]
 - ["Ps9AnyObject", "console"]

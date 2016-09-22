@@ -6,13 +6,13 @@ provides-member:
 - ["Si", "random"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "+"
-- !private "FloatLiteralType"
-- "Int"
-- !private "IntegerLiteralType"
 - !private "UInt32"
-- !private "arc4random_uniform"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - !private "-"
+- !private "+"
+- "Int"
+- !private "arc4random_uniform"
 depends-member:
 - !private ["Ps17BitwiseOperations", "Int"]
 - !private ["Ps17BitwiseOperations", "UInt32"]

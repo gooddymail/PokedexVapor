@@ -7,19 +7,19 @@ provides-member:
 - ["C4Leaf3Raw", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "BooleanLiteralType"
 - !private "Array"
 - "Raw"
 - "Node"
-- "Stem"
-- "Context"
 - "String"
-- "Leaf"
-- "Tag"
-- "Bool"
-- !private "BooleanLiteralType"
-- "TagTemplate"
+- "Stem"
 - "StringLiteralType"
+- "TagTemplate"
+- "Bool"
+- "Tag"
+- "Context"
 - "Argument"
+- "Leaf"
 depends-member:
 - !private ["Ps9AnyObject", "Component"]
 - !private ["Ps9AnyObject", "Leaf"]

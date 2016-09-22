@@ -12,9 +12,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Error"
-- "Bool"
 - "Result"
 - !private "!="
+- "Bool"
 depends-member:
 - ["Sb", "deinit"]
 - ["Ps5Error", "deinit"]

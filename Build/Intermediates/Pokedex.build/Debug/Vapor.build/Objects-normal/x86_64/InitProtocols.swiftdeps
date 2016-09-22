@@ -10,9 +10,9 @@ provides-member:
 - ["P5Vapor20DropletInitializable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "EmptyInitializable"
-- "DropletInitializable"
 - "Droplet"
+- "DropletInitializable"
+- "EmptyInitializable"
 depends-member:
 - ["P5Vapor20DropletInitializable", "Droplet"]
 - ["P5Vapor20DropletInitializable", "init"]

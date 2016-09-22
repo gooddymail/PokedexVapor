@@ -10,16 +10,16 @@ provides-member:
 - ["OC4Leaf10Uppercased5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
-- "=="
-- "Uppercased"
+- "Stem"
 - "Context"
 - "Argument"
-- "StringLiteralType"
-- "Stem"
-- "LeafError"
-- "TagTemplate"
+- "=="
 - "Tag"
+- "Node"
+- "LeafError"
+- "StringLiteralType"
+- "TagTemplate"
+- "Uppercased"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - ["Ps9AnyObject", "compileBody"]

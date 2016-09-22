@@ -7,18 +7,18 @@ provides-member:
 - ["C12TurnstileWeb11OAuth2Token", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AccessToken"
-- "String"
-- "Token"
-- "OAuth2Token"
-- !private "StringLiteralType"
-- !private "Double"
-- !private "UnicodeScalarType"
-- !private "=="
-- "AssignmentPrecedence"
-- "CastingPrecedence"
-- "Int"
 - "Date"
+- "Int"
+- "Token"
+- "AccessToken"
+- !private "Double"
+- !private "StringLiteralType"
+- "OAuth2Token"
+- !private "UnicodeScalarType"
+- "String"
+- "AssignmentPrecedence"
+- !private "=="
+- "CastingPrecedence"
 - "TernaryPrecedence"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]

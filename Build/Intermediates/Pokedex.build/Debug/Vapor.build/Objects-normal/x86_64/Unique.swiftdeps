@@ -7,10 +7,10 @@ provides-member:
 - ["V5Vapor6Unique", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Sequence"
 - "Equatable"
-- "Unique"
+- "Sequence"
 - "Validatable"
+- "Unique"
 - "ValidationSuite"
 depends-member:
 - !private ["Sa", "Iterator"]

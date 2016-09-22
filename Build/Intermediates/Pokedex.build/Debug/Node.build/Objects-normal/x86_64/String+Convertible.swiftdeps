@@ -6,13 +6,13 @@ provides-member:
 - ["SS", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- !private "StringLiteralType"
-- "NodeConvertible"
-- "Node"
-- "Context"
 - !private "EmptyNode"
+- !private "StringLiteralType"
+- "Node"
 - !private "NodeError"
+- "NodeConvertible"
+- "String"
+- "Context"
 - "AssignmentPrecedence"
 depends-member:
 - !private ["Sb", "deinit"]

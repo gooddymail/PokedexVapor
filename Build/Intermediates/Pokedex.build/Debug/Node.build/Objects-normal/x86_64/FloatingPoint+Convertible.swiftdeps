@@ -13,14 +13,14 @@ provides-member:
 - ["P4Node32NodeConvertibleFloatingPointType", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "NodeConvertibleFloatingPointType"
-- "Node"
 - "Double"
+- "NodeConvertibleFloatingPointType"
 - "Float"
 - !private "NodeError"
+- "Node"
 - "NodeConvertible"
 - "Context"
+- !private "StringLiteralType"
 - !private "EmptyNode"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Double"]

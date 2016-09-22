@@ -10,26 +10,26 @@ provides-member:
 - ["C10WebSockets9WebSocket", "makeRequestKey"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Parser"
+- !private "=="
 - !private "StringLiteralType"
-- !private "Request"
-- !private "Serializer"
-- !private "!"
-- !private "Core"
-- "ClientProtocol"
-- !private "Client"
 - !private "TCPClientStream"
-- !private "Response"
+- !private "Client"
+- !private "!"
+- "String"
+- "ClientProtocol"
+- !private "Serializer"
 - "Void"
-- !private "HeaderKey"
+- !private "Response"
+- !private "Parser"
 - "WebSocket"
-- "URI"
 - !private "Bytes"
+- "URI"
+- !private "Request"
 - !private "UInt8"
 - !private "..."
-- "String"
+- !private "HeaderKey"
+- !private "Core"
 - "AssignmentPrecedence"
-- !private "=="
 depends-member:
 - !private ["Ps9AnyObject", "Client"]
 - !private ["Ps9AnyObject", "Core"]

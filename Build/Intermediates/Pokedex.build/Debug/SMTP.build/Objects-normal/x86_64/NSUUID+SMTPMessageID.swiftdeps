@@ -7,10 +7,10 @@ provides-member:
 provides-dynamic-lookup:
 - "smtpMessageId"
 depends-top-level:
-- !private "UnicodeScalarType"
-- "NSUUID"
 - "String"
 - !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "NSUUID"
 depends-member:
 - !private ["Ps9AnyObject", "NSUUID"]
 - !private ["Ps9AnyObject", "components"]

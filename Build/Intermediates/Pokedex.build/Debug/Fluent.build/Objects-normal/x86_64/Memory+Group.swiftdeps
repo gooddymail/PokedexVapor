@@ -11,14 +11,14 @@ depends-top-level:
 - "Int"
 - "Filter"
 - "AssignmentPrecedence"
-- "MemoryDriver"
 - !private "IntegerLiteralType"
+- "MemoryDriver"
 - !private "+="
+- !private "FloatLiteralType"
 - "Node"
 - !private "Array"
-- !private "FloatLiteralType"
-- "Sort"
 - "String"
+- "Sort"
 depends-member:
 - !private ["Ps9AnyObject", "Node"]
 - !private ["Ps9AnyObject", "data"]

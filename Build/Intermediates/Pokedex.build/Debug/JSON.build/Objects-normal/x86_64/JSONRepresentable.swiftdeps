@@ -17,12 +17,12 @@ provides-member:
 - ["P4JSON17JSONInitializable", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "JSONRepresentable"
-- "NodeInitializable"
+- "NodeRepresentable"
 - "JSON"
+- "NodeInitializable"
 - "JSONConvertible"
 - "JSONInitializable"
-- "NodeRepresentable"
+- "JSONRepresentable"
 depends-member:
 - ["P4Core16BytesConvertible", "init"]
 - ["P4Core16BytesConvertible", "makeJSON"]

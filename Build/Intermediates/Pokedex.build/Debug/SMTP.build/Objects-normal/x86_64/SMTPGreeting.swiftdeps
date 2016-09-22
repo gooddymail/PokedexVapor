@@ -11,13 +11,13 @@ provides-member:
 - ["V4SMTP12SMTPGreeting", "Error"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "??"
-- "SMTPGreeting"
 - !private "StringLiteralType"
+- "String"
+- !private "??"
 - "Swift"
 - "AssignmentPrecedence"
 - "=="
-- "String"
+- "SMTPGreeting"
 - !private ">="
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]

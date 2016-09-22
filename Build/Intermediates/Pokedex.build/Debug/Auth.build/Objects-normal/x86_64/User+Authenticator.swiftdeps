@@ -9,14 +9,14 @@ provides-member:
 - ["P4Auth4User", "authenticate"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Identifier"
-- "APIKey"
 - "AccessToken"
-- "CastingPrecedence"
-- !private "AuthError"
-- "User"
 - !private "StringLiteralType"
+- !private "AuthError"
 - "Credentials"
+- "Identifier"
+- "User"
+- "APIKey"
+- "CastingPrecedence"
 depends-member:
 - ["C9Turnstile6APIKey", "deinit"]
 - !private ["C9Turnstile6APIKey", "id"]

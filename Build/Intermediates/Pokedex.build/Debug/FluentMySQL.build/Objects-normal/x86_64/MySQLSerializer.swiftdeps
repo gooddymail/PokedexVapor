@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Schema"
-- !private "StringLiteralType"
-- !private "UnicodeScalarType"
-- "GeneralSQLSerializer"
-- "String"
 - "MySQLSerializer"
+- "GeneralSQLSerializer"
+- !private "UnicodeScalarType"
+- !private "StringLiteralType"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "sql"]

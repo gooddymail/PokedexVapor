@@ -15,23 +15,23 @@ provides-member:
 - ["P6Fluent18QueryRepresentable", "union"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "EmptyNode"
 - "QueryRepresentable"
-- "Context"
-- "Node"
-- "Entity"
-- "Pivot"
-- !private "<"
-- !private "StringLiteralType"
-- !private "=="
-- "AssignmentPrecedence"
-- !private "Dictionary"
-- "Database"
-- "String"
-- !private "??"
-- "Union"
-- !private "UnicodeScalarType"
 - "Query"
+- "Pivot"
+- !private "??"
+- "String"
+- "Database"
+- "AssignmentPrecedence"
+- !private "=="
+- "Context"
+- !private "EmptyNode"
+- !private "UnicodeScalarType"
+- "Union"
+- "Entity"
+- !private "StringLiteralType"
+- "Node"
+- !private "<"
+- !private "Dictionary"
 depends-member:
 - !private ["Ps9AnyObject", "EmptyNode"]
 - !private ["Ps9AnyObject", "First"]

@@ -8,11 +8,11 @@ provides-member:
 - ["C4Leaf4List", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Link"
 - "AssignmentPrecedence"
+- "AnyIterator"
 - "Sequence"
 - "List"
-- "AnyIterator"
+- "Link"
 depends-member:
 - ["Vs11AnyIterator", "Element"]
 - ["Vs11AnyIterator", "deinit"]

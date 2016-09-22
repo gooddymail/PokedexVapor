@@ -9,14 +9,14 @@ provides-member:
 - ["P6Fluent6Entity", "parent"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
 - "Entity"
+- "QueryRepresentable"
 - !private "RelationError"
 - "Node"
 - "Parent"
-- "Query"
 - "String"
-- "QueryRepresentable"
+- "Query"
+- "AssignmentPrecedence"
 - !private "??"
 depends-member:
 - ["Ps9AnyObject", "T"]

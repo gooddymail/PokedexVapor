@@ -6,9 +6,9 @@ provides-member:
 - ["V4JSON4JSON", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "BytesConvertible"
 - "Bytes"
 - "JSON"
-- "BytesConvertible"
 depends-member:
 - ["Sa", "deinit"]
 - ["P4Core16BytesConvertible", "init"]

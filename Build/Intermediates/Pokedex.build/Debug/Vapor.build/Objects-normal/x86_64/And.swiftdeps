@@ -11,10 +11,10 @@ provides-member:
 - ["V5Vapor4Both", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Both"
-- "Validator"
-- !private "AssignmentPrecedence"
 - "ValidationSuite"
+- !private "AssignmentPrecedence"
+- "Validator"
+- "Both"
 - !private "Void"
 depends-member:
 - ["V5Vapor4Both", "InputType"]

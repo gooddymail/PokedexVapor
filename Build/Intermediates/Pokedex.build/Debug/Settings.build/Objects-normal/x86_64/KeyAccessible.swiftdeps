@@ -9,8 +9,8 @@ provides-member:
 - ["Vs10Dictionary", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "KeyAccessible"
 - "Dictionary"
+- "KeyAccessible"
 depends-member:
 - ["Ps7CVarArg", "Key"]
 - ["Ps7CVarArg", "Value"]

@@ -9,18 +9,18 @@ provides-member:
 - ["SS", "toBytes"]
 provides-dynamic-lookup:
 depends-top-level:
-- "CUnsignedShort"
-- !private "StringLiteralType"
-- !private "+"
-- "UInt8"
 - !private "UnicodeScalarType"
-- !private "IntegerLiteralType"
 - "htons"
+- !private "StringLiteralType"
 - !private "<<"
-- !private "FloatLiteralType"
-- !private ">>"
+- "CUnsignedShort"
 - "Array"
+- !private ">>"
+- !private "IntegerLiteralType"
+- !private "+"
 - "String"
+- !private "FloatLiteralType"
+- "UInt8"
 depends-member:
 - !private ["Sa", "Iterator"]
 - ["Sa", "String"]

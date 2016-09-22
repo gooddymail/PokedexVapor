@@ -6,10 +6,10 @@ provides-member:
 - ["C3URI9URIParser", "parse"]
 provides-dynamic-lookup:
 depends-top-level:
-- "URI"
 - "Bytes"
-- "URIParser"
 - "String"
+- "URI"
+- "URIParser"
 depends-member:
 - !private ["Ps9AnyObject", "URIParser"]
 - !private ["Ps9AnyObject", "init"]

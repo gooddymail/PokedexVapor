@@ -6,11 +6,11 @@ provides-member:
 - ["V7Cookies6Cookie", "serialize"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "StringLiteralType"
+- "String"
+- !private "UnicodeScalarType"
 - !private "+="
 - "Cookie"
-- !private "UnicodeScalarType"
-- "String"
-- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["P4HTTP17BodyRepresentable", "init"]

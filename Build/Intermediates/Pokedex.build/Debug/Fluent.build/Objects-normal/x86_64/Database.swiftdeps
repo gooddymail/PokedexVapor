@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Driver"
-- "String"
-- "Database"
 - "Dictionary"
 - "AssignmentPrecedence"
+- "String"
+- "Database"
 depends-member:
 - !private ["Ps9AnyObject", "driver"]
 - ["Ps9AnyObject", ""]

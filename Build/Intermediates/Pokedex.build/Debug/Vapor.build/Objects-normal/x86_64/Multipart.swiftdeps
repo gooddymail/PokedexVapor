@@ -14,9 +14,9 @@ provides-member:
 - ["O5Vapor9Multipart", "inputArray"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
 - "String"
 - "Multipart"
+- "Bytes"
 depends-member:
 - ["Sa", "deinit"]
 - ["VO5Vapor9Multipart4File", "Bytes"]

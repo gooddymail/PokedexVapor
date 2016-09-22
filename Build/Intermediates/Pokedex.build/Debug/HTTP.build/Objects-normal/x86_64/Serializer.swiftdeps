@@ -7,19 +7,19 @@ provides-member:
 - ["C4HTTP10Serializer", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "crlf"
 - !private "Body"
-- "Serializer"
-- !private "!"
 - "AssignmentPrecedence"
 - !private "ChunkStream"
-- "Stream"
-- "Bytes"
 - "TransferSerializer"
 - !private "HeaderKey"
-- "StringLiteralType"
 - !private "String"
 - "Message"
-- !private "crlf"
+- !private "!"
+- "Stream"
+- "StringLiteralType"
+- "Bytes"
+- "Serializer"
 depends-member:
 - !private ["Ps9AnyObject", "ChunkStream"]
 - ["Ps9AnyObject", "MessageType"]

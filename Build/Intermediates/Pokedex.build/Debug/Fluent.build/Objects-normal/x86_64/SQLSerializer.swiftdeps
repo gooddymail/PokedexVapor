@@ -7,8 +7,8 @@ provides-member:
 - ["P6Fluent13SQLSerializer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
 - "SQL"
+- "Node"
 - "SQLSerializer"
 - "String"
 depends-member:

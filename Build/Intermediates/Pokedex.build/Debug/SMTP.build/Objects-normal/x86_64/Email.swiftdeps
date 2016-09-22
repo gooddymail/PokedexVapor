@@ -7,17 +7,17 @@ provides-member:
 - ["C4SMTP5Email", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "EmailAttachmentRepresentable"
-- "Email"
-- "EmailAddress"
-- "EmailBody"
-- "NSUUID"
-- "AssignmentPrecedence"
-- "Dictionary"
 - "String"
-- "EmailAddressRepresentable"
-- "EmailBodyRepresentable"
+- "EmailBody"
+- "Email"
 - "Date"
+- "NSUUID"
+- "EmailAddressRepresentable"
+- "EmailAttachmentRepresentable"
+- "EmailBodyRepresentable"
+- "AssignmentPrecedence"
+- "EmailAddress"
+- "Dictionary"
 depends-member:
 - ["Ps9AnyObject", "Date"]
 - ["Ps9AnyObject", "NSUUID"]

@@ -13,13 +13,13 @@ provides-member:
 - ["P5Vapor12HashProtocol", "make"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
+- "=="
 - "HashEncoding"
+- !private "FloatLiteralType"
+- "Bytes"
+- !private "IntegerLiteralType"
 - "HashProtocol"
 - "String"
-- "=="
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "bytes"]
 - !private ["Sa", "Iterator"]

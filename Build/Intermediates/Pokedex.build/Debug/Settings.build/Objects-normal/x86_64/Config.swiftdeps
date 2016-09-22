@@ -10,16 +10,16 @@ provides-member:
 - ["O4Node4Node", "makeConfig"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Source"
-- "Equatable"
-- !private "Dictionary"
-- "NodeBacked"
-- "Node"
-- "Config"
-- !private "??"
 - "AssignmentPrecedence"
 - "=="
 - "Bool"
+- "Config"
+- !private "Dictionary"
+- "Node"
+- "NodeBacked"
+- "Equatable"
+- "Source"
+- !private "??"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Key"]
 - !private ["Sa", "Iterator"]

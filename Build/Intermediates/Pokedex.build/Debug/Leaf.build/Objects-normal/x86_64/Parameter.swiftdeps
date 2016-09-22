@@ -13,21 +13,21 @@ provides-member:
 - ["O4Leaf9Parameter", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
+- "LeafError"
 - "Equatable"
-- "Bool"
-- "String"
+- "AssignmentPrecedence"
+- "=="
 - !private ">"
+- "Sequence"
+- "CustomStringConvertible"
+- "Byte"
+- "String"
+- "Bool"
+- "Parameter"
+- !private "BooleanLiteralType"
 - !private "UnicodeScalarType"
 - !private "StringLiteralType"
-- "Parameter"
-- "LeafError"
-- "=="
-- "AssignmentPrecedence"
-- "Byte"
-- "Sequence"
 - !private "!"
-- "CustomStringConvertible"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "init"]

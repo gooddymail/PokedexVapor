@@ -15,24 +15,24 @@ provides-member:
 - ["P3Jay20ParsingOptionsHaving", "prepareForReading"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "ByteReader"
-- "Reader"
+- !private ">"
+- !private "RootParser"
 - !private "!"
 - "JChar"
-- !private "CommentParser"
 - "Jay"
 - !private "BooleanLiteralType"
-- "ParsingOptionsHaving"
-- !private "Const"
-- !private ">"
+- !private "||"
+- !private "CommentParser"
 - "JsonParser"
-- !private "RootParser"
 - "JSON"
-- !private "JayError"
+- !private "Const"
+- "Reader"
 - "Parser"
+- !private "JayError"
 - "AssignmentPrecedence"
 - !private "=="
-- !private "||"
+- "ParsingOptionsHaving"
+- !private "ByteReader"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Sa", "deinit"]

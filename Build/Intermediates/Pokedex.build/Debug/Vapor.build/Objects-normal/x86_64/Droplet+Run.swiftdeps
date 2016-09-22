@@ -11,23 +11,23 @@ provides-member:
 - ["C5Vapor7Droplet", "runCommands"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Serve"
 - !private "CastingPrecedence"
 - "=="
-- "Serve"
-- !private "&&"
-- "Never"
-- !private "FloatLiteralType"
 - !private "ConsoleError"
-- !private "IntegerLiteralType"
-- !private "!"
-- !private "BooleanLiteralType"
 - "Droplet"
-- !private "exit"
-- !private "StringLiteralType"
-- !private "Array"
+- !private "&&"
 - !private "CommandError"
+- !private "Array"
+- !private "FloatLiteralType"
+- "Never"
+- !private "!"
+- !private "IntegerLiteralType"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
 - !private "Runnable"
 - "Swift"
+- !private "exit"
 depends-member:
 - !private ["Ps9AnyObject", "Array"]
 - !private ["Ps9AnyObject", "CommandError"]

@@ -12,15 +12,15 @@ provides-member:
 - ["P4HTTP13KeyAccessible", "secWebProtocol"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- "KeyAccessible"
-- !private "StringLiteralType"
 - !private "!="
-- "HeaderKey"
 - "String"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- "Bool"
+- "HeaderKey"
 - !private "=="
 - "AssignmentPrecedence"
-- "Bool"
+- "KeyAccessible"
 depends-member:
 - !private ["Ps9AnyObject", "components"]
 - !private ["Ps9AnyObject", "init"]

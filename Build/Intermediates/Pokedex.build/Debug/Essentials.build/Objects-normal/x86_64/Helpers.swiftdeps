@@ -10,12 +10,12 @@ provides-member:
 - ["Ps8Sequence", "hexString"]
 provides-dynamic-lookup:
 depends-top-level:
-- "SequenceInitializable"
-- "Byte"
-- !private "StringLiteralType"
 - !private "Array"
-- "Sequence"
+- "Byte"
 - !private "Bytes"
+- "Sequence"
+- "SequenceInitializable"
+- !private "StringLiteralType"
 - "String"
 - !private "+"
 depends-member:

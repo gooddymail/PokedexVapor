@@ -9,17 +9,17 @@ provides-member:
 - ["O4HTTP6Method", "init"]
 provides-dynamic-lookup:
 depends-top-level:
+- "String"
 - !private "~="
-- "Method"
-- "Int"
+- !private "+"
 - "AssignmentPrecedence"
 - "=="
-- "Bool"
-- !private "+"
-- "CustomStringConvertible"
-- "String"
-- !private "StringLiteralType"
 - "Hashable"
+- "Method"
+- "CustomStringConvertible"
+- "Bool"
+- !private "StringLiteralType"
+- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "hashValue"]
 - !private ["Ps9AnyObject", "init"]

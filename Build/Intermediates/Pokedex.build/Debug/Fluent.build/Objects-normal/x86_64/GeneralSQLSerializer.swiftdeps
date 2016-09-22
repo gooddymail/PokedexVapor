@@ -9,23 +9,23 @@ provides-member:
 - ["C6Fluent20GeneralSQLSerializer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "+"
-- "+="
-- !private "Array"
-- "Limit"
-- "AssignmentPrecedence"
-- "Sort"
-- "Schema"
 - "GeneralSQLSerializer"
 - !private "!"
 - "Node"
-- "SQLSerializer"
+- "Sort"
 - "Union"
-- "String"
-- !private "StringLiteralType"
-- !private "UnicodeScalarType"
-- "SQL"
+- "AssignmentPrecedence"
 - "Filter"
+- "String"
+- !private "+"
+- "SQL"
+- "+="
+- !private "UnicodeScalarType"
+- "SQLSerializer"
+- "Schema"
+- "Limit"
+- !private "StringLiteralType"
+- !private "Array"
 depends-member:
 - !private ["Ps9AnyObject", "Array"]
 - ["Ps9AnyObject", "init"]

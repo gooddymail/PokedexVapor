@@ -7,18 +7,18 @@ provides-member:
 - ["P7Console15ConsoleProtocol", "center"]
 provides-dynamic-lookup:
 depends-top-level:
-- "UnicodeScalarType"
-- "Character"
-- !private ">"
-- "StringLiteralType"
-- "ExtendedGraphemeClusterType"
-- !private "..<"
-- !private "max"
-- "AssignmentPrecedence"
-- "ConsoleProtocol"
 - !private "-"
-- !private "/"
+- !private "..<"
+- "UnicodeScalarType"
+- "AssignmentPrecedence"
+- !private ">"
+- "Character"
 - "String"
+- !private "/"
+- !private "max"
+- "ExtendedGraphemeClusterType"
+- "StringLiteralType"
+- "ConsoleProtocol"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "characters"]

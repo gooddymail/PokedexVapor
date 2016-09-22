@@ -6,17 +6,17 @@ provides-member:
 - ["O5Vapor9Multipart", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Float"
-- "Polymorphic"
-- !private "StringLiteralType"
-- "Double"
-- "UInt"
 - !private "=="
-- "String"
-- "Int"
+- "Float"
 - "Bool"
-- "JSON"
+- "Polymorphic"
+- "Double"
+- "String"
 - "Multipart"
+- !private "StringLiteralType"
+- "Int"
+- "JSON"
+- "UInt"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "init"]

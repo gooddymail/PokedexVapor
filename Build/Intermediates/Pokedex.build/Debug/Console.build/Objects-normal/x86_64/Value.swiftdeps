@@ -9,14 +9,14 @@ provides-member:
 - ["P7Console7Command", "value"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Argument"
 - "Value"
 - "AssignmentPrecedence"
 - !private "=="
+- "Command"
+- "String"
 - "Polymorphic"
 - !private "ConsoleError"
-- "String"
-- "Command"
+- "Argument"
 depends-member:
 - ["P7Console8Argument", "help"]
 - ["P7Console8Argument", "name"]

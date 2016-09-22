@@ -5,9 +5,9 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "StringLiteralType"
-- "Dictionary"
 - "mediaTypes"
+- "Dictionary"
+- "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["P4HTTP17BodyRepresentable", "init"]

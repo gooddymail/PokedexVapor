@@ -8,12 +8,12 @@ provides-member:
 - ["C4HTTP7Request", "subject"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
+- "Request"
 - !private "AuthError"
-- "Subject"
+- "String"
 - "CastingPrecedence"
 - !private "StringLiteralType"
-- "Request"
+- "Subject"
 depends-member:
 - !private ["Ps9AnyObject", "AuthError"]
 - !private ["Ps9AnyObject", "authDetails"]

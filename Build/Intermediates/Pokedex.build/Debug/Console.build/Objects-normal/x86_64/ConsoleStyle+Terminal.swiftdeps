@@ -7,8 +7,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "ConsoleStyle"
-- "AssignmentPrecedence"
 - "ConsoleColor"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["O7Console12ConsoleColor", "cyan"]
 - ["O7Console12ConsoleColor", "deinit"]

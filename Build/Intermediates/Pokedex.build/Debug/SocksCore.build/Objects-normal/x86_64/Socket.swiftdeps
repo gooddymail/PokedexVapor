@@ -15,26 +15,26 @@ provides-member:
 - ["P9SocksCore6Socket", "createNewSocket"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Descriptor"
 - "Protocol"
 - !private "s_close"
-- !private "SocksError"
-- "SocketConfig"
 - "SocketType"
-- "AddressFamily"
 - "BooleanLiteralType"
-- "Bool"
+- "SocketConfig"
 - !private "IntegerLiteralType"
 - !private "s_socket"
-- "RawSocket"
-- !private "SO_REUSEADDR"
-- "Darwin"
 - !private "!="
-- "Socket"
+- "RawSocket"
+- "Darwin"
 - !private "FloatLiteralType"
-- !private "SOL_SOCKET"
+- "AddressFamily"
 - !private ">"
+- "Socket"
+- "Bool"
+- !private "SOL_SOCKET"
+- !private "SocksError"
+- !private "SO_REUSEADDR"
 - "AssignmentPrecedence"
+- "Descriptor"
 depends-member:
 - !private ["O9SocksCore13AddressFamily", "deinit"]
 - !private ["O9SocksCore13AddressFamily", "toCType"]

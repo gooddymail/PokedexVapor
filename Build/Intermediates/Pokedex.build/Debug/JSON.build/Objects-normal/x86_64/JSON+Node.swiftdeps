@@ -8,11 +8,11 @@ provides-member:
 - ["O4Node4Node", "toJSON"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "String"
 - "Node"
-- !private "Dictionary"
-- "Jay"
 - "AssignmentPrecedence"
+- "Jay"
+- !private "Dictionary"
+- !private "String"
 depends-member:
 - !private ["Sa", "Iterator"]
 - !private ["Sa", "_Element"]

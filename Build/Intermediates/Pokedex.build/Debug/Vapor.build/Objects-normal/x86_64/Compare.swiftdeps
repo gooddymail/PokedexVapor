@@ -7,16 +7,16 @@ provides-member:
 - ["O5Vapor7Compare", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private ">"
 - !private "=="
+- !private "&&"
 - "Validator"
-- "Validatable"
+- !private ">"
 - "Compare"
 - !private "<"
-- !private "&&"
-- "Comparable"
-- !private "<="
 - !private ">="
+- !private "<="
+- "Validatable"
+- "Comparable"
 depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]

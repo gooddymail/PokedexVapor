@@ -8,15 +8,15 @@ provides-member:
 - ["C5Vapor7Droplet", "parseTLSSignature"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- !private "~="
-- "TLS"
 - !private "BooleanLiteralType"
 - "Droplet"
-- "String"
-- "Polymorphic"
 - !private "StringLiteralType"
+- "AssignmentPrecedence"
+- "Polymorphic"
+- "TLS"
+- !private "~="
 - !private "??"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "TLS"]
 - !private ["Ps9AnyObject", "init"]

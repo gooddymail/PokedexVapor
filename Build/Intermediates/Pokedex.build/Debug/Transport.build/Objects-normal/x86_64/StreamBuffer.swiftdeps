@@ -7,22 +7,22 @@ provides-member:
 - ["C9Transport12StreamBuffer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "StreamBuffer"
 - "Double"
+- "AssignmentPrecedence"
 - "Bool"
+- "Bytes"
+- !private "..<"
+- "IndexingIterator"
+- "FloatLiteralType"
 - !private "Array"
 - "IntegerLiteralType"
 - "Byte"
-- "String"
-- "FloatLiteralType"
-- !private "..<"
+- "Int"
+- "StreamBuffer"
+- "Stream"
 - !private "+="
 - !private "!"
-- "Int"
-- "Stream"
-- "IndexingIterator"
-- "AssignmentPrecedence"
-- "Bytes"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "Bytes"]
 - ["Ps9AnyObject", "close"]

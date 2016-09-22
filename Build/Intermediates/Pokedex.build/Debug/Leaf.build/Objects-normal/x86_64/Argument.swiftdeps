@@ -8,9 +8,9 @@ provides-member:
 - ["O4Leaf8Argument", "value"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Argument"
-- "String"
 - "Node"
+- "String"
+- "Argument"
 depends-member:
 - ["O4Leaf8Argument", "Node"]
 - ["O4Leaf8Argument", "String"]

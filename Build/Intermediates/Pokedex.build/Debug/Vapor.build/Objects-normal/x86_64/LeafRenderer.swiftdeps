@@ -7,14 +7,14 @@ provides-member:
 - ["C5Vapor12LeafRenderer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "LeafRenderer"
-- "Node"
 - "AssignmentPrecedence"
 - "ViewRenderer"
+- "String"
 - !private "Context"
+- "LeafRenderer"
 - "View"
 - "Stem"
+- "Node"
 depends-member:
 - !private ["Ps9AnyObject", "Context"]
 - !private ["Ps9AnyObject", "Stem"]

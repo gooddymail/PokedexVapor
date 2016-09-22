@@ -6,11 +6,11 @@ provides-member:
 - ["Ps8Sequence", "percentDecodedString"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Byte"
+- "String"
+- !private "URIParser"
 - "Sequence"
 - !private "percentDecoded"
-- !private "URIParser"
-- "String"
+- "Byte"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Sa", "Iterator"]

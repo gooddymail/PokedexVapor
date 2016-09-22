@@ -8,13 +8,13 @@ provides-member:
 - ["P4HTTP14ServerProtocol", "start"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
+- "Int"
 - "ServerProtocol"
 - "SecurityLayer"
-- "Int"
-- "ServerErrorHandler"
 - "Program"
 - "Responder"
+- "String"
+- "ServerErrorHandler"
 depends-member:
 - ["Sq", "deinit"]
 - ["P4HTTP7Program", "Int"]

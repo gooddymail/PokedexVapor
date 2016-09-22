@@ -6,15 +6,15 @@ provides-member:
 - ["C4HTTP7Message", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "+="
-- "Message"
-- !private "Array"
-- !private "+"
-- !private "UnicodeScalarType"
-- "CustomStringConvertible"
 - !private "??"
-- !private "StringLiteralType"
+- !private "+="
+- "CustomStringConvertible"
+- !private "+"
+- "Message"
 - "String"
+- !private "UnicodeScalarType"
+- !private "StringLiteralType"
+- !private "Array"
 depends-member:
 - !private ["Ps9AnyObject", "body"]
 - ["Ps9AnyObject", "description"]

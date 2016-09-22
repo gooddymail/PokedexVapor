@@ -10,16 +10,16 @@ provides-member:
 - ["P7Routing12RouteBuilder", "collection"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Middleware"
-- "Droplet"
-- "RouteBuilder"
-- "EmptyInitializable"
-- "Responder"
 - "RouteCollection"
 - !private "Array"
-- "RouteGroup"
 - !private "Request"
+- "EmptyInitializable"
 - "String"
+- "RouteGroup"
+- "Droplet"
+- "Responder"
+- "Middleware"
+- "RouteBuilder"
 depends-member:
 - !private ["Ps9AnyObject", "Handler"]
 - ["Ps9AnyObject", "Value"]

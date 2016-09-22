@@ -7,9 +7,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "IOStream"
-- "FileHandle"
 - !private "Data"
 - "UInt8"
+- "FileHandle"
 depends-member:
 - !private ["Ps9AnyObject", "Data"]
 - !private ["Ps9AnyObject", "UInt8"]

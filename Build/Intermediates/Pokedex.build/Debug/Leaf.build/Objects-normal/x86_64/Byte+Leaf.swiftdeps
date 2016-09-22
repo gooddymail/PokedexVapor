@@ -12,8 +12,8 @@ provides-member:
 - ["Ps8Sequence", "whitespace"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Sequence"
 - "Byte"
+- "Sequence"
 - "UnicodeScalarType"
 - "StringLiteralType"
 - "Bytes"

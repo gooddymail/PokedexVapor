@@ -10,18 +10,18 @@ provides-member:
 - ["OC4Leaf8Variable5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "LeafError"
-- "Variable"
-- "Context"
-- "TagTemplate"
-- "=="
-- "Stem"
 - "Node"
-- !private "Array"
-- "Tag"
-- "StringLiteralType"
-- !private "TOKEN"
+- "Variable"
+- "=="
+- "Context"
 - "Argument"
+- !private "Array"
+- "Stem"
+- "StringLiteralType"
+- "Tag"
+- !private "TOKEN"
+- "LeafError"
+- "TagTemplate"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Ps9AnyObject", "TOKEN"]

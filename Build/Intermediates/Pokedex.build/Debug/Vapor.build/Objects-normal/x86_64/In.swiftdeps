@@ -7,15 +7,15 @@ provides-member:
 - ["V5Vapor2In", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Equatable"
-- "Validator"
-- "AssignmentPrecedence"
-- !private "=="
 - "In"
 - "Validatable"
+- !private "=="
+- "AssignmentPrecedence"
+- "Sequence"
+- "Validator"
+- "Equatable"
 - "Void"
 - "AnyIterator"
-- "Sequence"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Vs11AnyIterator", "Iterator"]

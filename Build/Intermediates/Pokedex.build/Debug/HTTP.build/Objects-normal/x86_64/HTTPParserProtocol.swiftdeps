@@ -7,9 +7,9 @@ provides-member:
 - ["P4HTTP14ParserProtocol", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Message"
-- "Stream"
 - "ParserProtocol"
+- "Stream"
+- "Message"
 depends-member:
 - ["P4HTTP14ParserProtocol", "Message"]
 - ["P4HTTP14ParserProtocol", "Stream"]

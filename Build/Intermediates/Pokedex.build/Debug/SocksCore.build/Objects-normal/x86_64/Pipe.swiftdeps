@@ -10,21 +10,21 @@ provides-member:
 - ["C9SocksCore20TCPEstablishedSocket", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "!="
+- !private "AF_LOCAL"
+- "TCPReadableSocket"
+- !private "TCPEstablishedReadableSocket"
+- "TCPWriteableSocket"
+- !private "IntegerLiteralType"
+- !private "Descriptor"
+- "Darwin"
+- !private "FloatLiteralType"
+- !private "SocketType"
+- !private "TCPEstablishedWriteableSocket"
+- !private "SocksError"
 - "TCPEstablishedSocket"
 - "socket_socketpair"
 - "Pipeable"
-- !private "SocksError"
-- !private "TCPEstablishedReadableSocket"
-- !private "SocketType"
-- "TCPReadableSocket"
-- !private "IntegerLiteralType"
-- "Darwin"
-- !private "FloatLiteralType"
-- "TCPWriteableSocket"
-- !private "Descriptor"
-- !private "!="
-- !private "TCPEstablishedWriteableSocket"
-- !private "AF_LOCAL"
 depends-member:
 - !private ["Ps9AnyObject", "AF_LOCAL"]
 - !private ["Ps9AnyObject", "SocketType"]

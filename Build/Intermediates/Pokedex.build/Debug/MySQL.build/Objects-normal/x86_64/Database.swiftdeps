@@ -7,21 +7,21 @@ provides-member:
 - ["C5MySQL8Database", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Lock"
-- "Node"
-- !private "mysql_server_init"
-- "StringLiteralType"
-- !private "mysql_server_end"
 - "Database"
+- !private "mysql_server_init"
 - "UInt"
+- !private "Error"
+- "StringLiteralType"
 - "String"
-- "Connection"
+- "Node"
 - "IntegerLiteralType"
 - "FloatLiteralType"
-- !private "Error"
+- "Lock"
 - "NodeRepresentable"
-- "AssignmentPrecedence"
 - "UInt32"
+- "Connection"
+- !private "mysql_server_end"
+- "AssignmentPrecedence"
 - !private "=="
 depends-member:
 - !private ["Ps9AnyObject", "Connection"]

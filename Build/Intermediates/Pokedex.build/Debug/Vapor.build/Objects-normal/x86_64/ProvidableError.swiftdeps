@@ -7,9 +7,9 @@ provides-member:
 - ["O5Vapor15ProvidableError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ProvidableError"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
+- "ProvidableError"
 - "Error"
 depends-member:
 - ["Ps5Error", "_code"]

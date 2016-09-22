@@ -7,10 +7,10 @@ provides-member:
 - ["V4JSON4JSON", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "JSON"
 - "Node"
 - "AssignmentPrecedence"
 - "NodeBacked"
+- "JSON"
 depends-member:
 - ["P4Core16BytesConvertible", "array"]
 - ["P4Core16BytesConvertible", "bool"]

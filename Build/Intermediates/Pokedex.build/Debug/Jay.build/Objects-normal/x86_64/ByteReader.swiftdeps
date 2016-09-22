@@ -7,20 +7,20 @@ provides-member:
 - ["C3Jay10ByteReader", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Reader"
-- "Array"
-- "String"
-- !private "StringLiteralType"
-- "ByteReader"
-- !private "BooleanLiteralType"
 - "JChar"
-- !private "IntegerLiteralType"
 - "Bool"
-- !private "FloatLiteralType"
-- !private "!"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- "Array"
 - !private "precondition"
-- "AssignmentPrecedence"
+- "Reader"
+- !private "IntegerLiteralType"
+- !private "!"
+- "ByteReader"
+- "String"
+- !private "FloatLiteralType"
 - !private "=="
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "chars"]
 - !private ["Ps9AnyObject", "content"]

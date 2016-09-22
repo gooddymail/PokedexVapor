@@ -10,14 +10,14 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "StringLiteralType"
-- "Request"
 - "User"
+- "Authorization"
+- !private "AuthError"
 - "BooleanLiteralType"
 - "Bool"
 - "Helper"
-- "Authorization"
 - "Credentials"
-- !private "AuthError"
+- "Request"
 - "CastingPrecedence"
 - "AssignmentPrecedence"
 depends-member:

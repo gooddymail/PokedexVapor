@@ -7,16 +7,16 @@ provides-member:
 - ["C8Sessions14MemorySessions", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Lock"
-- "Node"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
-- !private "CryptoRandom"
-- "String"
-- "MemorySessions"
-- !private "Dictionary"
-- "AssignmentPrecedence"
 - "SessionsProtocol"
+- "Lock"
+- "AssignmentPrecedence"
+- !private "Dictionary"
+- "String"
+- "Node"
+- "MemorySessions"
+- !private "CryptoRandom"
 depends-member:
 - !private ["Ps9AnyObject", "CryptoRandom"]
 - ["Ps9AnyObject", "Lock"]

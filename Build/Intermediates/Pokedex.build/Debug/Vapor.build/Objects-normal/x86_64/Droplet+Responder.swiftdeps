@@ -6,19 +6,19 @@ provides-member:
 - ["C5Vapor7Droplet", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "UnicodeScalarType"
+- !private "VERSION"
 - !private "=="
 - "AssignmentPrecedence"
-- !private "VERSION"
-- !private "ErrorView"
 - "Droplet"
+- !private "ErrorView"
+- "Request"
+- !private "Dictionary"
 - "Responder"
 - !private "Vapor"
 - !private "StringLiteralType"
-- !private "UnicodeScalarType"
-- "Response"
-- !private "Dictionary"
-- "Request"
 - !private "Array"
+- "Response"
 depends-member:
 - !private ["Ps9AnyObject", "ErrorView"]
 - !private ["Ps9AnyObject", "Response"]

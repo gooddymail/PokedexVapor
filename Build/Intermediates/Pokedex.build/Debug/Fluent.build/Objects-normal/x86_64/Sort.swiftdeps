@@ -12,15 +12,15 @@ provides-member:
 - ["P6Fluent18QueryRepresentable", "sort"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Query"
+- "QueryRepresentable"
+- "String"
+- !private "FloatLiteralType"
+- "Sort"
+- !private "IntegerLiteralType"
 - "AssignmentPrecedence"
 - "=="
-- "Query"
-- !private "IntegerLiteralType"
-- "QueryRepresentable"
-- "Sort"
-- !private "FloatLiteralType"
 - "Entity"
-- "String"
 depends-member:
 - !private ["Ps9AnyObject", "sorts"]
 - !private ["Sa", "Iterator"]

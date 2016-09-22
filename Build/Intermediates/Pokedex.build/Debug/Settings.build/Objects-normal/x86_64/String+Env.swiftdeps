@@ -6,12 +6,12 @@ provides-member:
 - ["SS", "hydratedEnv"]
 provides-dynamic-lookup:
 depends-top-level:
+- "String"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- !private "Env"
 - !private "??"
 - !private "UnicodeScalarType"
-- !private "StringLiteralType"
-- !private "Env"
-- !private "BooleanLiteralType"
-- "String"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "bytes"]

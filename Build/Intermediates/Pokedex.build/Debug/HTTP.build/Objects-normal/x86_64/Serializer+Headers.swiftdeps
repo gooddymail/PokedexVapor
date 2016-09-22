@@ -9,15 +9,15 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "String"
-- !private "!"
+- "Body"
 - "AssignmentPrecedence"
 - !private "=="
-- "HeaderKey"
-- "Body"
+- !private "!"
 - "KeyAccessible"
+- "HeaderKey"
+- "URI"
 - !private "StringLiteralType"
 - !private "+"
-- "URI"
 depends-member:
 - !private ["Ps9AnyObject", "hasSuffix"]
 - !private ["Ps9AnyObject", "init"]

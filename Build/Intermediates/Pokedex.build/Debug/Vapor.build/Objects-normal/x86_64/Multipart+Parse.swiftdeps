@@ -12,22 +12,22 @@ provides-member:
 - ["O5Vapor9Multipart", "parseMultipartStorage"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
+- !private "UnicodeScalarType"
 - "=="
 - "AssignmentPrecedence"
-- !private "ExtendedGraphemeClusterType"
-- !private "+"
-- "String"
+- "Bytes"
 - !private "FloatLiteralType"
+- !private "||"
 - !private "IntegerLiteralType"
 - !private "Array"
-- !private "||"
-- "Multipart"
-- !private "UnicodeScalarType"
+- "String"
+- !private "ExtendedGraphemeClusterType"
 - !private "BooleanLiteralType"
-- !private "StringLiteralType"
-- "Swift"
 - !private "Byte"
+- !private "StringLiteralType"
+- "Multipart"
+- "Swift"
+- !private "+"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "bytes"]

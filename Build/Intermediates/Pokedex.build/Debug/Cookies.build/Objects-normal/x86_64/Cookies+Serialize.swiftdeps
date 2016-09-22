@@ -13,10 +13,10 @@ depends-top-level:
 - !private "StringLiteralType"
 - "String"
 - "Cookies"
-- !private "UnicodeScalarType"
 - !private "IntegerLiteralType"
-- !private "!"
 - !private "FloatLiteralType"
+- !private "!"
+- !private "UnicodeScalarType"
 - "=="
 depends-member:
 - !private ["Ps9AnyObject", "init"]

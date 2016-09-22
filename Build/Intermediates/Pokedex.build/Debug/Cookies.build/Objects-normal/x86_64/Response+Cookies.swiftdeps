@@ -6,12 +6,12 @@ provides-member:
 - ["C4HTTP8Response", "cookies"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "Response"
-- "Cookies"
 - !private "print"
-- !private "Array"
+- !private "StringLiteralType"
+- "Cookies"
+- "Response"
 - "AssignmentPrecedence"
+- !private "Array"
 - "CastingPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "Cookies"]

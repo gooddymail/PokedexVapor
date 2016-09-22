@@ -8,18 +8,18 @@ provides-member:
 - ["V7Cookies6Cookie", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- "Cookie"
-- "String"
-- "StringLiteralType"
-- "BooleanLiteralType"
-- "Date"
-- "UnicodeScalarType"
 - "Bool"
 - "Hashable"
+- "UnicodeScalarType"
+- "Cookie"
 - "Equatable"
-- "AssignmentPrecedence"
 - "=="
+- "AssignmentPrecedence"
+- "Date"
+- "StringLiteralType"
+- "BooleanLiteralType"
+- "String"
+- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "hashValue"]
 - !private ["Ps9AnyObject", "init"]

@@ -10,15 +10,15 @@ provides-member:
 - ["O3TLS12Certificates", "mozilla"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
 - !private "StringLiteralType"
+- !private "+"
 - !private "UnicodeScalarType"
 - !private "BooleanLiteralType"
-- !private "+"
-- "Bool"
-- !private "ExtendedGraphemeClusterType"
+- "Bytes"
 - "String"
 - "Certificates"
+- "Bool"
+- !private "ExtendedGraphemeClusterType"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "characters"]

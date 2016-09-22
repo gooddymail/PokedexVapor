@@ -9,9 +9,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
-- "ConsoleColor"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
+- "ConsoleColor"
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Ps7CVarArg", "hashValue"]

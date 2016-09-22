@@ -7,18 +7,18 @@ provides-member:
 - ["V3Jay11ArrayParser", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Reader"
+- "Jay"
+- !private "JayError"
 - !private "ValueParser"
 - !private "Array"
-- "Reader"
 - "JSON"
-- "Jay"
-- !private "BooleanLiteralType"
-- !private "Const"
-- "JsonParser"
-- !private "JayError"
-- !private "~="
-- "ArrayParser"
 - !private "=="
+- !private "Const"
+- !private "~="
+- "JsonParser"
+- !private "BooleanLiteralType"
+- "ArrayParser"
 depends-member:
 - !private ["Sa", "Element"]
 - !private ["Sa", "Iterator"]

@@ -9,20 +9,20 @@ provides-member:
 - ["O3Jay4JSON", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "JChar"
-- !private "Bool"
-- "JsonFormattable"
-- !private ">"
-- !private "<<<"
-- "Formatter"
-- "TernaryPrecedence"
 - "JSON"
-- "String"
-- "JsonOutputStream"
+- !private ">"
+- !private "=="
 - !private "Const"
 - !private "Array"
-- !private "=="
+- "JsonOutputStream"
+- !private "<<<"
 - !private "<="
+- !private "Bool"
+- "TernaryPrecedence"
+- "Formatter"
+- !private "JChar"
+- "JsonFormattable"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "chars"]
 - !private ["Ps9AnyObject", "utf8"]

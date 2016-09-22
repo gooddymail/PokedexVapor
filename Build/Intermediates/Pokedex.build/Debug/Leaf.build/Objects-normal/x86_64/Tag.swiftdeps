@@ -13,17 +13,17 @@ provides-member:
 - ["P4Leaf3Tag", "render"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Tag"
 - "Bool"
+- "String"
+- "Bytes"
 - "Node"
 - "Stem"
-- "String"
-- "Leaf"
 - "TagTemplate"
-- "Tag"
 - "Context"
 - !private "!="
-- "Bytes"
 - "Argument"
+- "Leaf"
 depends-member:
 - !private ["Ps9AnyObject", "makeArguments"]
 - !private ["Ps9AnyObject", "render"]

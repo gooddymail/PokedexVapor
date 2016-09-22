@@ -1,0 +1,13 @@
+#extend("base")
+
+#export("head") {
+  <title>Pokemon</title>
+}
+
+#export("body") {
+<center>
+  <h1>#(name)</h1>
+
+  <p>Caught on #(date)</p>
+</center>
+}

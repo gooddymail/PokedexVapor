@@ -7,9 +7,9 @@ provides-member:
 - ["P4HTTP9Responder", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Response"
 - "Request"
 - "Responder"
+- "Response"
 depends-member:
 - ["P4HTTP9Responder", "Request"]
 - ["P4HTTP9Responder", "Response"]

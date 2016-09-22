@@ -8,12 +8,12 @@ provides-member:
 - ["C4Hash4Hash", "random"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
-- "Random"
 - !private "CryptoRandom"
-- !private "IntegerLiteralType"
 - !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "Hash"
+- "Random"
+- "Bytes"
 depends-member:
 - !private ["Ps9AnyObject", "CryptoRandom"]
 - !private ["Ps9AnyObject", "Hash"]

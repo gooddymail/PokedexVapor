@@ -10,17 +10,17 @@ provides-member:
 - ["C5Cache11FluentCache", "Entity"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Context"
 - "AssignmentPrecedence"
-- "Database"
-- !private "Dictionary"
-- !private "Query"
-- "Node"
 - "CacheProtocol"
-- "String"
+- "Node"
+- !private "Query"
 - "FluentCache"
 - "Fluent"
 - "StringLiteralType"
-- "Context"
+- "String"
+- !private "Dictionary"
+- "Database"
 depends-member:
 - !private ["Ps9AnyObject", "Entity"]
 - !private ["Ps9AnyObject", "Node"]

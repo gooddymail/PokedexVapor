@@ -7,24 +7,24 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Descriptor"
-- "Bool"
-- "AssignmentPrecedence"
-- !private "~="
-- !private "FloatLiteralType"
-- !private "/"
-- !private "IntegerLiteralType"
-- !private "Int32"
-- !private "|"
-- !private "!="
 - "fdZero"
 - "fd_set"
 - !private "&"
 - "fdIsSet"
-- !private "<<"
-- !private "BooleanLiteralType"
+- !private "/"
+- "Descriptor"
 - "fdSet"
+- !private "Int32"
+- !private "BooleanLiteralType"
+- !private "<<"
+- !private "IntegerLiteralType"
 - !private "%"
+- !private "FloatLiteralType"
+- !private "~="
+- !private "|"
+- "AssignmentPrecedence"
+- !private "!="
+- "Bool"
 depends-member:
 - !private ["Ps17BitwiseOperations", "Stride"]
 - !private ["Ps17BitwiseOperations", "init"]

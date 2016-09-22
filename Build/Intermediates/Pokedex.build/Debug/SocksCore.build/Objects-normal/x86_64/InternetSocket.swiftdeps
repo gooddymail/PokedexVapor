@@ -8,17 +8,17 @@ provides-member:
 - ["P9SocksCore14InternetSocket", "bind"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "socket_bind"
-- "Descriptor"
-- "SocketConfig"
-- !private "SocksError"
-- "InternetSocket"
-- !private "FloatLiteralType"
-- "Darwin"
-- !private "IntegerLiteralType"
-- "ResolvedInternetAddress"
 - "Socket"
+- "SocketConfig"
+- !private "IntegerLiteralType"
 - !private ">"
+- "Darwin"
+- !private "FloatLiteralType"
+- "InternetSocket"
+- "Descriptor"
+- !private "socket_bind"
+- "ResolvedInternetAddress"
+- !private "SocksError"
 depends-member:
 - !private ["Ps9AnyObject", "raw"]
 - !private ["Ps9AnyObject", "rawLen"]

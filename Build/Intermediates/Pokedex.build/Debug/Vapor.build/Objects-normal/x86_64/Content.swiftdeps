@@ -14,14 +14,14 @@ provides-member:
 - ["C5Vapor7Content", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "PathIndex"
-- "Void"
-- "RequestContentSubscript"
 - "PathIndexable"
-- "Content"
 - "String"
-- "Polymorphic"
+- "Content"
+- "RequestContentSubscript"
+- "Void"
+- "PathIndex"
 - "Int"
+- "Polymorphic"
 depends-member:
 - !private ["Ps9AnyObject", "content"]
 - !private ["Ps9AnyObject", "subscript"]

@@ -6,16 +6,16 @@ provides-member:
 - ["V4HTTP7Version", "makeParsed"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "FloatLiteralType"
-- "Version"
-- !private "IntegerLiteralType"
-- !private "Int"
-- !private "=="
-- "Byte"
 - !private ">"
 - !private "Parser"
+- !private "Int"
+- !private "=="
+- !private "IntegerLiteralType"
 - "Sequence"
+- !private "FloatLiteralType"
+- "Byte"
 - !private "BooleanLiteralType"
+- "Version"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "Error"]

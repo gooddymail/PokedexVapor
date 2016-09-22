@@ -8,15 +8,15 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "SMTPClient"
-- !private "??"
 - !private "SMTPClientError"
 - "Bool"
-- !private "!="
+- !private "??"
 - "AssignmentPrecedence"
 - !private "=="
-- "Int"
 - "String"
+- !private "!="
 - !private "!"
+- "Int"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "SMTPClientError"]

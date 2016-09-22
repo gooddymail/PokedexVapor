@@ -7,16 +7,16 @@ provides-member:
 - ["P7Console7Command", "printSignatureHelp"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Command"
-- "AssignmentPrecedence"
+- "String"
 - !private "UnicodeScalarType"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- !private "!="
+- "Command"
 - !private "..<"
 - !private "-"
+- "AssignmentPrecedence"
 - !private ">"
-- !private "BooleanLiteralType"
-- !private "StringLiteralType"
-- !private "!="
-- "String"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "init"]

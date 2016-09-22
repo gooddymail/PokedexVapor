@@ -6,11 +6,11 @@ provides-member:
 - ["Ps8Sequence", "load"]
 provides-dynamic-lookup:
 depends-top-level:
+- "String"
+- "Sequence"
 - !private "DataFile"
 - "Byte"
-- "String"
 - "Bytes"
-- "Sequence"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "load"]

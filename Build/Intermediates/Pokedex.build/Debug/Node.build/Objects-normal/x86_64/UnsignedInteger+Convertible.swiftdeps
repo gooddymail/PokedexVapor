@@ -17,18 +17,18 @@ provides-member:
 - ["Ps15UnsignedInteger", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "UInt8"
-- !private "NodeError"
 - "UnsignedInteger"
+- !private "NodeError"
+- "UInt8"
 - "UInt16"
-- "NodeConvertible"
 - !private "EmptyNode"
-- "Context"
-- "UInt32"
 - !private "StringLiteralType"
+- "UInt32"
+- "Context"
+- "NodeConvertible"
+- "Node"
 - "UInt64"
 - "UInt"
-- "Node"
 depends-member:
 - ["Ps17BitwiseOperations", "Context"]
 - !private ["Ps17BitwiseOperations", "EmptyNode"]

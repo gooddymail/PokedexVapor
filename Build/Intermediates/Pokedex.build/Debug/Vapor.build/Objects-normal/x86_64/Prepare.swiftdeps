@@ -7,25 +7,25 @@ provides-member:
 - ["V5Vapor7Prepare", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Database"
-- "Command"
-- "ConsoleProtocol"
+- "Option"
 - !private "=="
-- "String"
-- "Preparation"
 - "AssignmentPrecedence"
+- "Argument"
 - !private ">"
 - !private "PreparationError"
-- !private "print"
+- "String"
+- !private "!"
+- "Preparation"
 - !private "CommandError"
-- "Prepare"
+- "Command"
+- !private "print"
 - !private "Schema"
 - !private "BooleanLiteralType"
 - !private "Bool"
-- !private "!"
+- "Database"
+- "Prepare"
 - "StringLiteralType"
-- "Option"
-- "Argument"
+- "ConsoleProtocol"
 depends-member:
 - !private ["Ps9AnyObject", "driver"]
 - !private ["Ps9AnyObject", "hasPrepared"]

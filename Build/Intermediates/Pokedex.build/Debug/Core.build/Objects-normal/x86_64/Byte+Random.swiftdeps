@@ -6,9 +6,9 @@ provides-member:
 - ["Vs5UInt8", "random"]
 provides-dynamic-lookup:
 depends-top-level:
+- "UInt8"
 - !private "UInt32"
 - !private "arc4random_uniform"
-- "UInt8"
 depends-member:
 - !private ["Ps17BitwiseOperations", "UInt32"]
 - !private ["Ps17BitwiseOperations", "UInt8"]

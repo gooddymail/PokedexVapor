@@ -7,10 +7,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "CastingPrecedence"
-- "JSON"
 - "AssignmentPrecedence"
-- !private "Body"
 - "Message"
+- "JSON"
+- !private "Body"
 - !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Body"]

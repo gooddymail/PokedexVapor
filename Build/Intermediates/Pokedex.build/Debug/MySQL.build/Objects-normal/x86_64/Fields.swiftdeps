@@ -11,18 +11,18 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Swift"
-- !private "mysql_fetch_fields"
-- "MYSQL_RES"
-- !private "Int"
-- !private "IntegerLiteralType"
-- "UnsafeMutablePointer"
-- "Field"
-- !private "FloatLiteralType"
-- !private "..<"
-- !private "mysql_num_fields"
 - "Fields"
-- "AssignmentPrecedence"
+- "Field"
+- !private "mysql_fetch_fields"
+- !private "..<"
+- !private "IntegerLiteralType"
+- !private "mysql_num_fields"
+- !private "FloatLiteralType"
+- !private "Int"
+- "UnsafeMutablePointer"
+- "MYSQL_RES"
 - "=="
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Ps9AnyObject", "Field"]

@@ -9,21 +9,21 @@ provides-member:
 - ["Vs9Character", "isWhitespace"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Polymorphic"
-- "Int"
-- !private "BooleanLiteralType"
-- !private "ExtendedGraphemeClusterType"
-- "String"
-- "Double"
 - "Float"
-- !private "StringLiteralType"
 - "UInt"
-- !private "UnicodeScalarType"
-- "Character"
+- "String"
+- "Int"
 - !private "~="
-- !private "=="
-- !private "CastingPrecedence"
 - "Bool"
+- !private "CastingPrecedence"
+- !private "=="
+- "Double"
+- !private "UnicodeScalarType"
+- !private "ExtendedGraphemeClusterType"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- "Polymorphic"
+- "Character"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Vs11AnyIterator", "Element"]

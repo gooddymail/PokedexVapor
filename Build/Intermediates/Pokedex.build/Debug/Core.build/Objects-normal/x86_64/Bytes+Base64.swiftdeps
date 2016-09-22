@@ -9,14 +9,14 @@ provides-member:
 - ["SS", "base64DecodedString"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "String"
 - !private "NSData"
-- !private "Array"
-- "Byte"
-- "Bytes"
-- !private "Data"
 - "Sequence"
+- "Bytes"
+- "Byte"
+- "String"
+- !private "Data"
+- !private "StringLiteralType"
+- !private "Array"
 depends-member:
 - !private ["Ps9AnyObject", "getBytes"]
 - !private ["Ps9AnyObject", "init"]

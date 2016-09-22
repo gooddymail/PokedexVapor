@@ -11,10 +11,10 @@ provides-member:
 - ["SS", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- "StringInitializable"
-- "Int"
 - "String"
+- "AssignmentPrecedence"
+- "Int"
+- "StringInitializable"
 depends-member:
 - !private ["Ps17BitwiseOperations", "Int"]
 - ["Ps17BitwiseOperations", "init"]

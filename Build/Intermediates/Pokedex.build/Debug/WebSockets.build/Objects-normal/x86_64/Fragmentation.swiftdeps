@@ -11,16 +11,16 @@ provides-member:
 - ["C10WebSockets9WebSocket", "FragmentAggregator"]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
-- "AssignmentPrecedence"
-- !private "FloatLiteralType"
 - !private "Array"
+- "Swift"
+- !private "BooleanLiteralType"
 - !private "IntegerLiteralType"
 - "WebSocket"
-- !private "BooleanLiteralType"
-- "Swift"
 - "Bool"
+- !private "FloatLiteralType"
 - "Bytes"
+- "AssignmentPrecedence"
+- "=="
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - ["Ps9AnyObject", "OpCode"]

@@ -6,16 +6,16 @@ provides-member:
 - ["O4Node4Node", "makeCLIConfig"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "AssignmentPrecedence"
+- !private "ExtendedGraphemeClusterType"
+- "Node"
+- !private "UnicodeScalarType"
+- !private "??"
+- "String"
+- !private "BooleanLiteralType"
 - "Dictionary"
 - !private "StringLiteralType"
-- !private "ExtendedGraphemeClusterType"
-- !private "UnicodeScalarType"
-- !private "BooleanLiteralType"
-- !private "??"
-- "Node"
 - !private "CommandLine"
-- !private "AssignmentPrecedence"
-- "String"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Key"]
 - !private ["Vs11AnyIterator", "Element"]

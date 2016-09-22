@@ -8,15 +8,15 @@ provides-member:
 - ["P5Vapor8Provider", "name"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Array"
-- !private "ExtendedGraphemeClusterType"
+- "ConfigInitializable"
+- "Provider"
 - "Droplet"
 - !private "UnicodeScalarType"
-- "Providable"
-- "ConfigInitializable"
-- !private "StringLiteralType"
-- "Provider"
 - "String"
+- "Providable"
+- !private "Array"
+- !private "ExtendedGraphemeClusterType"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "init"]

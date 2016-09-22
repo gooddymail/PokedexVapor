@@ -9,10 +9,10 @@ provides-member:
 - ["C4Hash4Hash", "Method"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Hash"
 - "=="
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
-- "Hash"
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Ps7CVarArg", "hashValue"]

@@ -7,25 +7,25 @@ provides-member:
 - ["C4SMTP10SMTPClient", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "SecurityLayer"
-- !private "StreamBuffer"
 - "EHLOExtension"
+- "SecurityLayer"
 - "SMTPClient"
 - !private "=="
 - "AssignmentPrecedence"
-- "Void"
 - !private "SMTPClientError"
 - "ProgramStream"
-- !private "StringLiteralType"
 - "Int"
-- !private "&&"
-- "SMTPGreeting"
-- "String"
 - "Transport"
+- "Void"
+- !private "StreamBuffer"
+- !private "!"
+- "SMTPGreeting"
+- !private "StringLiteralType"
+- "String"
+- !private "&&"
+- "ClientStream"
 - "SMTPCredentials"
 - !private "SMTPAuthMethod"
-- "ClientStream"
-- !private "!"
 depends-member:
 - !private ["Ps9AnyObject", "ClientStreamType"]
 - !private ["Ps9AnyObject", "EHLOExtension"]

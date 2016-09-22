@@ -7,20 +7,20 @@ provides-member:
 - ["C5Vapor15AbortMiddleware", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Response"
-- !private "BooleanLiteralType"
-- "Request"
+- "Responder"
 - !private "JSON"
-- "String"
-- !private "StringLiteralType"
+- "Status"
+- !private "ErrorView"
 - !private "Dictionary"
 - "AssignmentPrecedence"
-- !private "ErrorView"
-- "Responder"
-- "AbortMiddleware"
-- !private "Abort"
+- "String"
+- "Request"
 - "Middleware"
-- "Status"
+- "Response"
+- "AbortMiddleware"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- !private "Abort"
 depends-member:
 - ["O5Vapor5Abort", "badRequest"]
 - ["O5Vapor5Abort", "custom"]

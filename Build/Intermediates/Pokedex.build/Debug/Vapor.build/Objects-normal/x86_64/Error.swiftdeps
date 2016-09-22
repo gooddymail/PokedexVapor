@@ -15,16 +15,16 @@ provides-member:
 - ["P5Vapor9Validator", "error"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "UnicodeScalarType"
 - "AssignmentPrecedence"
-- "ValidationErrorProtocol"
-- "String"
 - "Validator"
 - "ValidationError"
-- !private "??"
-- !private "StringLiteralType"
-- "CustomStringConvertible"
+- "String"
 - "CustomDebugStringConvertible"
+- !private "UnicodeScalarType"
+- "CustomStringConvertible"
+- "ValidationErrorProtocol"
+- !private "StringLiteralType"
+- !private "??"
 - "Swift"
 depends-member:
 - !private ["Ps9AnyObject", "ValidatorType"]

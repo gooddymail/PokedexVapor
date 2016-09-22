@@ -11,9 +11,9 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "AssignmentPrecedence"
 - "Validator"
+- "ValidationSuite"
 - "Not"
 - !private "Void"
-- "ValidationSuite"
 depends-member:
 - !private ["Ps5Error", "deinit"]
 - ["V5Vapor3Not", "InputType"]

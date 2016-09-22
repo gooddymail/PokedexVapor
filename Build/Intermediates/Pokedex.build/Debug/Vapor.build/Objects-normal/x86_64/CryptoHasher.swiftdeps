@@ -12,14 +12,14 @@ provides-member:
 - ["OC4HMAC4HMAC6Method", "hashMethod"]
 provides-dynamic-lookup:
 depends-top-level:
-- "HMAC"
 - "=="
 - "AssignmentPrecedence"
-- "CryptoHasher"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
-- "Hash"
+- "HMAC"
 - "Bytes"
+- !private "FloatLiteralType"
+- "Hash"
+- "CryptoHasher"
+- !private "IntegerLiteralType"
 - "HashProtocol"
 - "Swift"
 depends-member:

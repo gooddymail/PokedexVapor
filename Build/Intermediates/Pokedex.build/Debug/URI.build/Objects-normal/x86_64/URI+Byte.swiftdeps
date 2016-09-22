@@ -11,13 +11,13 @@ provides-member:
 - ["Vs5UInt8", "isUnreservedUriCharacter"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "=="
-- !private "..."
-- "Byte"
 - !private "~="
-- !private "BooleanLiteralType"
+- !private "=="
 - !private "||"
 - "Bool"
+- !private "..."
+- !private "BooleanLiteralType"
+- "Byte"
 depends-member:
 - !private ["Sa", "Iterator"]
 - !private ["Sa", "_Element"]

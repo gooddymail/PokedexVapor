@@ -12,14 +12,14 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Tag"
-- "Leaf"
 - "String"
-- !private "UnicodeScalarType"
-- "defaultTags"
-- !private "StringLiteralType"
-- "Dictionary"
 - "AssignmentPrecedence"
+- "defaultTags"
+- !private "UnicodeScalarType"
 - "Stem"
+- "Dictionary"
+- "Leaf"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "cache"]
 - ["Ps9AnyObject", "defaultTags"]

@@ -9,11 +9,11 @@ provides-member:
 - ["C10WebSockets9WebSocket", "FormatError"]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
-- !private "IntegerLiteralType"
-- !private "FloatLiteralType"
 - "Swift"
 - "WebSocket"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- "=="
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Ps7CVarArg", "hashValue"]

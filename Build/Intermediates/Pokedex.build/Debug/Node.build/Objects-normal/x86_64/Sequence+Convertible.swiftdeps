@@ -26,22 +26,22 @@ provides-member:
 - ["Ps8Sequence", "set"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Hashable"
-- "String"
-- !private "??"
-- !private "StringLiteralType"
-- "NodeRepresentable"
-- "Array"
-- "Node"
-- "Set"
-- "NodeInitializable"
-- "Context"
 - !private "EmptyNode"
-- "Sequence"
+- "Set"
+- "Context"
 - "Dictionary"
-- "KeyAccessible"
-- "AssignmentPrecedence"
+- "Node"
+- !private "StringLiteralType"
 - !private "NodeError"
+- "AssignmentPrecedence"
+- !private "??"
+- "NodeRepresentable"
+- "Hashable"
+- "NodeInitializable"
+- "String"
+- "Array"
+- "KeyAccessible"
+- "Sequence"
 depends-member:
 - ["Sa", "Context"]
 - !private ["Sa", "Element"]

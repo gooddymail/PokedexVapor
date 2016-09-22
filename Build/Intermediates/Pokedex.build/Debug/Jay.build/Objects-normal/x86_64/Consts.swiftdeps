@@ -10,14 +10,14 @@ provides-member:
 - ["V3Jay10StartChars", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Array"
 - "Dictionary"
-- "Set"
-- "Const"
-- "JChar"
-- "StartChars"
-- "..."
 - "StringLiteralType"
+- "StartChars"
+- "Set"
+- "Array"
+- "JChar"
+- "..."
+- "Const"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Sa", "Element"]

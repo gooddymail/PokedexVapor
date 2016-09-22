@@ -7,11 +7,11 @@ provides-member:
 - ["V5Vapor16OnlyAlphanumeric", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "OnlyAlphanumeric"
+- "ValidationSuite"
 - "String"
 - "StringLiteralType"
 - !private "!="
-- "ValidationSuite"
-- "OnlyAlphanumeric"
 depends-member:
 - ["Ps9AnyObject", "characters"]
 - ["Ps9AnyObject", "init"]

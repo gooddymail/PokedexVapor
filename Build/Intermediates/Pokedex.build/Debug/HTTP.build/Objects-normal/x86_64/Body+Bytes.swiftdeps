@@ -9,13 +9,13 @@ provides-member:
 - ["O4HTTP4Body", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- "Byte"
-- "Sequence"
-- "Body"
 - "Bytes"
-- "ExpressibleByArrayLiteral"
+- "Body"
+- "AssignmentPrecedence"
 - "String"
+- "Sequence"
+- "ExpressibleByArrayLiteral"
+- "Byte"
 depends-member:
 - !private ["Ps9AnyObject", "bytes"]
 - !private ["Sa", "Iterator"]

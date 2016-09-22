@@ -8,11 +8,11 @@ provides-member:
 - ["O6Fluent13RelationError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
-- !private "IntegerLiteralType"
 - "RelationError"
-- !private "FloatLiteralType"
 - "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "=="
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Ps7CVarArg", "hashValue"]

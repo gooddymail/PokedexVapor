@@ -7,11 +7,11 @@ provides-member:
 - ["V5Vapor7Matches", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Equatable"
 - !private "=="
 - "AssignmentPrecedence"
-- "Validator"
 - "Validatable"
+- "Validator"
+- "Equatable"
 - "Matches"
 depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]

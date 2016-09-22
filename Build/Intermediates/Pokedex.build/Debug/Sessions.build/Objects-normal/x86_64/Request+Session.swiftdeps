@@ -6,10 +6,10 @@ provides-member:
 - ["C4HTTP7Request", "session"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- !private "SessionsError"
 - "Session"
+- !private "StringLiteralType"
 - "Request"
+- !private "SessionsError"
 - "CastingPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "SessionsError"]

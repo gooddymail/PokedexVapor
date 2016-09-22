@@ -6,14 +6,14 @@ provides-member:
 - ["Sb", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "NodeError"
 - !private "StringLiteralType"
 - "Node"
 - "NodeConvertible"
+- !private "EmptyNode"
 - "Bool"
 - "Context"
-- !private "NodeError"
 - "AssignmentPrecedence"
-- !private "EmptyNode"
 depends-member:
 - !private ["Sb", "Bool"]
 - ["Sb", "Context"]

@@ -8,15 +8,15 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
-- !private "+"
-- !private "+="
-- !private "URIParser"
-- "CustomStringConvertible"
-- "String"
-- "URI"
-- !private "StringLiteralType"
 - !private "!"
+- "String"
+- !private "+"
+- "URI"
+- !private "URIParser"
 - !private "UnicodeScalarType"
+- !private "+="
+- !private "StringLiteralType"
+- "CustomStringConvertible"
 depends-member:
 - !private ["Ps9AnyObject", "begin"]
 - !private ["Ps9AnyObject", "hasPrefix"]

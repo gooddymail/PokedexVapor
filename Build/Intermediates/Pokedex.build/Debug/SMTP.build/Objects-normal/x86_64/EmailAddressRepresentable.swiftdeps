@@ -11,9 +11,9 @@ provides-member:
 - ["SS", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "EmailAddressRepresentable"
 - "EmailAddress"
 - "String"
+- "EmailAddressRepresentable"
 depends-member:
 - !private ["P4Core16BytesConvertible", "EmailAddress"]
 - ["P4Core16BytesConvertible", "emailAddress"]

@@ -6,12 +6,12 @@ provides-member:
 - ["V4JSON4JSON", "serialize"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Jay"
-- "Bytes"
 - "TernaryPrecedence"
-- "BooleanLiteralType"
-- "JSON"
+- "Bytes"
 - "Bool"
+- !private "Jay"
+- "JSON"
+- "BooleanLiteralType"
 depends-member:
 - ["Sa", "deinit"]
 - !private ["Sb", "_getBuiltinLogicValue"]

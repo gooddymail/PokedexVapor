@@ -7,13 +7,13 @@ provides-member:
 - ["C4Leaf5Index", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "BasicTag"
-- "Node"
-- !private "=="
 - "Argument"
-- "StringLiteralType"
-- "Index"
+- !private "=="
 - !private "<"
+- "BasicTag"
+- "Index"
+- "Node"
+- "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "compileBody"]
 - ["Ps9AnyObject", "init"]

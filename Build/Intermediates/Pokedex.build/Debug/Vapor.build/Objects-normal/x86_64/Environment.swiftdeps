@@ -12,15 +12,15 @@ provides-member:
 - ["Ps8Sequence", "value"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Equatable"
+- "Sequence"
+- "=="
+- "AssignmentPrecedence"
 - !private "~="
 - "Environment"
-- "AssignmentPrecedence"
-- "=="
-- !private "UnicodeScalarType"
-- "Sequence"
 - "CustomStringConvertible"
 - "CommandLine"
-- "Equatable"
+- !private "UnicodeScalarType"
 - "String"
 - !private "StringLiteralType"
 - "Bool"

@@ -7,8 +7,8 @@ provides-member:
 - ["O8Settings6Source", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
 - "String"
+- "Node"
 - "Source"
 depends-member:
 - ["O8Settings6Source", "Node"]

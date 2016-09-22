@@ -11,11 +11,11 @@ provides-member:
 - ["V5Vapor6Either", "init"]
 provides-dynamic-lookup:
 depends-top-level:
+- "ValidationSuite"
 - !private "AssignmentPrecedence"
-- "Validator"
 - "Either"
 - !private "Void"
-- "ValidationSuite"
+- "Validator"
 depends-member:
 - ["V5Vapor6Either", "InputType"]
 - ["V5Vapor6Either", "U"]

@@ -7,19 +7,19 @@ provides-member:
 - ["C7Routing6Router", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Dictionary"
+- "Branch"
 - !private "??"
+- !private "StringLiteralType"
+- "Dictionary"
+- !private "!"
+- "Host"
+- !private "UnicodeScalarType"
+- !private "Array"
 - "String"
 - "Method"
-- "AssignmentPrecedence"
-- !private "UnicodeScalarType"
-- "Host"
-- "ParametersContainer"
-- !private "StringLiteralType"
-- !private "Array"
-- !private "!"
-- "Branch"
 - "Router"
+- "AssignmentPrecedence"
+- "ParametersContainer"
 depends-member:
 - !private ["Ps9AnyObject", "Array"]
 - !private ["Ps9AnyObject", "Branch"]

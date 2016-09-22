@@ -9,15 +9,15 @@ provides-member:
 - ["P7Console15ConsoleProtocol", "printHelp"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ConsoleProtocol"
 - "Runnable"
-- "Group"
+- !private "UnicodeScalarType"
 - "String"
 - "Command"
-- !private "UnicodeScalarType"
+- "ConsoleProtocol"
 - !private "BooleanLiteralType"
-- !private "StringLiteralType"
 - !private ">"
+- "Group"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "help"]
 - !private ["Ps9AnyObject", "init"]

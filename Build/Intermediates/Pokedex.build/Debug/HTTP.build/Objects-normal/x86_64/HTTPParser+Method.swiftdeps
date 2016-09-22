@@ -6,20 +6,20 @@ provides-member:
 - ["O4HTTP6Method", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
-- !private "POST"
-- !private "PUT"
-- "AssignmentPrecedence"
-- !private "~="
-- !private "CONNECT"
 - !private "TRACE"
-- !private "OPTIONS"
 - !private "PATCH"
-- "Method"
-- !private "HEAD"
+- !private "OPTIONS"
+- "AssignmentPrecedence"
+- !private "CONNECT"
+- !private "PUT"
 - !private "GET"
+- !private "~="
+- "Method"
 - "StringLiteralType"
+- "Bytes"
 - !private "DELETE"
+- !private "POST"
+- !private "HEAD"
 depends-member:
 - ["Ps9AnyObject", "bytes"]
 - ["Ps9AnyObject", "init"]

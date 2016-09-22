@@ -7,17 +7,17 @@ provides-member:
 - ["C5Socks20SynchronousUDPServer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "BooleanLiteralType"
-- !private "UDPInternetSocket"
-- "UInt8"
-- "Bool"
-- "UDPClient"
-- "InternetAddress"
-- "UInt16"
-- "Never"
-- "AssignmentPrecedence"
-- "SynchronousUDPServer"
 - "TernaryPrecedence"
+- "SynchronousUDPServer"
+- "Bool"
+- "AssignmentPrecedence"
+- "InternetAddress"
+- "UDPClient"
+- "UInt16"
+- !private "UDPInternetSocket"
+- "Never"
+- "UInt8"
+- "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "UDPClient"]
 - !private ["Ps9AnyObject", "UDPInternetSocket"]

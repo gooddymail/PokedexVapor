@@ -6,11 +6,11 @@ provides-member:
 - ["SS", "trim"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ExtendedGraphemeClusterType"
-- "String"
-- "Character"
-- "StringLiteralType"
 - "UnicodeScalarType"
+- "String"
+- "ExtendedGraphemeClusterType"
+- "StringLiteralType"
+- "Character"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "endIndex"]

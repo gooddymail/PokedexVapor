@@ -8,11 +8,11 @@ provides-member:
 - ["V4Auth10Identifier", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
 - "NodeRepresentable"
-- "Credentials"
-- "AssignmentPrecedence"
 - "Identifier"
+- "Node"
+- "AssignmentPrecedence"
+- "Credentials"
 depends-member:
 - !private ["P9Turnstile11Credentials", "id"]
 - !private ["P9Turnstile11Credentials", "init"]

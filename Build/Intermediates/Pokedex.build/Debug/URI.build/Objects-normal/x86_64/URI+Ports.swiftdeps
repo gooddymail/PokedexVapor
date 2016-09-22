@@ -7,11 +7,11 @@ provides-member:
 - ["V3URI3URI", "defaultPort"]
 provides-dynamic-lookup:
 depends-top-level:
+- "IntegerLiteralType"
 - "Int"
 - "URI"
-- "StringLiteralType"
 - "Dictionary"
-- "IntegerLiteralType"
+- "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["P4Core16BytesConvertible", "init"]

@@ -7,11 +7,11 @@ provides-member:
 - ["C5Vapor5Event", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- !private "!=="
 - "Subscription"
-- "Void"
 - "Event"
+- "Void"
+- !private "!=="
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "Holder"]
 - !private ["Ps9AnyObject", "Subscription"]

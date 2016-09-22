@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
 options: "dd7dd3db363eda657a12570babd47423"
-build_time: [527770039, 325451000]
+build_time: [527852484, 647905000]
 inputs:
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLDriver.swift": [527764800, 0]
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLSerializer.swift": [527764800, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLDriver.swift": [527852236, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLSerializer.swift": [527852236, 0]

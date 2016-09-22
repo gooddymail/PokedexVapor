@@ -6,12 +6,12 @@ provides-member:
 - ["C4HTTP7Request", "multipart"]
 provides-dynamic-lookup:
 depends-top-level:
-- "CastingPrecedence"
-- "Request"
-- "AssignmentPrecedence"
-- "String"
-- !private "StringLiteralType"
 - "Multipart"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "String"
+- "Request"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Multipart"]
 - !private ["Ps9AnyObject", "body"]

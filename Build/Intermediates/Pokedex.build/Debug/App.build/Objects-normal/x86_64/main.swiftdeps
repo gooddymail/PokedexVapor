@@ -1,41 +1,69 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "mysql"
+- "version"
 - "drop"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "mysql"
+- "??"
+- "JSON"
+- "Node"
+- "version"
 - "drop"
 - "Droplet"
-- "Dictionary"
-- "StringLiteralType"
-- "Array"
 - "PostController"
-- "??"
-- "Abort"
 - "VaporMySQL"
-- "Node"
+- "print"
+- "StringLiteralType"
+- "Pokemon"
+- "Abort"
+- "Dictionary"
+- "UnicodeScalarType"
+- "Array"
 depends-member:
-- ["O5Vapor5Abort", "badRequest"]
+- ["O5Vapor5Abort", "custom"]
 - ["O5Vapor5Abort", "deinit"]
+- ["Ps9AnyObject", "T"]
 - ["Ps9AnyObject", "Value"]
+- ["Ps9AnyObject", "all"]
 - ["Ps9AnyObject", "data"]
+- ["Ps9AnyObject", "driver"]
+- ["Ps9AnyObject", "filter"]
+- ["Ps9AnyObject", "first"]
 - ["Ps9AnyObject", "get"]
 - ["Ps9AnyObject", "headers"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "localization"]
+- ["Ps9AnyObject", "name"]
 - ["Ps9AnyObject", "post"]
+- ["Ps9AnyObject", "query"]
+- ["Ps9AnyObject", "raw"]
+- ["Ps9AnyObject", "readableDate"]
 - ["Ps9AnyObject", "resource"]
 - ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", "save"]
 - ["Ps9AnyObject", "string"]
 - ["Ps9AnyObject", "subscript"]
 - ["Ps9AnyObject", "view"]
 - ["Sa", "Element"]
+- ["Sa", "Iterator"]
+- ["Sa", "_Element"]
 - ["Sa", "deinit"]
+- ["Sa", "makeNode"]
 - ["Ps23BidirectionalCollection", "Element"]
+- ["Ps23BidirectionalCollection", "Iterator"]
+- ["Ps23BidirectionalCollection", "_Element"]
+- ["Ps23BidirectionalCollection", "makeNode"]
 - ["Ps22BidirectionalIndexable", "Element"]
+- ["Ps22BidirectionalIndexable", "Iterator"]
+- ["Ps22BidirectionalIndexable", "_Element"]
+- ["Ps22BidirectionalIndexable", "makeNode"]
 - ["P4HTTP17BodyRepresentable", "init"]
 - ["P4HTTP17BodyRepresentable", "string"]
+- ["Sb", "deinit"]
 - ["P4Core16BytesConvertible", "init"]
 - ["P4Core16BytesConvertible", "string"]
 - ["P4Core18BytesInitializable", "init"]
@@ -51,8 +79,10 @@ depends-member:
 - ["Ps7CVarArg", "Value"]
 - ["Ps7CVarArg", "_Element"]
 - ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "makeNode"]
 - ["Ps7CVarArg", "string"]
 - ["Ps7CVarArg", "subscript"]
+- ["Vs9Character", "deinit"]
 - ["Ps10Collection", "Element"]
 - ["Ps10Collection", "Index"]
 - ["Ps10Collection", "IndexDistance"]
@@ -61,9 +91,12 @@ depends-member:
 - ["Ps10Collection", "SubSequence"]
 - ["Ps10Collection", "Value"]
 - ["Ps10Collection", "_Element"]
+- ["Ps10Collection", "makeNode"]
 - ["Ps10Collection", "subscript"]
 - ["Ps10Comparable", "init"]
 - ["Ps10Comparable", "string"]
+- ["P5Vapor19ConfigInitializable", "driver"]
+- ["P5Vapor19ConfigInitializable", "init"]
 - ["C5Vapor7Content", "deinit"]
 - ["C5Vapor7Content", "subscript"]
 - ["P4Node7Context", "Element"]
@@ -74,6 +107,8 @@ depends-member:
 - ["P4Node7Context", "SubSequence"]
 - ["P4Node7Context", "Value"]
 - ["P4Node7Context", "_Element"]
+- ["P4Node7Context", "converted"]
+- ["P4Node7Context", "makeNode"]
 - ["P4Node7Context", "string"]
 - ["P4Node7Context", "subscript"]
 - ["P5Vapor9Countable", "Element"]
@@ -85,6 +120,7 @@ depends-member:
 - ["P5Vapor9Countable", "Value"]
 - ["P5Vapor9Countable", "_Element"]
 - ["P5Vapor9Countable", "init"]
+- ["P5Vapor9Countable", "makeNode"]
 - ["P5Vapor9Countable", "string"]
 - ["P5Vapor9Countable", "subscript"]
 - ["Ps28CustomDebugStringConvertible", "Element"]
@@ -96,6 +132,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "Value"]
 - ["Ps28CustomDebugStringConvertible", "_Element"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "makeNode"]
 - ["Ps28CustomDebugStringConvertible", "some"]
 - ["Ps28CustomDebugStringConvertible", "string"]
 - ["Ps28CustomDebugStringConvertible", "subscript"]
@@ -110,6 +147,7 @@ depends-member:
 - ["Ps17CustomReflectable", "Value"]
 - ["Ps17CustomReflectable", "_Element"]
 - ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "makeNode"]
 - ["Ps17CustomReflectable", "some"]
 - ["Ps17CustomReflectable", "string"]
 - ["Ps17CustomReflectable", "subscript"]
@@ -124,6 +162,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "data"]
 - ["Ps23CustomStringConvertible", "headers"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "makeNode"]
 - ["Ps23CustomStringConvertible", "string"]
 - ["Ps23CustomStringConvertible", "subscript"]
 - ["Vs10Dictionary", "Index"]
@@ -136,6 +175,8 @@ depends-member:
 - ["Vs10Dictionary", "deinit"]
 - ["Vs10Dictionary", "subscript"]
 - ["Vs15DictionaryIndex", "deinit"]
+- ["Sd", "deinit"]
+- ["P6Fluent6Driver", "raw"]
 - ["C5Vapor7Droplet", "Value"]
 - ["C5Vapor7Droplet", "deinit"]
 - ["C5Vapor7Droplet", "get"]
@@ -145,17 +186,30 @@ depends-member:
 - ["C5Vapor7Droplet", "resource"]
 - ["C5Vapor7Droplet", "run"]
 - ["C5Vapor7Droplet", "view"]
+- ["P6Fluent6Entity", "all"]
+- ["P6Fluent6Entity", "init"]
+- ["P6Fluent6Entity", "name"]
+- ["P6Fluent6Entity", "query"]
+- ["P6Fluent6Entity", "readableDate"]
+- ["P6Fluent6Entity", "save"]
 - ["Ps9Equatable", "Key"]
 - ["Ps9Equatable", "Value"]
+- ["Ps9Equatable", "badRequest"]
+- ["Ps9Equatable", "converted"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "string"]
-- ["Ps5Error", "badRequest"]
+- ["Ps5Error", "custom"]
 - ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps25ExpressibleByArrayLiteral", "Iterator"]
 - ["Ps25ExpressibleByArrayLiteral", "Key"]
 - ["Ps25ExpressibleByArrayLiteral", "Value"]
+- ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- ["Ps25ExpressibleByArrayLiteral", "converted"]
+- ["Ps25ExpressibleByArrayLiteral", "makeNode"]
 - ["Ps25ExpressibleByArrayLiteral", "string"]
 - ["Ps27ExpressibleByBooleanLiteral", "Key"]
 - ["Ps27ExpressibleByBooleanLiteral", "Value"]
+- ["Ps27ExpressibleByBooleanLiteral", "converted"]
 - ["Ps27ExpressibleByBooleanLiteral", "string"]
 - ["Ps30ExpressibleByDictionaryLiteral", "Index"]
 - ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
@@ -164,33 +218,42 @@ depends-member:
 - ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
 - ["Ps30ExpressibleByDictionaryLiteral", "Value"]
 - ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- ["Ps30ExpressibleByDictionaryLiteral", "converted"]
 - ["Ps30ExpressibleByDictionaryLiteral", "string"]
 - ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Key"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "converted"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
 - ["Ps25ExpressibleByFloatLiteral", "Key"]
 - ["Ps25ExpressibleByFloatLiteral", "Value"]
+- ["Ps25ExpressibleByFloatLiteral", "converted"]
 - ["Ps25ExpressibleByFloatLiteral", "string"]
 - ["Ps27ExpressibleByIntegerLiteral", "Key"]
 - ["Ps27ExpressibleByIntegerLiteral", "Value"]
+- ["Ps27ExpressibleByIntegerLiteral", "converted"]
 - ["Ps27ExpressibleByIntegerLiteral", "string"]
 - ["Ps23ExpressibleByNilLiteral", "Key"]
 - ["Ps23ExpressibleByNilLiteral", "Value"]
+- ["Ps23ExpressibleByNilLiteral", "converted"]
 - ["Ps23ExpressibleByNilLiteral", "some"]
 - ["Ps23ExpressibleByNilLiteral", "string"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps32ExpressibleByStringInterpolation", "string"]
 - ["Ps26ExpressibleByStringLiteral", "Key"]
 - ["Ps26ExpressibleByStringLiteral", "Value"]
+- ["Ps26ExpressibleByStringLiteral", "converted"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "string"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "Key"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "Value"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "converted"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
 - ["P4Core11Extractable", "some"]
+- ["Sf", "deinit"]
+- ["Ps8Hashable", "badRequest"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "string"]
 - ["V4HTTP9HeaderKey", "deinit"]
@@ -203,6 +266,7 @@ depends-member:
 - ["Ps9Indexable", "SubSequence"]
 - ["Ps9Indexable", "Value"]
 - ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "makeNode"]
 - ["Ps9Indexable", "subscript"]
 - ["Ps13IndexableBase", "Element"]
 - ["Ps13IndexableBase", "Index"]
@@ -212,9 +276,22 @@ depends-member:
 - ["Ps13IndexableBase", "SubSequence"]
 - ["Ps13IndexableBase", "Value"]
 - ["Ps13IndexableBase", "_Element"]
+- ["Ps13IndexableBase", "makeNode"]
 - ["Ps13IndexableBase", "subscript"]
 - ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
 - ["Ps16IteratorProtocol", "Element"]
+- ["V4JSON4JSON", "deinit"]
+- ["P4JSON17JSONRepresentable", "all"]
+- ["P4JSON17JSONRepresentable", "init"]
+- ["P4JSON17JSONRepresentable", "name"]
+- ["P4JSON17JSONRepresentable", "query"]
+- ["P4JSON17JSONRepresentable", "readableDate"]
+- ["P4JSON17JSONRepresentable", "save"]
 - ["P4HTTP13KeyAccessible", "Index"]
 - ["P4HTTP13KeyAccessible", "IndexDistance"]
 - ["P4HTTP13KeyAccessible", "Iterator"]
@@ -247,8 +324,22 @@ depends-member:
 - ["C4HTTP7Message", "headers"]
 - ["Ps10MirrorPath", "init"]
 - ["Ps10MirrorPath", "string"]
+- ["P5Vapor5Model", "all"]
+- ["P5Vapor5Model", "init"]
+- ["P5Vapor5Model", "name"]
+- ["P5Vapor5Model", "query"]
+- ["P5Vapor5Model", "readableDate"]
+- ["P5Vapor5Model", "save"]
 - ["Ps17MutableCollection", "Element"]
+- ["Ps17MutableCollection", "Iterator"]
+- ["Ps17MutableCollection", "_Element"]
+- ["Ps17MutableCollection", "makeNode"]
 - ["Ps16MutableIndexable", "Element"]
+- ["Ps16MutableIndexable", "Iterator"]
+- ["Ps16MutableIndexable", "_Element"]
+- ["Ps16MutableIndexable", "makeNode"]
+- ["C11FluentMySQL11MySQLDriver", "deinit"]
+- ["C11FluentMySQL11MySQLDriver", "raw"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "string"]
 - ["PSo9NSCopying", "init"]
@@ -266,23 +357,43 @@ depends-member:
 - ["Os5Never", "deinit"]
 - ["O4Node4Node", "Key"]
 - ["O4Node4Node", "Value"]
+- ["O4Node4Node", "converted"]
 - ["O4Node4Node", "deinit"]
 - ["O4Node4Node", "string"]
 - ["P4Node10NodeBacked", "Key"]
 - ["P4Node10NodeBacked", "Value"]
+- ["P4Node10NodeBacked", "converted"]
 - ["P4Node10NodeBacked", "string"]
 - ["P4Node15NodeConvertible", "Key"]
 - ["P4Node15NodeConvertible", "Value"]
+- ["P4Node15NodeConvertible", "all"]
+- ["P4Node15NodeConvertible", "converted"]
 - ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "name"]
+- ["P4Node15NodeConvertible", "query"]
+- ["P4Node15NodeConvertible", "readableDate"]
+- ["P4Node15NodeConvertible", "save"]
 - ["P4Node15NodeConvertible", "string"]
 - ["P4Node17NodeInitializable", "Key"]
 - ["P4Node17NodeInitializable", "Value"]
+- ["P4Node17NodeInitializable", "all"]
+- ["P4Node17NodeInitializable", "converted"]
 - ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "name"]
+- ["P4Node17NodeInitializable", "query"]
+- ["P4Node17NodeInitializable", "readableDate"]
+- ["P4Node17NodeInitializable", "save"]
 - ["P4Node17NodeInitializable", "string"]
 - ["P4Node17NodeRepresentable", "Key"]
 - ["P4Node17NodeRepresentable", "Value"]
+- ["P4Node17NodeRepresentable", "all"]
+- ["P4Node17NodeRepresentable", "converted"]
 - ["P4Node17NodeRepresentable", "deinit"]
 - ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "name"]
+- ["P4Node17NodeRepresentable", "query"]
+- ["P4Node17NodeRepresentable", "readableDate"]
+- ["P4Node17NodeRepresentable", "save"]
 - ["P4Node17NodeRepresentable", "string"]
 - ["Sq", "deinit"]
 - ["Sq", "some"]
@@ -293,9 +404,18 @@ depends-member:
 - ["P13PathIndexable9PathIndex", "string"]
 - ["P13PathIndexable13PathIndexable", "Key"]
 - ["P13PathIndexable13PathIndexable", "Value"]
+- ["P13PathIndexable13PathIndexable", "converted"]
 - ["P13PathIndexable13PathIndexable", "string"]
+- ["C3App7Pokemon", "all"]
+- ["C3App7Pokemon", "deinit"]
+- ["C3App7Pokemon", "init"]
+- ["C3App7Pokemon", "name"]
+- ["C3App7Pokemon", "query"]
+- ["C3App7Pokemon", "readableDate"]
+- ["C3App7Pokemon", "save"]
 - ["P11Polymorphic11Polymorphic", "Key"]
 - ["P11Polymorphic11Polymorphic", "Value"]
+- ["P11Polymorphic11Polymorphic", "converted"]
 - ["P11Polymorphic11Polymorphic", "deinit"]
 - ["P11Polymorphic11Polymorphic", "init"]
 - ["P11Polymorphic11Polymorphic", "string"]
@@ -304,10 +424,40 @@ depends-member:
 - ["C3App4Post", "deinit"]
 - ["C3App14PostController", "deinit"]
 - ["C3App14PostController", "init"]
+- ["P6Fluent11Preparation", "all"]
+- ["P6Fluent11Preparation", "init"]
+- ["P6Fluent11Preparation", "name"]
+- ["P6Fluent11Preparation", "query"]
+- ["P6Fluent11Preparation", "readableDate"]
+- ["P6Fluent11Preparation", "save"]
+- ["C10VaporMySQL8Provider", "deinit"]
+- ["C10VaporMySQL8Provider", "driver"]
+- ["C10VaporMySQL8Provider", "init"]
+- ["P5Vapor8Provider", "driver"]
+- ["P5Vapor8Provider", "init"]
+- ["C6Fluent5Query", "T"]
+- ["C6Fluent5Query", "deinit"]
+- ["C6Fluent5Query", "filter"]
+- ["C6Fluent5Query", "first"]
+- ["P6Fluent18QueryRepresentable", "T"]
+- ["P6Fluent18QueryRepresentable", "filter"]
+- ["P6Fluent18QueryRepresentable", "first"]
 - ["Ps22RandomAccessCollection", "Element"]
+- ["Ps22RandomAccessCollection", "Iterator"]
+- ["Ps22RandomAccessCollection", "_Element"]
+- ["Ps22RandomAccessCollection", "makeNode"]
 - ["Ps21RandomAccessIndexable", "Element"]
+- ["Ps21RandomAccessIndexable", "Iterator"]
+- ["Ps21RandomAccessIndexable", "_Element"]
+- ["Ps21RandomAccessIndexable", "makeNode"]
 - ["Ps26RangeReplaceableCollection", "Element"]
+- ["Ps26RangeReplaceableCollection", "Iterator"]
+- ["Ps26RangeReplaceableCollection", "_Element"]
+- ["Ps26RangeReplaceableCollection", "makeNode"]
 - ["Ps25RangeReplaceableIndexable", "Element"]
+- ["Ps25RangeReplaceableIndexable", "Iterator"]
+- ["Ps25RangeReplaceableIndexable", "_Element"]
+- ["Ps25RangeReplaceableIndexable", "makeNode"]
 - ["C4HTTP7Request", "data"]
 - ["C4HTTP7Request", "deinit"]
 - ["C4HTTP7Request", "headers"]
@@ -322,7 +472,12 @@ depends-member:
 - ["P4HTTP9Responder", "resource"]
 - ["P4HTTP9Responder", "run"]
 - ["P4HTTP9Responder", "view"]
+- ["P4HTTP21ResponseRepresentable", "all"]
 - ["P4HTTP21ResponseRepresentable", "init"]
+- ["P4HTTP21ResponseRepresentable", "name"]
+- ["P4HTTP21ResponseRepresentable", "query"]
+- ["P4HTTP21ResponseRepresentable", "readableDate"]
+- ["P4HTTP21ResponseRepresentable", "save"]
 - ["P4HTTP21ResponseRepresentable", "string"]
 - ["P7Routing12RouteBuilder", "Value"]
 - ["P7Routing12RouteBuilder", "get"]
@@ -340,15 +495,23 @@ depends-member:
 - ["Ps8Sequence", "SubSequence"]
 - ["Ps8Sequence", "Value"]
 - ["Ps8Sequence", "_Element"]
+- ["Ps8Sequence", "makeNode"]
 - ["Ps8Sequence", "subscript"]
 - ["Vs5Slice", "Index"]
 - ["Vs5Slice", "Iterator"]
 - ["Vs5Slice", "SubSequence"]
 - ["Vs5Slice", "_Element"]
+- ["O4HTTP6Status", "badRequest"]
+- ["O4HTTP6Status", "deinit"]
 - ["SS", "deinit"]
 - ["SS", "init"]
 - ["SS", "string"]
+- ["P15TypeSafeRouting19StringInitializable", "all"]
 - ["P15TypeSafeRouting19StringInitializable", "init"]
+- ["P15TypeSafeRouting19StringInitializable", "name"]
+- ["P15TypeSafeRouting19StringInitializable", "query"]
+- ["P15TypeSafeRouting19StringInitializable", "readableDate"]
+- ["P15TypeSafeRouting19StringInitializable", "save"]
 - ["P15TypeSafeRouting19StringInitializable", "string"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps16TextOutputStream", "string"]
@@ -356,6 +519,12 @@ depends-member:
 - ["Ps20TextOutputStreamable", "string"]
 - ["P9Transport15TransferMessage", "data"]
 - ["P9Transport15TransferMessage", "headers"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
 - ["P5Vapor11Validatable", "Element"]
 - ["P5Vapor11Validatable", "Index"]
 - ["P5Vapor11Validatable", "IndexDistance"]
@@ -365,13 +534,20 @@ depends-member:
 - ["P5Vapor11Validatable", "Value"]
 - ["P5Vapor11Validatable", "_Element"]
 - ["P5Vapor11Validatable", "init"]
+- ["P5Vapor11Validatable", "makeNode"]
 - ["P5Vapor11Validatable", "string"]
 - ["P5Vapor11Validatable", "subscript"]
 - ["C5Vapor4View", "deinit"]
 - ["P5Vapor12ViewRenderer", "deinit"]
 - ["P5Vapor12ViewRenderer", "make"]
 - ["Ps14_ArrayProtocol", "Element"]
+- ["Ps14_ArrayProtocol", "Iterator"]
+- ["Ps14_ArrayProtocol", "_Element"]
+- ["Ps14_ArrayProtocol", "makeNode"]
 - ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps24_DestructorSafeContainer", "Iterator"]
+- ["Ps24_DestructorSafeContainer", "_Element"]
+- ["Ps24_DestructorSafeContainer", "makeNode"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "string"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
@@ -382,6 +558,7 @@ depends-member:
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "string"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "string"]
+- ["Ps9_Hashable", "badRequest"]
 - ["Ps9_Hashable", "init"]
 - ["Ps9_Hashable", "string"]
 - ["Ps21_ObjectiveCBridgeable", "Element"]
@@ -393,6 +570,7 @@ depends-member:
 - ["Ps21_ObjectiveCBridgeable", "Value"]
 - ["Ps21_ObjectiveCBridgeable", "_Element"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "makeNode"]
 - ["Ps21_ObjectiveCBridgeable", "string"]
 - ["Ps21_ObjectiveCBridgeable", "subscript"]
 depends-nominal:
@@ -402,12 +580,15 @@ depends-nominal:
 - "Ps23BidirectionalCollection"
 - "Ps22BidirectionalIndexable"
 - "P4HTTP17BodyRepresentable"
+- "Sb"
 - "P4Core16BytesConvertible"
 - "P4Core18BytesInitializable"
 - "P4Core18BytesRepresentable"
 - "Ps7CVarArg"
+- "Vs9Character"
 - "Ps10Collection"
 - "Ps10Comparable"
+- "P5Vapor19ConfigInitializable"
 - "C5Vapor7Content"
 - "P4Node7Context"
 - "P5Vapor9Countable"
@@ -417,7 +598,10 @@ depends-nominal:
 - "Ps23CustomStringConvertible"
 - "Vs10Dictionary"
 - "Vs15DictionaryIndex"
+- "Sd"
+- "P6Fluent6Driver"
 - "C5Vapor7Droplet"
+- "P6Fluent6Entity"
 - "Ps9Equatable"
 - "Ps5Error"
 - "Ps25ExpressibleByArrayLiteral"
@@ -431,12 +615,20 @@ depends-nominal:
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
 - "P4Core11Extractable"
+- "Sf"
 - "Ps8Hashable"
 - "V4HTTP9HeaderKey"
 - "Ps9Indexable"
 - "Ps13IndexableBase"
 - "Vs16IndexingIterator"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
 - "Ps16IteratorProtocol"
+- "V4JSON4JSON"
+- "P4JSON17JSONRepresentable"
 - "P4HTTP13KeyAccessible"
 - "P4Node13KeyAccessible"
 - "P8Settings13KeyAccessible"
@@ -444,8 +636,10 @@ depends-nominal:
 - "Ps25LosslessStringConvertible"
 - "C4HTTP7Message"
 - "Ps10MirrorPath"
+- "P5Vapor5Model"
 - "Ps17MutableCollection"
 - "Ps16MutableIndexable"
+- "C11FluentMySQL11MySQLDriver"
 - "PSo8NSCoding"
 - "PSo9NSCopying"
 - "PSo16NSMutableCopying"
@@ -463,10 +657,16 @@ depends-nominal:
 - "P7Routing19ParametersContainer"
 - "P13PathIndexable9PathIndex"
 - "P13PathIndexable13PathIndexable"
+- "C3App7Pokemon"
 - "P11Polymorphic11Polymorphic"
 - "P5Vapor24PolymorphicInitializable"
 - "C3App4Post"
 - "C3App14PostController"
+- "P6Fluent11Preparation"
+- "C10VaporMySQL8Provider"
+- "P5Vapor8Provider"
+- "C6Fluent5Query"
+- "P6Fluent18QueryRepresentable"
 - "Ps22RandomAccessCollection"
 - "Ps21RandomAccessIndexable"
 - "Ps26RangeReplaceableCollection"
@@ -479,11 +679,18 @@ depends-nominal:
 - "P7Routing12RouteBuilder"
 - "Ps8Sequence"
 - "Vs5Slice"
+- "O4HTTP6Status"
 - "SS"
 - "P15TypeSafeRouting19StringInitializable"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
 - "P9Transport15TransferMessage"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Sc"
 - "P5Vapor11Validatable"
 - "C5Vapor4View"
 - "P5Vapor12ViewRenderer"
@@ -500,15 +707,15 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Vapor.framework/Modules/Vapor.swiftmodule/x86_64.swiftmodule"
-- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Cache.framework/Modules/Cache.swiftmodule/x86_64.swiftmodule"
-- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Vapor.framework/Modules/Vapor.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Cache.framework/Modules/Cache.swiftmodule/x86_64.swiftmodule"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
 - "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Node.framework/Modules/Node.swiftmodule/x86_64.swiftmodule"
 - "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/PathIndexable.framework/Modules/PathIndexable.swiftmodule/x86_64.swiftmodule"
 - "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Polymorphic.framework/Modules/Polymorphic.swiftmodule/x86_64.swiftmodule"
@@ -609,7 +816,7 @@ depends-external:
 - "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/Socks.framework/Modules/Socks.swiftmodule/x86_64.swiftmodule"
 - "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/TypeSafeRouting.framework/Modules/TypeSafeRouting.swiftmodule/x86_64.swiftmodule"
 - "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/WebSockets.framework/Modules/WebSockets.swiftmodule/x86_64.swiftmodule"
-- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/VaporMySQL.framework/Modules/VaporMySQL.swiftmodule/x86_64.swiftmodule"
 - "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/FluentMySQL.framework/Modules/FluentMySQL.swiftmodule/x86_64.swiftmodule"
 - "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/MySQL.framework/Modules/MySQL.swiftmodule/x86_64.swiftmodule"
-interface-hash: "92ee562de2d1b900841eef5efc466903"
+- "/Users/Yowa/WorkSpace/Pokedex/Build/Products/Debug/VaporMySQL.framework/Modules/VaporMySQL.swiftmodule/x86_64.swiftmodule"
+interface-hash: "bef8024350a04f69e1505d13d3bb474b"

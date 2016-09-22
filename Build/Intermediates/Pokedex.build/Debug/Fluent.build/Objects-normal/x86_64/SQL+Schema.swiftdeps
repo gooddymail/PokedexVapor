@@ -8,10 +8,10 @@ provides-member:
 - ["O6Fluent6Schema", "sql"]
 provides-dynamic-lookup:
 depends-top-level:
-- "SQL"
-- !private "String"
-- "Schema"
 - "AssignmentPrecedence"
+- !private "String"
+- "SQL"
+- "Schema"
 depends-member:
 - ["Sa", "deinit"]
 - ["O6Fluent3SQL", "Schema"]

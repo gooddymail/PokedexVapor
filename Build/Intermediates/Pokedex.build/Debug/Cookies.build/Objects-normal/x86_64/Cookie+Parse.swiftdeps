@@ -11,22 +11,22 @@ provides-member:
 - ["V7Cookies6Cookie", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- !private "Int"
-- "String"
-- !private "Date"
 - !private "StringLiteralType"
-- "Byte"
-- "Cookie"
-- !private "~="
-- "=="
-- "AssignmentPrecedence"
-- !private "??"
 - "Swift"
-- !private "Array"
-- "Sequence"
+- "Byte"
+- !private "BooleanLiteralType"
 - !private "IntegerLiteralType"
+- !private "??"
+- !private "Array"
+- !private "Date"
+- "Sequence"
 - !private "FloatLiteralType"
+- !private "~="
+- "String"
+- !private "Int"
+- "Cookie"
+- "AssignmentPrecedence"
+- "=="
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "bytes"]

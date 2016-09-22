@@ -6,9 +6,9 @@ provides-member:
 - ["V4JSON4JSON", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "ResponseRepresentable"
 - "JSON"
 - "Response"
-- "ResponseRepresentable"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["P4HTTP17BodyRepresentable", "Response"]

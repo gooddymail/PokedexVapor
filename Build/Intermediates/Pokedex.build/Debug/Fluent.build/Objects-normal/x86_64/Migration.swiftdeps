@@ -7,16 +7,16 @@ provides-member:
 - ["C6Fluent9Migration", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
+- "Database"
 - "AssignmentPrecedence"
 - "String"
-- "Database"
-- "Entity"
 - "Migration"
-- !private "Dictionary"
-- !private "EmptyNode"
-- "Context"
+- "Entity"
 - "StringLiteralType"
+- !private "Dictionary"
+- "Node"
+- "Context"
+- !private "EmptyNode"
 depends-member:
 - !private ["Ps9AnyObject", "EmptyNode"]
 - !private ["Ps9AnyObject", "Node"]

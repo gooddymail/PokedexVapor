@@ -8,14 +8,14 @@ provides-member:
 - ["CSo13DateFormatter", "sharedSMTPFormatter"]
 - ["CSo13DateFormatter", "makeSMTPFormatter"]
 provides-dynamic-lookup:
-- "makeSMTPFormatter"
 - "sharedSMTPFormatter"
+- "makeSMTPFormatter"
 depends-top-level:
+- "String"
+- "AssignmentPrecedence"
 - !private "StringLiteralType"
 - "DateFormatter"
 - "Date"
-- "String"
-- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "DateFormatter"]
 - !private ["Ps9AnyObject", "dateFormat"]

@@ -13,23 +13,23 @@ provides-member:
 - ["Ps10Collection", "splitAround"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "precondition"
-- !private "+"
-- !private "<="
-- !private "StringLiteralType"
-- !private "Array"
-- "String"
-- "JChar"
-- !private "BooleanLiteralType"
-- !private "Const"
-- "UInt8"
-- !private "..<"
-- !private "UTF8"
 - !private "JayError"
-- !private "-"
 - "AssignmentPrecedence"
-- "Collection"
 - !private "=="
+- !private "UTF8"
+- !private "..<"
+- "UInt8"
+- !private "-"
+- !private "Const"
+- "Collection"
+- !private "Array"
+- !private "BooleanLiteralType"
+- "JChar"
+- !private "precondition"
+- !private "<="
+- "String"
+- !private "+"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "UnicodeScalarView"]

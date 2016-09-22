@@ -9,16 +9,16 @@ provides-member:
 - ["P11Polymorphic11Polymorphic", "uint"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Polymorphic"
+- "Double"
 - !private ">="
+- "Float"
+- "UInt"
+- "Bool"
+- "Int"
+- "String"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
-- "Double"
-- "UInt"
-- "Int"
-- "Float"
-- "String"
-- "Bool"
-- "Polymorphic"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps19BinaryFloatingPoint", "init"]

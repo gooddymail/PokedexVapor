@@ -10,11 +10,11 @@ provides-member:
 - ["P4Core11Extractable", "isNilOrEmpty"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Extractable"
+- "Optional"
 - !private "BooleanLiteralType"
 - "Bool"
 - "String"
-- "Extractable"
-- "Optional"
 depends-member:
 - !private ["Ps9AnyObject", "isEmpty"]
 - ["Sb", "deinit"]

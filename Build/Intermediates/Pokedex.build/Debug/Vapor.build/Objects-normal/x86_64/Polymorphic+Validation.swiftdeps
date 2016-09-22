@@ -14,16 +14,16 @@ provides-member:
 - ["P4Core11Extractable", "validated"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Extractable"
-- !private "AssignmentPrecedence"
-- !private "Dictionary"
-- "String"
-- "Valid"
-- "PolymorphicInitializable"
 - "Polymorphic"
+- !private "AssignmentPrecedence"
 - "Validator"
+- !private "Dictionary"
+- "PolymorphicInitializable"
+- "String"
+- "Extractable"
 - "ValidationSuite"
 - !private "ValidationError"
+- "Valid"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Sa", "Iterator"]

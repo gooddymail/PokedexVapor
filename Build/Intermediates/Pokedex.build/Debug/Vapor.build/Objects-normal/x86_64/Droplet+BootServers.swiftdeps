@@ -8,21 +8,21 @@ provides-member:
 - ["C5Vapor7Droplet", "parseSecurityLayer"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "??"
+- !private "!"
 - !private "=="
 - "AssignmentPrecedence"
-- !private "~="
-- "Bool"
-- "String"
-- "SecurityLayer"
-- !private "+="
-- "Droplet"
-- !private "BooleanLiteralType"
-- !private "!"
-- !private "background"
-- !private "StringLiteralType"
-- !private "UnicodeScalarType"
 - !private "-"
+- !private "~="
+- "Droplet"
+- !private "+="
+- !private "background"
+- !private "UnicodeScalarType"
+- "String"
+- "Bool"
+- "SecurityLayer"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- !private "??"
 depends-member:
 - !private ["Ps9AnyObject", "background"]
 - !private ["Ps9AnyObject", "bootServer"]

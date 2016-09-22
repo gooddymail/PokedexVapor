@@ -6,22 +6,22 @@ provides-member:
 - ["O4Node4Node", "makeConfig"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "&&"
-- "Node"
 - !private "Bool"
-- !private "UnicodeScalarType"
-- !private "AssignmentPrecedence"
-- !private "DataFile"
-- "FileManager"
-- !private "!="
-- !private "Dictionary"
-- !private "!"
+- !private "&&"
 - "StringLiteralType"
-- !private "JSON"
-- !private "BooleanLiteralType"
-- !private "ObjCBool"
-- !private "+"
 - "String"
+- !private "Dictionary"
+- !private "BooleanLiteralType"
+- "FileManager"
+- !private "!"
+- !private "JSON"
+- !private "!="
+- !private "UnicodeScalarType"
+- !private "DataFile"
+- !private "ObjCBool"
+- "Node"
+- !private "AssignmentPrecedence"
+- !private "+"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Key"]
 - !private ["Vs11AnyIterator", "Element"]

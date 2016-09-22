@@ -7,10 +7,10 @@ provides-member:
 - ["C10WebSockets9WebSocket", "pong"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "UInt64"
-- "Bytes"
 - "WebSocket"
 - !private "BooleanLiteralType"
+- !private "UInt64"
+- "Bytes"
 depends-member:
 - !private ["Ps9AnyObject", "Frame"]
 - !private ["Ps9AnyObject", "Header"]

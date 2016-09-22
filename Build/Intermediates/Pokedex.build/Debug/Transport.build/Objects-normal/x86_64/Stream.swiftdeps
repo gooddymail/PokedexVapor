@@ -16,23 +16,23 @@ provides-member:
 - ["P9Transport6Stream", "sendLine"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "IntegerLiteralType"
-- "StreamError"
-- "String"
-- !private "FloatLiteralType"
+- "Double"
+- "Byte"
+- "Bool"
+- !private "+="
+- "Bytes"
 - !private "&&"
 - !private "Array"
-- "Stream"
-- !private "+="
-- !private "=="
-- "AssignmentPrecedence"
-- "Error"
-- !private ">"
-- "Double"
-- "Bool"
-- "Byte"
+- !private "IntegerLiteralType"
+- "StreamError"
 - "Int"
-- "Bytes"
+- !private "FloatLiteralType"
+- "Stream"
+- "String"
+- !private ">"
+- "Error"
+- "AssignmentPrecedence"
+- !private "=="
 depends-member:
 - !private ["Ps9AnyObject", "bytes"]
 - !private ["Sa", "Element"]

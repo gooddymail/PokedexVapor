@@ -6,14 +6,14 @@ provides-member:
 - ["C4HTTP8Response", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Status"
-- "Response"
-- !private "Body"
-- !private "String"
 - !private "Dictionary"
+- !private "String"
+- !private "Body"
+- "JSON"
 - !private "HeaderKey"
 - !private "StringLiteralType"
-- "JSON"
+- "Response"
+- "Status"
 depends-member:
 - !private ["Ps9AnyObject", "Body"]
 - ["Ps9AnyObject", "init"]

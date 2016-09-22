@@ -6,21 +6,21 @@ provides-member:
 - ["O4Node4Node", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Void"
-- "ExpressibleByIntegerLiteral"
-- "Node"
-- "BooleanLiteralType"
-- "ExpressibleByStringLiteral"
-- "ExpressibleByArrayLiteral"
-- "String"
-- "ExpressibleByBooleanLiteral"
-- "IntegerLiteralType"
-- "FloatLiteralType"
-- "ExpressibleByDictionaryLiteral"
 - "AssignmentPrecedence"
+- "String"
+- "ExpressibleByNilLiteral"
+- "IntegerLiteralType"
 - "ExpressibleByFloatLiteral"
 - !private "EmptyNode"
-- "ExpressibleByNilLiteral"
+- "FloatLiteralType"
+- "BooleanLiteralType"
+- "Node"
+- "Void"
+- "ExpressibleByStringLiteral"
+- "ExpressibleByArrayLiteral"
+- "ExpressibleByIntegerLiteral"
+- "ExpressibleByBooleanLiteral"
+- "ExpressibleByDictionaryLiteral"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "makeNode"]
 - !private ["Sa", "IndexDistance"]

@@ -7,23 +7,23 @@ provides-member:
 - ["V3Jay12ObjectParser", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "ValueParser"
+- "JsonParser"
+- !private "fatalError"
 - !private "StringLiteralType"
-- "Reader"
-- "String"
+- !private "Dictionary"
 - "Jay"
 - !private "BooleanLiteralType"
-- !private "fatalError"
 - "ObjectParser"
-- !private "Const"
-- !private "Dictionary"
-- "JsonParser"
+- "String"
 - !private "StringParser"
-- "JSON"
 - !private "JayError"
+- "Reader"
+- !private "ValueParser"
+- "JSON"
 - !private "~="
 - "AssignmentPrecedence"
 - !private "=="
+- !private "Const"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Sa", "Iterator"]

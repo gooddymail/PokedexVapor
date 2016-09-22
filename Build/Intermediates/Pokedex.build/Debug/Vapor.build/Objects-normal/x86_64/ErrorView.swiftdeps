@@ -7,21 +7,21 @@ provides-member:
 - ["C5Vapor9ErrorView", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
-- !private "??"
-- "AssignmentPrecedence"
-- !private "ExtendedGraphemeClusterType"
-- !private "Array"
 - !private "+"
-- !private "UnicodeScalarType"
+- "AssignmentPrecedence"
 - "Response"
-- "String"
 - !private "DataFile"
-- "Status"
-- !private "StringLiteralType"
-- "ErrorView"
 - !private "errorView"
+- "Bytes"
 - "Int"
+- !private "ExtendedGraphemeClusterType"
+- "String"
+- !private "UnicodeScalarType"
+- !private "??"
+- !private "StringLiteralType"
+- "Status"
+- "ErrorView"
+- !private "Array"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "DataFile"]

@@ -6,13 +6,13 @@ provides-member:
 - ["C4HTTP7Request", "cookies"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Array"
-- "AssignmentPrecedence"
-- "CastingPrecedence"
-- "Request"
-- !private "print"
 - !private "StringLiteralType"
 - "Cookies"
+- !private "Array"
+- !private "print"
+- "Request"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "Cookies"]
 - !private ["Ps9AnyObject", "bytes"]

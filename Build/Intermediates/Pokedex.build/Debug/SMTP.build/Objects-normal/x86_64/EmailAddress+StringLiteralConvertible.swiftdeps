@@ -7,8 +7,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "ExpressibleByStringLiteral"
-- "String"
 - "EmailAddress"
+- "String"
 depends-member:
 - ["V4SMTP12EmailAddress", "ExtendedGraphemeClusterLiteralType"]
 - ["V4SMTP12EmailAddress", "String"]

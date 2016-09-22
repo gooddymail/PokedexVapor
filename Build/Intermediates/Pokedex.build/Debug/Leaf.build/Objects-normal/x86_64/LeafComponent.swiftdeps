@@ -11,20 +11,20 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Equatable"
-- "AssignmentPrecedence"
-- "=="
 - !private "+"
-- "Bytes"
+- "AssignmentPrecedence"
+- "String"
+- "=="
 - "Bool"
 - "TagTemplate"
-- !private "ParseError"
 - "CustomStringConvertible"
+- "Bytes"
+- !private "ParseError"
 - "Leaf"
-- !private "BooleanLiteralType"
-- !private "Array"
-- "String"
-- !private "StringLiteralType"
 - !private "UnicodeScalarType"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- !private "Array"
 depends-member:
 - ["Ps9AnyObject", "Component"]
 - !private ["Ps9AnyObject", "init"]

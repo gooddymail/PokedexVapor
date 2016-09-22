@@ -7,12 +7,12 @@ provides-member:
 - ["C4Auth17ProtectMiddleware", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Response"
-- "Request"
 - "Middleware"
 - "Error"
-- "ProtectMiddleware"
+- "Response"
+- "Request"
 - "Responder"
+- "ProtectMiddleware"
 - "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "authenticated"]

@@ -9,19 +9,19 @@ provides-member:
 - ["OC4Leaf5Embed5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "BooleanLiteralType"
+- "Bool"
 - "Parameter"
-- "Context"
+- "Stem"
+- "Node"
 - "LeafError"
 - "TagTemplate"
-- !private "Array"
-- "Node"
-- "Stem"
-- "Bool"
-- !private "BooleanLiteralType"
+- "StringLiteralType"
+- "Context"
+- "Argument"
 - "Embed"
 - "Tag"
-- "StringLiteralType"
-- "Argument"
+- !private "Array"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Ps9AnyObject", "TagTemplate"]

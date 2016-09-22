@@ -7,14 +7,14 @@ provides-member:
 - ["C8Sessions13CacheSessions", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
-- "CacheProtocol"
-- "SessionsProtocol"
-- !private "IntegerLiteralType"
-- !private "FloatLiteralType"
 - !private "CryptoRandom"
+- "CacheProtocol"
+- "Node"
+- !private "IntegerLiteralType"
 - "CacheSessions"
+- !private "FloatLiteralType"
 - "String"
+- "SessionsProtocol"
 - "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "CryptoRandom"]

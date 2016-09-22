@@ -7,18 +7,18 @@ provides-member:
 - ["C4Auth19CacheSessionManager", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "AuthError"
-- !private "CryptoRandom"
-- "CacheProtocol"
-- "Realm"
 - "Account"
 - "CacheSessionManager"
-- !private "IntegerLiteralType"
-- !private "FloatLiteralType"
-- !private "Identifier"
 - "String"
 - "SessionManager"
+- !private "Identifier"
+- !private "IntegerLiteralType"
+- "Realm"
+- !private "FloatLiteralType"
+- !private "CryptoRandom"
+- "CacheProtocol"
 - "AssignmentPrecedence"
+- !private "AuthError"
 depends-member:
 - ["P9Turnstile7Account", "deinit"]
 - !private ["P9Turnstile7Account", "uniqueID"]

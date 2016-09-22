@@ -7,15 +7,15 @@ provides-member:
 - ["C5MySQL5Field", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Int"
-- !private "UnsafeBufferPointer"
-- "String"
-- "AssignmentPrecedence"
-- !private "Byte"
 - !private "StringLiteralType"
-- "MYSQL_FIELD"
-- !private "Array"
+- !private "Int"
+- !private "Byte"
+- "String"
 - "Field"
+- !private "Array"
+- !private "UnsafeBufferPointer"
+- "AssignmentPrecedence"
+- "MYSQL_FIELD"
 depends-member:
 - !private ["Ps9AnyObject", "Array"]
 - !private ["Ps9AnyObject", "Byte"]

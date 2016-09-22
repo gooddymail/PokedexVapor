@@ -7,11 +7,11 @@ provides-member:
 - ["C5Vapor12CryptoCipher", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Cipher"
 - "Bytes"
 - "AssignmentPrecedence"
-- "CipherProtocol"
-- "Cipher"
 - "CryptoCipher"
+- "CipherProtocol"
 depends-member:
 - !private ["Ps9AnyObject", "Cipher"]
 - ["Ps9AnyObject", "Method"]

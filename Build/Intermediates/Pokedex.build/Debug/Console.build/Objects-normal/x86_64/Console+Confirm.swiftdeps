@@ -6,23 +6,23 @@ provides-member:
 - ["P7Console15ConsoleProtocol", "confirm"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "||"
 - "Bool"
-- !private "&&"
-- "AssignmentPrecedence"
-- !private "=="
-- !private "IntegerLiteralType"
-- "TernaryPrecedence"
 - !private "FloatLiteralType"
 - !private "+="
-- "ConsoleProtocol"
-- !private "BooleanLiteralType"
-- !private ">="
-- "String"
+- "TernaryPrecedence"
+- !private "IntegerLiteralType"
+- "AssignmentPrecedence"
+- !private "=="
+- !private "&&"
 - !private "StringLiteralType"
-- "ConsoleStyle"
 - !private "!="
 - !private "UnicodeScalarType"
+- !private "||"
+- "String"
+- "ConsoleStyle"
+- !private ">="
+- "ConsoleProtocol"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "lowercased"]

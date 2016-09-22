@@ -11,9 +11,9 @@ provides-member:
 - ["P5Vapor15ValidationSuite", "validate"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Validatable"
-- "Validator"
 - "ValidationSuite"
+- "Validator"
+- "Validatable"
 depends-member:
 - ["P5Vapor15ValidationSuite", "InputType"]
 - ["P5Vapor15ValidationSuite", "Validatable"]

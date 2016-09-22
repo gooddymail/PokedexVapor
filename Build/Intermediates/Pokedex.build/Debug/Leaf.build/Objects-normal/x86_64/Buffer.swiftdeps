@@ -7,11 +7,11 @@ provides-member:
 - ["V4Leaf6Buffer", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Sequence"
 - "BufferProtocol"
 - "Buffer"
-- "AssignmentPrecedence"
-- "Sequence"
 - "IndexingIterator"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Sa", "Iterator"]
 - !private ["Sa", "_Element"]

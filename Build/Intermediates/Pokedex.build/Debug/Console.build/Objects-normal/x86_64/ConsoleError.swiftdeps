@@ -7,12 +7,12 @@ provides-member:
 - ["O7Console12ConsoleError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ConsoleError"
-- !private "IntegerLiteralType"
 - "Bytes"
+- !private "IntegerLiteralType"
 - !private "FloatLiteralType"
 - "String"
 - "Int"
+- "ConsoleError"
 - "Swift"
 depends-member:
 - ["O7Console12ConsoleError", "Bytes"]

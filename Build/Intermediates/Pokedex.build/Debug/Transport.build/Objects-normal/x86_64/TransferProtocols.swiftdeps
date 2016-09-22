@@ -14,9 +14,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "TransferParser"
-- "Stream"
 - "TransferSerializer"
 - "TransferMessage"
+- "Stream"
 depends-member:
 - ["P9Transport14TransferParser", "MessageType"]
 - ["P9Transport14TransferParser", "Stream"]

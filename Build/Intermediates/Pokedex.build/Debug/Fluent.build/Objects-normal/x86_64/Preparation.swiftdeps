@@ -7,8 +7,8 @@ provides-member:
 - ["P6Fluent11Preparation", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Preparation"
 - "Database"
+- "Preparation"
 depends-member:
 - ["P6Fluent11Preparation", "Database"]
 - ["P6Fluent11Preparation", "prepare"]

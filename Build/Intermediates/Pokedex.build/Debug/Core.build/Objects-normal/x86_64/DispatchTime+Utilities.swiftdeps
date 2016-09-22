@@ -8,13 +8,13 @@ provides-member:
 - ["V8Dispatch12DispatchTime", "init"]
 provides-dynamic-lookup:
 depends-top-level:
+- "DispatchTime"
 - !private "+"
+- "UInt64"
 - "Double"
 - !private "*"
-- !private "IntegerLiteralType"
 - !private "FloatLiteralType"
-- "DispatchTime"
-- "UInt64"
+- !private "IntegerLiteralType"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "Double"]
 - !private ["Ps16AbsoluteValuable", "UInt64"]

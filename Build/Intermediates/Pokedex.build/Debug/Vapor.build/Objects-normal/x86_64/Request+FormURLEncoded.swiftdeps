@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Request"
-- !private "StringLiteralType"
-- "AssignmentPrecedence"
 - "CastingPrecedence"
+- "AssignmentPrecedence"
 - "Node"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Node"]
 - !private ["Ps9AnyObject", "body"]

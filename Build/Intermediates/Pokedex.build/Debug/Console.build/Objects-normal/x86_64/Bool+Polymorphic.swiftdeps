@@ -6,17 +6,17 @@ provides-member:
 - ["Sb", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "String"
+- "Bool"
 - !private "IntegerLiteralType"
-- "Double"
 - "TernaryPrecedence"
 - !private "FloatLiteralType"
-- "Float"
-- "String"
+- "Double"
 - "Polymorphic"
 - !private "BooleanLiteralType"
-- "Bool"
 - "Int"
 - !private "StringLiteralType"
+- "Float"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Sb", "Bool"]

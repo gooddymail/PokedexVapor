@@ -9,11 +9,11 @@ provides-member:
 - ["P7Console7Command", "help"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Argument"
 - "Runnable"
+- "ConsoleProtocol"
 - "String"
 - "Command"
-- "ConsoleProtocol"
+- "Argument"
 depends-member:
 - ["Sa", "deinit"]
 - ["P7Console7Command", "Argument"]

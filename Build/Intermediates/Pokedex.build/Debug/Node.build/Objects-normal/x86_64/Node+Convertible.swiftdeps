@@ -6,11 +6,11 @@ provides-member:
 - ["O4Node4Node", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Node"
 - "NodeConvertible"
 - "Context"
-- "Node"
-- !private "EmptyNode"
 - "AssignmentPrecedence"
+- !private "EmptyNode"
 depends-member:
 - !private ["P4Node7Context", "EmptyNode"]
 - ["P4Node7Context", "init"]

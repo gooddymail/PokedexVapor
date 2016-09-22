@@ -7,21 +7,21 @@ provides-member:
 - ["P7Console15ConsoleProtocol", "run"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- !private "??"
-- !private "UnicodeScalarType"
-- !private "Command"
-- "String"
-- "Runnable"
+- !private "ConsoleError"
 - !private "Array"
-- "ConsoleProtocol"
-- !private "StringLiteralType"
-- "CastingPrecedence"
+- !private "Command"
 - !private "=="
 - "AssignmentPrecedence"
-- "Group"
-- !private "ConsoleError"
+- "CastingPrecedence"
 - !private "<"
+- "Runnable"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "ConsoleProtocol"
+- !private "??"
+- "Group"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "commands"]
 - !private ["Ps9AnyObject", "id"]

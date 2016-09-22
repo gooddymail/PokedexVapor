@@ -9,10 +9,10 @@ provides-member:
 - ["V6Fluent6Filter", "Scope"]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
 - "Filter"
-- !private "IntegerLiteralType"
 - !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "=="
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Ps7CVarArg", "hashValue"]

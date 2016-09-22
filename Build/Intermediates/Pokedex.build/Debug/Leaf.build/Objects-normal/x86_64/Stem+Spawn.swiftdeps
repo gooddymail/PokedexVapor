@@ -8,21 +8,21 @@ provides-member:
 - ["C4Leaf4Stem", "spawnLeaf"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "Bytes"
-- !private "Array"
-- "AssignmentPrecedence"
-- !private "TagTemplate"
-- !private "ParseError"
-- !private "+"
 - !private "Buffer"
-- !private "!"
-- !private "SUFFIX"
-- !private "UnicodeScalarType"
 - "Leaf"
-- "Stem"
+- !private "SUFFIX"
+- !private "!"
+- !private "+"
+- !private "Array"
 - !private "StringLiteralType"
 - !private "ExtendedGraphemeClusterType"
+- "String"
+- "Bytes"
+- "AssignmentPrecedence"
+- "Stem"
+- !private "TagTemplate"
+- !private "ParseError"
+- !private "UnicodeScalarType"
 depends-member:
 - !private ["Ps9AnyObject", "Buffer"]
 - !private ["Ps9AnyObject", "Bytes"]

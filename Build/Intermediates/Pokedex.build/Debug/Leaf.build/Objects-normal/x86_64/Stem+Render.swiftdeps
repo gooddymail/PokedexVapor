@@ -6,19 +6,19 @@ provides-member:
 - ["C4Leaf4Stem", "render"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "ParseError"
-- !private "AssignmentPrecedence"
-- !private "Tag"
+- !private "+="
+- !private "Node"
 - !private "Bool"
 - "Bytes"
-- !private "+="
+- !private "AssignmentPrecedence"
+- !private "ParseError"
 - "Context"
-- "Leaf"
-- "Stem"
 - !private "Dictionary"
-- !private "StringLiteralType"
+- "Leaf"
 - !private "TagTemplate"
-- !private "Node"
+- !private "StringLiteralType"
+- "Stem"
+- !private "Tag"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "Bytes"]

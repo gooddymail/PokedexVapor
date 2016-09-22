@@ -7,17 +7,17 @@ provides-member:
 - ["V5Vapor10Providable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- "Log"
-- "ClientProtocol"
-- "Providable"
-- "Database"
-- "HashProtocol"
 - "Middleware"
-- "String"
+- "ClientProtocol"
+- "AssignmentPrecedence"
 - "ConsoleProtocol"
-- "ViewRenderer"
+- "Log"
+- "String"
+- "Providable"
 - "CipherProtocol"
+- "HashProtocol"
+- "ViewRenderer"
+- "Database"
 - "ServerProtocol"
 - "CacheProtocol"
 depends-member:

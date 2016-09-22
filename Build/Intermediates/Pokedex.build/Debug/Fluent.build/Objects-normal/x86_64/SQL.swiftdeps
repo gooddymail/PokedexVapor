@@ -9,14 +9,14 @@ provides-member:
 - ["OO6Fluent3SQL11TableAction", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "String"
+- "Union"
 - "Sort"
 - "Schema"
-- "Union"
 - "Node"
 - "Limit"
-- "String"
-- "Filter"
 - "SQL"
+- "Filter"
 depends-member:
 - ["O6Fluent3SQL", "Filter"]
 - ["O6Fluent3SQL", "Limit"]

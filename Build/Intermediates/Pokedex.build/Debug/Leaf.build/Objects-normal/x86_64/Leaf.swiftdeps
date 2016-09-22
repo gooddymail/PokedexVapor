@@ -8,19 +8,19 @@ provides-member:
 - ["C4Leaf4Leaf", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!="
-- !private "BooleanLiteralType"
-- "String"
+- "Equatable"
 - "=="
 - "AssignmentPrecedence"
-- "Equatable"
+- !private "UnicodeScalarType"
+- !private "!="
+- "String"
+- "CustomStringConvertible"
 - !private "StringLiteralType"
 - "List"
+- "Bool"
 - !private "+"
 - !private "zip"
-- "CustomStringConvertible"
-- !private "UnicodeScalarType"
-- "Bool"
+- !private "BooleanLiteralType"
 - "Leaf"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]

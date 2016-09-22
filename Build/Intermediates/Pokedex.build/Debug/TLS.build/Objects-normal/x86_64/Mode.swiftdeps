@@ -8,9 +8,9 @@ provides-member:
 - ["O3TLS4Mode", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Mode"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
+- "Mode"
 - "=="
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]

@@ -17,24 +17,24 @@ provides-member:
 - ["O4Leaf9Parameter", "constant"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "AssignmentPrecedence"
-- !private "=="
-- "String"
-- "Extend"
+- !private "Dictionary"
 - "Node"
-- "Bool"
-- "TagTemplate"
-- "Stem"
+- "String"
+- "StringLiteralType"
 - "Context"
+- !private "BooleanLiteralType"
 - "Leaf"
 - "LeafError"
-- !private "+="
-- !private "BooleanLiteralType"
-- !private "Dictionary"
-- "Tag"
-- "StringLiteralType"
-- "Parameter"
+- "Extend"
+- "Bool"
+- "Stem"
 - "Argument"
+- !private "+="
+- "TagTemplate"
+- "Tag"
+- !private "=="
+- !private "AssignmentPrecedence"
+- "Parameter"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "Component"]

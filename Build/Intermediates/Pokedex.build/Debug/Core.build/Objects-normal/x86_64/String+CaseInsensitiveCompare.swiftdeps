@@ -6,9 +6,9 @@ provides-member:
 - ["SS", "equals"]
 provides-dynamic-lookup:
 depends-top-level:
+- "String"
 - "Bool"
 - !private "=="
-- "String"
 depends-member:
 - !private ["Ps9AnyObject", "lowercased"]
 - ["Sb", "deinit"]

@@ -7,10 +7,10 @@ provides-member:
 - ["V3Jay12NativeParser", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Reader"
-- "NativeParser"
 - !private "JSON"
 - "Jay"
+- "Reader"
+- "NativeParser"
 - "UInt8"
 - !private "Parser"
 depends-member:

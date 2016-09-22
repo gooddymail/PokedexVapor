@@ -6,12 +6,12 @@ provides-member:
 - ["C10WebSockets9WebSocket", "exchange"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Hash"
-- !private "Array"
-- "String"
-- !private "+"
 - "StringLiteralType"
+- !private "Hash"
 - "WebSocket"
+- !private "+"
+- "String"
+- !private "Array"
 depends-member:
 - !private ["Ps9AnyObject", "Hash"]
 - ["Ps9AnyObject", "bytes"]

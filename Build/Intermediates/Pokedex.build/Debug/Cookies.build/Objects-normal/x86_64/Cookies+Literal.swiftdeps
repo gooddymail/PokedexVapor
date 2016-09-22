@@ -6,10 +6,10 @@ provides-member:
 - ["V7Cookies7Cookies", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "ExpressibleByArrayLiteral"
+- "Cookies"
 - "SetIterator"
 - "Cookie"
-- "Cookies"
-- "ExpressibleByArrayLiteral"
 - "Sequence"
 depends-member:
 - ["Vs11AnyIterator", "Element"]

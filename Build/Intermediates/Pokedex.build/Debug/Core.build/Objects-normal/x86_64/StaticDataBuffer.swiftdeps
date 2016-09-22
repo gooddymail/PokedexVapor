@@ -8,18 +8,18 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "IntegerLiteralType"
-- !private "BooleanLiteralType"
 - "Int"
-- !private "..."
-- "AssignmentPrecedence"
-- "AnyIterator"
-- !private "=="
+- !private "BooleanLiteralType"
 - "StaticDataBuffer"
-- "Bool"
-- !private "Array"
-- !private "FloatLiteralType"
-- "Byte"
+- "AnyIterator"
+- "AssignmentPrecedence"
+- !private "=="
 - !private ">"
+- "Bool"
+- !private "..."
+- !private "Array"
+- "Byte"
+- !private "FloatLiteralType"
 - "Sequence"
 depends-member:
 - ["Vs11AnyIterator", "deinit"]

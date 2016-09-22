@@ -13,16 +13,16 @@ provides-member:
 - ["P8Sessions16SessionsProtocol", "contains"]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
-- "SessionsProtocol"
-- !private "!="
-- "SessionsError"
-- !private "FloatLiteralType"
 - "Bool"
-- "String"
-- !private "IntegerLiteralType"
 - "Node"
+- !private "IntegerLiteralType"
+- !private "!="
+- !private "FloatLiteralType"
+- "SessionsProtocol"
 - "Error"
+- "SessionsError"
+- "=="
+- "String"
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - ["Sb", "deinit"]

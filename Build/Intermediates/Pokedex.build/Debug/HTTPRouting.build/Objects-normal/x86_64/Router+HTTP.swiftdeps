@@ -8,17 +8,17 @@ provides-member:
 - ["C7Routing6Router", "route"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Routing"
-- "HTTP"
-- !private "=="
-- "AssignmentPrecedence"
-- !private "??"
-- "String"
-- !private "StringLiteralType"
 - !private "Array"
-- !private "BooleanLiteralType"
+- !private "??"
 - !private "+"
+- "Routing"
 - !private "UnicodeScalarType"
+- !private "=="
+- "HTTP"
+- "AssignmentPrecedence"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "isEmpty"]

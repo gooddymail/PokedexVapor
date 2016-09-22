@@ -17,16 +17,16 @@ provides-member:
 - ["SS", "securityLayer"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ProgramStreamError"
 - "SecurityLayer"
-- !private "StringLiteralType"
 - "TLS"
+- "ProgramStreamError"
+- !private "StringLiteralType"
 - "Int"
-- "=="
 - !private "||"
+- "Error"
 - "ProgramStream"
 - "String"
-- "Error"
+- "=="
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps17BitwiseOperations", "hashValue"]

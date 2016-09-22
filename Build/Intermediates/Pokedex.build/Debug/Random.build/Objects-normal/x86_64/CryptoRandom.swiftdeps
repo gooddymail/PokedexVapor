@@ -10,16 +10,16 @@ provides-member:
 - ["C6Random12PsuedoRandom", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Random"
 - "PsuedoRandom"
 - "CryptoRandom"
-- "Random"
-- !private "IntegerLiteralType"
-- !private "Int32"
-- "Bytes"
+- !private "RAND_bytes"
+- "Int"
 - !private "RAND_pseudo_bytes"
 - !private "FloatLiteralType"
-- "Int"
-- !private "RAND_bytes"
+- "Bytes"
+- !private "IntegerLiteralType"
+- !private "Int32"
 depends-member:
 - !private ["Ps9AnyObject", "Bytes"]
 - !private ["Ps9AnyObject", "Int32"]

@@ -8,10 +8,10 @@ provides-member:
 - ["C6Fluent5Query", "sql"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Entity"
+- "SQL"
 - "Query"
 - "AssignmentPrecedence"
-- "SQL"
+- "Entity"
 depends-member:
 - ["O6Fluent6Action", "create"]
 - ["O6Fluent6Action", "delete"]

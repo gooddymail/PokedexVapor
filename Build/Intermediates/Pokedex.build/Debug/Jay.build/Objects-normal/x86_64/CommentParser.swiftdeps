@@ -13,16 +13,16 @@ provides-member:
 - ["V3Jay22MultiLineCommentParser", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "=="
-- "Reader"
-- !private "Array"
 - !private "~="
+- "SingleLineCommentParser"
+- !private "=="
+- !private "Array"
+- !private "Const"
+- "MultiLineCommentParser"
+- "Reader"
+- !private "JayError"
 - "JChar"
 - "CommentParser"
-- !private "Const"
-- "SingleLineCommentParser"
-- !private "JayError"
-- "MultiLineCommentParser"
 depends-member:
 - !private ["Sa", "Element"]
 - ["Sa", "deinit"]

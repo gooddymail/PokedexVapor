@@ -8,15 +8,15 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Double"
-- "Int"
 - "TCPInternetSocket"
 - "String"
-- "TCPClient"
 - "InternetAddress"
+- "CustomStringConvertible"
+- "TCPClient"
 - "AssignmentPrecedence"
 - "UInt8"
-- "CustomStringConvertible"
 - !private "StringLiteralType"
+- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "TCPInternetSocket"]
 - !private ["Ps9AnyObject", "address"]

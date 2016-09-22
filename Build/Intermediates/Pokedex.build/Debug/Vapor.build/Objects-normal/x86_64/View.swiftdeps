@@ -9,12 +9,12 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "StringLiteralType"
 - "BytesConvertible"
+- "Response"
+- "ResponseRepresentable"
+- "Bytes"
 - "AssignmentPrecedence"
 - !private "Dictionary"
-- "ResponseRepresentable"
 - "View"
-- "Response"
-- "Bytes"
 depends-member:
 - !private ["Ps9AnyObject", "Response"]
 - !private ["Ps9AnyObject", "data"]

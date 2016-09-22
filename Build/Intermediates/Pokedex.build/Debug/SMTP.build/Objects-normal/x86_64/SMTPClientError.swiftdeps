@@ -9,11 +9,11 @@ provides-member:
 - ["O4SMTP15SMTPClientError", "replies"]
 provides-dynamic-lookup:
 depends-top-level:
-- "SMTPClientError"
+- "String"
 - "Swift"
 - "Int"
+- "SMTPClientError"
 - !private "FloatLiteralType"
-- "String"
 - !private "IntegerLiteralType"
 depends-member:
 - ["Sa", "deinit"]

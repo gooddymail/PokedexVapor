@@ -6,12 +6,12 @@ provides-member:
 - ["P7Console15ConsoleProtocol", "loadingBar"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ConsoleStyle"
-- "LoadingBar"
-- "String"
-- "Int"
-- "StringLiteralType"
 - "ConsoleProtocol"
+- "ConsoleStyle"
+- "String"
+- "LoadingBar"
+- "StringLiteralType"
+- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["C7Console3Bar", "init"]

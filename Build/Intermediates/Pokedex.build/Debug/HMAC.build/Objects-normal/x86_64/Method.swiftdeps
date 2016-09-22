@@ -10,26 +10,26 @@ provides-member:
 - ["OC4HMAC4HMAC6Method", "evp"]
 provides-dynamic-lookup:
 depends-top-level:
+- "UnsafePointer"
+- "EVP_MD"
+- !private "EVP_ecdsa"
+- !private "IntegerLiteralType"
 - !private "EVP_gostr341194"
 - !private "EVP_sha1"
 - !private "EVP_md4"
-- "EVP_MD"
-- "UnsafePointer"
-- !private "EVP_md5"
 - !private "EVP_streebog256"
-- !private "EVP_sha224"
-- !private "EVP_whirlpool"
-- "HMAC"
-- !private "EVP_sha384"
-- !private "EVP_ecdsa"
-- !private "IntegerLiteralType"
-- !private "EVP_sha512"
 - !private "FloatLiteralType"
+- !private "EVP_sha224"
+- !private "EVP_md5"
+- !private "EVP_whirlpool"
+- "=="
+- !private "EVP_sha384"
+- !private "EVP_sha512"
 - !private "EVP_streebog512"
+- "HMAC"
 - !private "EVP_dss1"
 - !private "EVP_ripemd160"
 - !private "EVP_sha256"
-- "=="
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Ps7CVarArg", "hashValue"]

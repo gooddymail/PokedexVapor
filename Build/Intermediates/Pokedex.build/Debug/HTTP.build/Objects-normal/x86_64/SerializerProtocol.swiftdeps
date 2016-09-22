@@ -7,9 +7,9 @@ provides-member:
 - ["P4HTTP18SerializerProtocol", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Stream"
-- "Message"
 - "SerializerProtocol"
+- "Message"
+- "Stream"
 depends-member:
 - ["P4HTTP18SerializerProtocol", "Message"]
 - ["P4HTTP18SerializerProtocol", "Stream"]

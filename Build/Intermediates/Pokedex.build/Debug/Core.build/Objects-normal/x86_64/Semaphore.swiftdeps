@@ -6,10 +6,10 @@ provides-member:
 - ["CSo17DispatchSemaphore", "wait"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Double"
-- !private "DispatchTime"
-- "DispatchSemaphore"
 - "DispatchTimeoutResult"
+- "Double"
+- "DispatchSemaphore"
+- !private "DispatchTime"
 depends-member:
 - !private ["Ps9AnyObject", "DispatchTime"]
 - ["Ps9AnyObject", "wait"]

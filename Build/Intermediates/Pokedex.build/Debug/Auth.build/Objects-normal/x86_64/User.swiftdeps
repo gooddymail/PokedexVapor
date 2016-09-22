@@ -8,13 +8,13 @@ provides-member:
 - ["P4Auth4User", "uniqueID"]
 provides-dynamic-lookup:
 depends-top-level:
-- "User"
-- "Entity"
 - !private "StringLiteralType"
+- "Entity"
+- "User"
 - "String"
-- "Account"
-- !private "??"
 - "Authenticator"
+- !private "??"
+- "Account"
 depends-member:
 - ["P9Turnstile7Account", "String"]
 - !private ["P9Turnstile7Account", "id"]

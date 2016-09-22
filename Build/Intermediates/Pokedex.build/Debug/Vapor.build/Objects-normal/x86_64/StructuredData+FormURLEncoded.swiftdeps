@@ -7,22 +7,22 @@ provides-member:
 - ["O4Node4Node", "formURLEncoded"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bytes"
-- !private "??"
-- !private "BooleanLiteralType"
-- "Node"
-- !private "&&"
-- !private "String"
-- !private "percentEncoded"
-- !private "percentDecoded"
 - !private "=="
 - "AssignmentPrecedence"
 - !private "Array"
+- !private "percentEncoded"
 - !private "FloatLiteralType"
-- !private "+="
-- !private "IntegerLiteralType"
 - !private "Dictionary"
+- "Bytes"
+- !private "IntegerLiteralType"
+- !private "String"
+- !private "+="
+- !private "percentDecoded"
+- !private "BooleanLiteralType"
 - !private "Byte"
+- !private "??"
+- !private "&&"
+- "Node"
 depends-member:
 - !private ["Ps9AnyObject", "array"]
 - !private ["Ps9AnyObject", "bytes"]

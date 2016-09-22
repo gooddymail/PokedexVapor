@@ -13,17 +13,17 @@ provides-member:
 - ["OC10Essentials15BasicByteStream5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Bool"
-- "Bytes"
-- !private "!"
 - !private "BooleanLiteralType"
+- "Bytes"
 - "Swift"
-- "AssignmentPrecedence"
-- "=="
-- "ByteStream"
-- !private "FloatLiteralType"
+- "Bool"
 - "BasicByteStream"
 - !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- !private "!"
+- "=="
+- "AssignmentPrecedence"
+- "ByteStream"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Ps9AnyObject", "bytes"]

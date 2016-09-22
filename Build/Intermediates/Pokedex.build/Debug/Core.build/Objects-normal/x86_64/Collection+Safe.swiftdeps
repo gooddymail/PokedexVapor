@@ -6,9 +6,9 @@ provides-member:
 - ["Ps10Collection", "subscript"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "<="
-- "Collection"
 - !private ">"
+- "Collection"
+- !private "<="
 depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]

@@ -7,15 +7,15 @@ provides-member:
 - ["O3Jay8JayError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- !private "FloatLiteralType"
+- "UInt16"
+- "Swift"
 - "Reader"
 - "JayError"
+- "String"
 - !private "IntegerLiteralType"
-- "JChar"
 - "JSON"
-- "Swift"
-- "UInt16"
+- "JChar"
+- !private "FloatLiteralType"
 depends-member:
 - ["Ps5Error", "_code"]
 - ["Ps5Error", "_domain"]

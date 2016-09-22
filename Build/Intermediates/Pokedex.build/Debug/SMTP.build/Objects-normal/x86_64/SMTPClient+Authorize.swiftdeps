@@ -6,13 +6,13 @@ provides-member:
 - ["C4SMTP10SMTPClient", "authorize"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "UnicodeScalarType"
 - !private "&&"
-- "SMTPCredentials"
-- "SMTPAuthMethod"
 - !private "StringLiteralType"
-- !private "=="
 - "SMTPClient"
+- "SMTPAuthMethod"
+- !private "=="
+- !private "UnicodeScalarType"
+- "SMTPCredentials"
 - !private "SMTPClientError"
 depends-member:
 - !private ["Ps9AnyObject", "SMTPClientError"]

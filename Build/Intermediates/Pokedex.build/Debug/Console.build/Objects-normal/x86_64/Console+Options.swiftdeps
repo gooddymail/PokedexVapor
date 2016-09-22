@@ -10,18 +10,18 @@ provides-member:
 - ["Ps8Sequence", "flag"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "BooleanLiteralType"
-- "Polymorphic"
-- !private "!"
 - "String"
-- !private "StringLiteralType"
-- !private "Dictionary"
-- !private "ExtendedGraphemeClusterType"
-- !private "=="
 - "AssignmentPrecedence"
-- !private "UnicodeScalarType"
+- !private "=="
 - "Sequence"
+- !private "UnicodeScalarType"
+- !private "ExtendedGraphemeClusterType"
 - "Bool"
+- !private "BooleanLiteralType"
+- !private "!"
+- !private "Dictionary"
+- !private "StringLiteralType"
+- "Polymorphic"
 depends-member:
 - !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "hasPrefix"]

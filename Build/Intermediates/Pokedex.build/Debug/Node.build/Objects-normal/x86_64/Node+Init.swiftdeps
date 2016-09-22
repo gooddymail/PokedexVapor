@@ -14,14 +14,14 @@ provides-member:
 - ["O4Node4Node", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Node"
-- "UInt"
-- "Double"
-- "String"
-- "Int"
-- "UInt8"
 - "Bool"
+- "UInt"
 - "AssignmentPrecedence"
+- "Double"
+- "Node"
+- "Int"
+- "String"
+- "UInt8"
 depends-member:
 - !private ["Sa", "Iterator"]
 - !private ["Sa", "_Element"]

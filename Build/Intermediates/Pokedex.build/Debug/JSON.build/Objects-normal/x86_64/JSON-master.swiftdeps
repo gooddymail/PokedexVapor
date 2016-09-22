@@ -1,11 +1,11 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
 options: "47d8abfa2eca5d6e971de3663218cab0"
-build_time: [527766978, 764975000]
+build_time: [527852477, 498112000]
 inputs:
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Bytes.swift": [527764765, 0]
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Equatable.swift": [527764765, 0]
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Node.swift": [527764765, 0]
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Parse.swift": [527764765, 0]
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Serialize.swift": [527764765, 0]
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON.swift": [527764765, 0]
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSONRepresentable.swift": [527764765, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Bytes.swift": [527852207, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Equatable.swift": [527852207, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Node.swift": [527852207, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Parse.swift": [527852207, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON+Serialize.swift": [527852207, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSON.swift": [527852207, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/JSON-1.0.0/Sources/JSON/JSONRepresentable.swift": [527852207, 0]

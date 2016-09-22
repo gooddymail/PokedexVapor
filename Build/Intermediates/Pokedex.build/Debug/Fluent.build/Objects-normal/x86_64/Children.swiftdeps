@@ -9,15 +9,15 @@ provides-member:
 - ["P6Fluent6Entity", "children"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "??"
-- !private "UnicodeScalarType"
-- "Children"
-- "Entity"
-- !private "RelationError"
-- "QueryRepresentable"
-- !private "StringLiteralType"
 - "AssignmentPrecedence"
+- !private "RelationError"
+- "Entity"
+- "QueryRepresentable"
+- !private "UnicodeScalarType"
 - "String"
+- !private "??"
+- !private "StringLiteralType"
+- "Children"
 - "Query"
 depends-member:
 - !private ["Ps9AnyObject", "RelationError"]

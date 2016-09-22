@@ -17,20 +17,20 @@ provides-member:
 - ["P6Fluent18QueryRepresentable", "modify"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Entity"
 - "Filter"
-- "AssignmentPrecedence"
-- "Limit"
+- "Query"
 - "Database"
 - "String"
-- "Node"
+- "AssignmentPrecedence"
+- "Sort"
 - "Action"
+- "Entity"
+- "QueryRepresentable"
+- "Limit"
+- !private "BooleanLiteralType"
 - !private "Array"
 - !private "print"
-- "Sort"
-- !private "BooleanLiteralType"
-- "Query"
-- "QueryRepresentable"
+- "Node"
 - !private "StringLiteralType"
 - "Union"
 depends-member:

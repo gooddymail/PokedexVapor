@@ -17,16 +17,16 @@ provides-member:
 - ["SS", "base64Decoded"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
-- "=="
-- "CipherProtocol"
-- !private "Byte"
-- "String"
-- "CipherEncoding"
-- !private "NSData"
 - !private "??"
+- !private "Byte"
+- "CipherEncoding"
 - "Bytes"
+- !private "NSData"
+- "String"
 - !private "Array"
+- "=="
+- "AssignmentPrecedence"
+- "CipherProtocol"
 depends-member:
 - !private ["Ps9AnyObject", "base64Decoded"]
 - !private ["Ps9AnyObject", "bytes"]

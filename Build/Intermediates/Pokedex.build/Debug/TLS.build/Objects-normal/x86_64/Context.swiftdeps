@@ -7,18 +7,18 @@ provides-member:
 - ["C3TLS7Context", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Mode"
-- !private "tls_client"
-- !private "tls_free"
-- !private "StringLiteralType"
+- !private "tls_init"
 - "OpaquePointer"
 - "AssignmentPrecedence"
-- !private "tls_server"
-- !private "tls_init"
-- "String"
-- !private "??"
-- !private "tls_error"
+- !private "tls_client"
+- !private "tls_free"
+- "Mode"
 - "Context"
+- !private "tls_error"
+- "String"
+- !private "StringLiteralType"
+- !private "??"
+- !private "tls_server"
 depends-member:
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "cContext"]

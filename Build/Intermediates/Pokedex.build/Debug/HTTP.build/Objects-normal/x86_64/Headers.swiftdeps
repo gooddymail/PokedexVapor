@@ -16,17 +16,17 @@ provides-member:
 - ["V4HTTP9HeaderKey", "hashValue"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- "KeyAccessible"
+- "ExpressibleByStringLiteral"
 - "HeaderKey"
-- "Hashable"
-- "=="
+- "KeyAccessible"
+- "Bool"
 - "AssignmentPrecedence"
 - "Equatable"
-- "CustomStringConvertible"
-- "Bool"
-- "ExpressibleByStringLiteral"
+- "=="
+- "Int"
+- "Hashable"
 - "String"
+- "CustomStringConvertible"
 - "Dictionary"
 depends-member:
 - !private ["Ps9AnyObject", "hashValue"]

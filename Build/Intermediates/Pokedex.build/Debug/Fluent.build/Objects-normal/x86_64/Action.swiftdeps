@@ -8,8 +8,8 @@ provides-member:
 - ["O6Fluent6Action", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "=="
 - "Action"
+- "=="
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
 depends-member:

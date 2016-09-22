@@ -7,18 +7,18 @@ provides-member:
 - ["C5Vapor5Email", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ValidationSuite"
-- !private "Character"
+- !private "UnicodeScalarType"
+- !private "Bool"
 - !private "=="
 - !private "~="
-- !private "UnicodeScalarType"
 - "String"
-- !private "Bool"
-- !private "BooleanLiteralType"
-- !private "ExtendedGraphemeClusterType"
-- !private "StringLiteralType"
-- "Email"
 - !private "..."
+- "ValidationSuite"
+- "Email"
+- !private "Character"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- !private "ExtendedGraphemeClusterType"
 depends-member:
 - ["Ps9AnyObject", "InputType"]
 - !private ["Ps9AnyObject", "characters"]

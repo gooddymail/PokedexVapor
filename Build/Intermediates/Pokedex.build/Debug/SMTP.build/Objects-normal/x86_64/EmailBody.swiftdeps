@@ -11,14 +11,14 @@ provides-member:
 - ["OV4SMTP9EmailBody8BodyType", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - !private "FloatLiteralType"
-- !private "&&"
-- "Bool"
+- "Equatable"
 - !private "IntegerLiteralType"
 - "=="
+- "String"
 - "AssignmentPrecedence"
-- "Equatable"
+- !private "&&"
+- "Bool"
 - "EmailBody"
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]

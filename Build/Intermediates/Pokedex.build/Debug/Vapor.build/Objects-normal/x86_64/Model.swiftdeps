@@ -11,14 +11,14 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
-- "String"
-- "Entity"
-- "StringInitializable"
-- "Response"
 - "JSONRepresentable"
+- "String"
 - "Model"
-- "JSON"
+- "StringInitializable"
 - "ResponseRepresentable"
+- "Entity"
+- "JSON"
+- "Response"
 depends-member:
 - !private ["P4HTTP17BodyRepresentable", "init"]
 - !private ["P4HTTP17BodyRepresentable", "makeResponse"]

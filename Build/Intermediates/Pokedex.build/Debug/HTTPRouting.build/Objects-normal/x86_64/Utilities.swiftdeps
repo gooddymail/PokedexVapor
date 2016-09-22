@@ -8,13 +8,13 @@ provides-member:
 - ["Ps8Sequence", "splitPaths"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- !private "UnicodeScalarType"
 - !private "BooleanLiteralType"
 - !private "StringLiteralType"
-- !private "ExtendedGraphemeClusterType"
+- "String"
 - "Sequence"
+- !private "UnicodeScalarType"
 - !private "+="
+- !private "ExtendedGraphemeClusterType"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "characters"]

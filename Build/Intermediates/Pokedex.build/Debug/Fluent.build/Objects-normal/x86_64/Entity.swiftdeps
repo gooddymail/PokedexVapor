@@ -26,24 +26,24 @@ provides-member:
 - ["P6Fluent6Entity", "database"]
 provides-dynamic-lookup:
 depends-top-level:
-- "EntityError"
-- "Entity"
+- "Error"
+- !private "+"
+- !private "print"
+- "NodeRepresentable"
+- "Query"
 - "AssignmentPrecedence"
 - "=="
-- "Database"
-- "Node"
-- "Error"
 - "String"
-- "NodeRepresentable"
-- !private "print"
-- "Query"
+- !private "StringLiteralType"
+- "Node"
+- "Preparation"
+- "NodeConvertible"
+- "Database"
+- !private "UnicodeScalarType"
+- "Entity"
+- "EntityError"
 - "Bool"
 - !private "BooleanLiteralType"
-- !private "UnicodeScalarType"
-- "NodeConvertible"
-- !private "StringLiteralType"
-- "Preparation"
-- !private "+"
 depends-member:
 - !private ["Ps9AnyObject", "T"]
 - !private ["Ps9AnyObject", "all"]

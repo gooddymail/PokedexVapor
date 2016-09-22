@@ -12,8 +12,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Body"
-- "BodyRepresentable"
 - "String"
+- "BodyRepresentable"
 depends-member:
 - ["O4HTTP4Body", "Body"]
 - ["O4HTTP4Body", "deinit"]

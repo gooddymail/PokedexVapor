@@ -14,19 +14,19 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Filter"
-- "Node"
+- "Bool"
+- !private "!"
+- !private "<="
 - !private "!="
 - !private "BooleanLiteralType"
-- "Bool"
-- !private "<="
-- !private "!"
-- !private "<"
-- "Sequence"
 - !private "Array"
 - !private ">"
+- !private "<"
+- "Sequence"
 - !private ">="
-- !private "=="
 - "AssignmentPrecedence"
+- !private "=="
+- "Node"
 depends-member:
 - !private ["Ps9AnyObject", "contains"]
 - !private ["Ps9AnyObject", "hasPrefix"]

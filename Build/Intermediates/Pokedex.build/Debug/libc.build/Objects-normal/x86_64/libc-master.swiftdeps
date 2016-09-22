@@ -1,5 +1,5 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
 options: "4dc7969bb4f54adacc2f35882c1d6e18"
-build_time: [527766967, 609795000]
+build_time: [527852468, 955030000]
 inputs:
-  "/Users/Yowa/WorkSpace/Pokedex/Packages/Core-1.0.0/Sources/libc/libc.swift": [527764679, 0]
+  "/Users/Yowa/WorkSpace/Pokedex/Packages/Core-1.0.0/Sources/libc/libc.swift": [527852121, 0]

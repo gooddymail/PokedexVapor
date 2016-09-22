@@ -7,19 +7,19 @@ provides-member:
 - ["C5Socks9UDPClient", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UDPInternetSocket"
-- !private "SocketConfig"
-- "UInt8"
-- !private "??"
-- "CustomStringConvertible"
-- "UDPClient"
-- "InternetAddress"
 - "AssignmentPrecedence"
-- !private "StringLiteralType"
+- !private "??"
+- "String"
 - "ResolvedInternetAddress"
+- "UDPClient"
+- "UDPInternetSocket"
+- "UInt8"
+- !private "SocketConfig"
 - !private "BufferCapacity"
 - "Int"
-- "String"
+- !private "StringLiteralType"
+- "CustomStringConvertible"
+- "InternetAddress"
 depends-member:
 - !private ["Ps9AnyObject", "BufferCapacity"]
 - !private ["Ps9AnyObject", "UDPInternetSocket"]

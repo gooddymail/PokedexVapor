@@ -7,10 +7,10 @@ provides-member:
 - ["V7Console6Option", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Option"
 - "String"
 - "Argument"
 - "AssignmentPrecedence"
+- "Option"
 depends-member:
 - ["P7Console8Argument", "help"]
 - ["P7Console8Argument", "name"]

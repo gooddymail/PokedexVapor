@@ -13,15 +13,15 @@ provides-member:
 - ["V4SMTP13EHLOExtension", "Error"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "Swift"
-- "String"
-- !private "UnicodeScalarType"
 - !private "!"
-- "Sequence"
-- "AssignmentPrecedence"
 - "=="
+- "AssignmentPrecedence"
+- "String"
+- "Swift"
+- !private "UnicodeScalarType"
+- "Sequence"
 - "EHLOExtension"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "components"]
 - !private ["Ps9AnyObject", "equals"]

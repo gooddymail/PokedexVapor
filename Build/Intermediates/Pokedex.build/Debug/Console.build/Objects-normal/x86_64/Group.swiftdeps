@@ -7,10 +7,10 @@ provides-member:
 - ["C7Console5Group", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Runnable"
-- "Group"
 - "String"
+- "Group"
 - "AssignmentPrecedence"
+- "Runnable"
 depends-member:
 - !private ["Ps9AnyObject", "commands"]
 - !private ["Ps9AnyObject", "help"]
